@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on Thought&#39;s To Sipaway</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on Thought&#39;s To Sipaway</description>
+    <image>
+      <url>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 07 Oct 2022 20:17:47 +0800</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DEFI</title>
+      <link>/tags/defi/</link>
+      <pubDate>Fri, 07 Oct 2022 20:17:47 +0800</pubDate>
+      
+      <guid>/tags/defi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MTV</title>
+      <link>/tags/mtv/</link>
+      <pubDate>Fri, 07 Oct 2022 20:17:47 +0800</pubDate>
+      
+      <guid>/tags/mtv/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
