@@ -2,7 +2,7 @@
 title: "Proxima"
 date: 2022-10-08T16:57:23+08:00
 tags: ["Crypto","Games", "Scholarships","MTV"]
-categories: ["MTV","Games","Crypto","Scholarships","#[DEFI](DEFI.md)"]
+categories: ["MTV","Games","Crypto","Scholarships","DEFI"]
 # author: "Me"
 # # author: ["Me", "You"] # multiple authors
 # showToc: true
