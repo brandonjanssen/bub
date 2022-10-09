@@ -5,9 +5,9 @@ url:    "/archives/"
 summary: archives
 # date: 2022-10-07T20:17:47+08:00
 # tags: ["DEFI"]
-# author: "Me"
+author: "Me"
 # # author: ["Me", "You"] # multiple authors
-# showToc: true
+showToc: true
 # TocOpen: false
 # draft: false
 # hidemeta: false
@@ -18,13 +18,13 @@ summary: archives
 # disableShare: false
 # disableHLJS: false
 # hideSummary: false
-# searchHidden: true
+searchHidden: false
 # ShowReadingTime: true
 # ShowBreadCrumbs: true
 # ShowPostNavLinks: true
 # ShowWordCount: true
 # ShowRssButtonInSectionTermList: true
-# UseHugoToc: true
+UseHugoToc: true
 # cover:
 #     image: "img/vax.png" # image path/url
 #     alt: "Tetu" # alt text

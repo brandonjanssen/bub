@@ -28,7 +28,8 @@ cover:
     alt: "Tetu" # alt text
     caption: "Tetu on Polygon" # display caption under cover
     relative: false # when using page bundles set this to true
-    hidden: true # on
+    # hidden: true # on
+    hidden: false # on
 ---
 # [VAX](https://vax.mtv.guru/#/swap)
  - #VAX operates on the #MULTIVAC Blockchain.

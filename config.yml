@@ -9,8 +9,17 @@ params:
     Content: where have you been
   socialIcons:
     - name: facebook
-    - url: 'www.facebook.com'
-    
+    - url: "https://web.facebook.com/robert.t.norwood"
+
+    - name: twitter
+    - url: "https://twitter.com/D_M_N_E"
+
+    - name: github
+    - url: "https://github.com"
+
+    - name: linkedin
+    - url: "https://linkedin.com"
+
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   keywords: [Blog, Portfolio, PaperMod]
   author: Me
@@ -19,7 +28,6 @@ params:
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
-
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
