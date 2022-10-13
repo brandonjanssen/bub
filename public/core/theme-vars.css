@@ -1,0 +1,61 @@
+:root {
+    --gap: 24px;
+    --content-gap: 20px;
+    --nav-width: 1024px;
+    --main-width: 720px;
+    --header-height: 60px;
+    --footer-height: 60px;
+    --radius: 8px;
+    /* --theme: rgb(255, 255, 255);
+    --entry: rgb(255, 255, 255);
+    --primary: rgb(30, 30, 30);
+    --secondary: rgb(108, 108, 108);
+    --tertiary: rgb(214, 214, 214);
+    --content: rgb(31, 31, 31);
+    --hljs-bg: rgb(28, 29, 33);
+    --code-bg: rgb(245, 245, 245);
+    --border: rgb(238, 238, 238); */
+    /* for dark mode-------------------------- */
+    /* for dark mode-------------------------- */
+    /* for dark mode-------------------------- */
+    /* for dark mode-------------------------- */
+    /* for dark mode-------------------------- */
+    /* for dark mode-------------------------- */
+    /* for dark mode-------------------------- */
+    --theme: #00121F;
+    --entry: #08151E;
+    --primary: #00E0CA;
+    --secondary: #406666;
+    --tertiary: #061A28;
+
+    /* This is for text color not headings */
+    --content: #C4CAE3;
+    --hljs-bg: #203849;
+    /* --hljs-bg: #10293b; */
+    --code-bg: #0a2233;
+    --border: aqua;
+}
+
+.dark {
+    --theme: #00121F;
+    --entry: #08151E;
+    --primary: #00E0CA;
+    --secondary: #406666;
+    --tertiary: #061A28;
+
+    /* This is for text color not headings */
+    --content: #C4CAE3;
+    --hljs-bg: #203849;
+    /* --hljs-bg: #10293b; */
+    --code-bg: #0a2233;
+    --border: aqua;
+}
+
+.list {
+    background: var(--theme);
+    /* background: var(--code-bg); */
+}
+
+.dark.list {
+    background: var(--theme);
+}

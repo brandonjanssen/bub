@@ -1,0 +1,114 @@
+.terms-tags li {
+    display: inline-block;
+    margin: 10px;
+    font-weight: 500;
+}
+
+.terms-tags a {
+    display: block;
+    padding: 3px 10px;
+    background: #0a2233;
+    /* background: var(--tertiary); */
+    /* background-size: 50%; */
+    /* background: conic-gradient(
+        #10476e 25%, #091d29 25%, 
+        #082130 25%, #143447 25%,);; */
+    border: solid 1px;
+    border-radius: 25px;
+    border-color: #00E0CA;
+     /* box-shadow:  5px 5px  #03524a,  10px 10px  #00796d,  15px 15px  #00c0ad; */
+    box-shadow:  2px 2px  #03524a,  4px 4px  #00796d,  6px 6px 6px #00c0ad;
+    transition: transform 0.1s;
+}
+.terms-tags a:hover{
+    background-color: #00121F;
+    color: #00E0CA;
+    padding-inline-start: 20px;
+    padding-inline-end: 20px;
+    border-style: 1px solid #00E0CA;
+    border-radius: 50px;
+    /* text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff, */
+             /* 1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff; */
+    transform: scale(1.50);
+    
+}
+
+.terms-tags a:active {
+    background: var(--tertiary);
+    transform: scale(0.96);
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: #FBF8F1;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 25vmin;
+  line-height: 20vmin;
+}
+
+.gradient-text {
+  color: transparent;
+  background: conic-gradient(
+    #D9D7F1 12%, 
+    #BAABDA 12%, #BAABDA 33%, 
+    #E7FBBE 33%, #E7FBBE 55%, 
+    #FFCBCB 55%, #FFCBCB 70%, 
+    #B5DEFF 70%, #B5DEFF 87%, 
+    #F7D1BA 87%);
+  background-size: 50%;
+  background-clip: text;  
+  -webkit-background-clip: text;
+
+  animation: expand-rev 0.5s ease forwards;
+
+  cursor: pointer;
+}
+
+.gradient-text:hover {
+  animation: expand 0.5s ease forwards;
+}
+
+@keyframes expand {
+  0% {
+    background-size: 50%;
+    background-position: 0 0;
+  }
+  20% {
+    background-size: 55%;
+    background-position: 0 1em;
+  }
+  100% {
+    background-size: 325%;
+    background-position: -10em -4em;
+  }
+}
+
+@keyframes expand-rev {
+  0% {
+    background-size: 325%;
+    background-position: -10em -4em;
+  }
+  20% {
+    background-size: 55%;
+    background-position: 0 1em;
+  }
+  100% {
+    background-size: 50%;
+    background-position: 0 0;
+  }
+} */

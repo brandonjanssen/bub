@@ -59,6 +59,9 @@
     <loc>https://thoughts-to-sipaway.netlify.app/</loc>
     <lastmod>2022-10-08T16:57:23+08:00</lastmod>
   </url><url>
+    <loc>https://thoughts-to-sipaway.netlify.app/tags/blockchain/</loc>
+    <lastmod>2022-10-07T22:59:46+08:00</lastmod>
+  </url><url>
     <loc>https://thoughts-to-sipaway.netlify.app/post/mtv/</loc>
     <lastmod>2022-10-07T22:59:46+08:00</lastmod>
   </url><url>
@@ -72,5 +75,7 @@
     <lastmod>2022-10-07T20:17:47+08:00</lastmod>
   </url><url>
     <loc>https://thoughts-to-sipaway.netlify.app/archives/</loc>
+  </url><url>
+    <loc>https://thoughts-to-sipaway.netlify.app/search/</loc>
   </url>
 </urlset>

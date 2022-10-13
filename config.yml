@@ -4,46 +4,83 @@ title: Thought's To Sipaway
 theme: "PaperMod"
 
 params:
-  homeInfoParams:
-    Title: "long time no see"
-    Content: where have you been
-  socialIcons:
-    - name: facebook
-    - url: "https://web.facebook.com/robert.t.norwood"
-
-    - name: twitter
-    - url: "https://twitter.com/D_M_N_E"
-
-    - name: github
-    - url: "https://github.com"
-
-    - name: linkedin
-    - url: "https://linkedin.com"
-
+  cover: 
+    linkFullImages: true
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  keywords: [Blog, Portfolio, PaperMod]
-  author: Me
+  keywords: [Blog, Crypto, Blockchain]
+  # author: Me
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
-  disableThemeToggle: false
+  # disableThemeToggle: false
+  disableThemeToggle: true
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
+  ShowCodeCopyButtons: true
+  # ShowCodeCopyButtons: false
   ShowWordCount: true
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
-  comments: false
+  # comments: false
+  comments: true
   hidemeta: false
   hideSummary: false
-  showtoc: false
+  showtoc: true
+  # showtoc: false
   tocopen: false
+# -----------------------------------------------------------
+  homeInfoParams:
+    Title: "long time no see"
+    Content: where have you been
+  socialIcons:
+    - name: facebook
+      url: "https://web.facebook.com/robert.t.norwood"
 
+    - name: twitter
+      url: "https://twitter.com/D_M_N_E"
+
+    - name: github
+      url: https://github.com/brandonjanssen
+
+    - name: linkedin
+      url: "https://linkedin.com"
+
+    # - name: Archive
+    #   url: "/archive/"
+# -----------------------------------------------------
+  # profile-mode
+  # profileMode:
+  #   enabled: false # needs to be explicitly set
+  #   # enabled: true # needs to be explicitly set
+  #   title: ExampleSite
+  #   subtitle: "vscode"
+  #   imageUrl: "https://imgur.com/5gHdemB.png"
+  #   imageWidth: 120
+  #   imageHeight: 120
+  #   imageTitle: my image
+  #   buttons:
+  #     - name: Archive
+  #       url: "/archive/"
+  #     - name: GitHub
+  #       url: "https://github.com/"
+
+  # socialIcons:
+  #   - name: "twitter"
+  #     url:  "https://twitter.com/D_M_N_E"
+  #   - name: stackoverflow
+  #     url: "https://stackoverflow.com"
+  #   - name: github
+  #     url: "https://github.com/brandonjanssen"
+
+  # home-info mode
+  # homeInfoParams:
+    # Title: "Hi there \U0001F44B"
+    # Content: Welcome to my blog
 menu:
   main:
     - identifier: categories
@@ -57,11 +94,15 @@ menu:
     - identifier: archives
       name: Archives
       url: /archives/
-      weight: 30
-    - identifier: example
-      name: example.org
-      url: https://example.org
-      weight: 40
+    #   weight: 30
+    # - identifier: search
+    #   name: Search
+    #   url: /search/
+    #   weight: 40
+    # - identifier: example
+    #   name: example.org
+    #   url: https://example.org
+    #   weight: 40
 
 
 
@@ -92,33 +133,7 @@ minify:
   #   icon: /apple-touch-icon.png
   #   iconHeight: 35
 
-  # profile-mode
-  profileMode:
-    enabled: false # needs to be explicitly set
-    title: ExampleSite
-    subtitle: "vscode"
-    imageUrl: "https://imgur.com/5gHdemB.png"
-    imageWidth: 120
-    imageHeight: 120
-    imageTitle: my image
-    buttons:
-      - name: Posts
-        url: posts
-      - name: Tags
-        url: tags
 
-  # home-info mode
-  homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
-
-  socialIcons:
-    - name: twitter
-      url: "https://twitter.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
-    - name: github
-      url: "https://github.com/"
 
   analytics:
     google:
@@ -129,9 +144,17 @@ minify:
       SiteVerificationTag: "XYZabc"
 
   cover:
-    hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
+    # hidden: true # hide everywhere but not in structured data
+    hidden: false # hide everywhere but not in structured data
+    hiddenInList: false # hide on list pages and home
+    # hiddenInList: true # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+    # hiddenInSingle: true # hide on single page
+    outputs:
+          home:
+            - HTML
+            - RSS
+            - JSON # is necessary
 
 
   # for search
@@ -149,9 +172,18 @@ minify:
 pygmentsUseClasses: true
 markup:
   highlight:
+    # noClasses: true
     noClasses: false
     # anchorLineNos: true
-    # codeFences: true
-    # guessSyntax: true
+    codeFences: true
+    guessSyntax: true
     # lineNos: true
     # style: monokai
+# ----------------------------------------------------
+# ----------------------------------------------------
+# ----------------------------------------------------
+# ----------------------------------------------------
+    # thoughts-to-sipaway.disqus.com
+    # thoughts-to-sipaway.disqus.com
+    # thoughts-to-sipaway.disqus.com
+    # thoughts-to-sipaway.disqus.com

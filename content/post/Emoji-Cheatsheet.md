@@ -11,7 +11,7 @@ categories: ["Markdown"]
 # hidemeta: false
 # comments: false
 # description: "VAX"
-# canonicalURL: "https://canonical.url/to/page"
+canonicalURL: "https://github.com/brandonjanssen"
 # disableHLJS: true # to disable highlightjs
 # disableShare: false
 # disableHLJS: false

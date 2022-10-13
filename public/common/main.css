@@ -1,0 +1,138 @@
+.main {
+    position: relative;
+    min-height: calc(100vh - var(--header-height) - var(--footer-height));
+    max-width: calc(var(--main-width) + var(--gap) * 2);
+    margin: auto;
+    padding: var(--gap);
+}
+/* from here to ------------------------------------- */
+/* from here to ------------------------------------- */
+/* from here to ------------------------------------- */
+/* from here to ------------------------------------- */
+/* from here to ------------------------------------- */
+
+.page-header h1 {
+    background-color: #00E0CA;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    font-size: 40px;
+    color: transparent;
+    background: conic-gradient(
+    /* #827ada 12%,  */
+    #7e53da 25%, 
+    /* #936beb 35%,  */
+    /* #d5fa8b 45%,  */
+    #c6f16f 45%, 
+    /* #eb8c8c 55%,  */
+    #e78181 85%, 
+    /* #93c8f3 70%, */
+    #77b2e2 47%, 
+    #f19257 45%);
+    background-size: 50%;
+    background-clip: text;  
+    -webkit-background-clip: text;
+    
+    animation: expand-rev 2.5s ease forwards;
+    
+    cursor: pointer;
+}
+.page-header h1:hover {
+        animation: expand 2.5s ease forwards;
+}
+@keyframes expand {
+        0% {
+        background-size: 50%;
+        background-position: 0 0;
+        }
+        20% {
+        background-size: 55%;
+        background-position: 0 1em;
+        }
+        100% {
+        background-size: 80%;
+        background-position: -10em -4em;
+        }
+}
+@keyframes expand-rev {
+        0% {
+        background-size: 80%;
+        background-position: -10em -4em;
+        }
+        20% {
+        background-size: 55%;
+        background-position: 0 1em;
+        }
+        100% {
+        background-size: 50%;
+        background-position: 0 0;
+        }
+} 
+
+
+/* tooo here -------------------------------------- */
+/* tooo here -------------------------------------- */
+/* tooo here -------------------------------------- */
+/* tooo here -------------------------------------- */
+/* tooo here -------------------------------------- */
+/* tooo here -------------------------------------- */
+
+
+.pagination {
+    display: flex;
+}
+
+.pagination a {
+    color: var(--theme);
+    font-size: 13px;
+    line-height: 36px;
+    background: var(--primary);
+    border-radius: calc(36px / 2);
+    padding: 0 16px;
+}
+
+.pagination .next {
+    margin-inline-start: auto;
+}
+
+.social-icons {
+    padding: 12px 0;
+}
+
+.social-icons a:not(:last-of-type) {
+    margin-inline-end: 12px;
+}
+
+.social-icons a svg {
+    height: 26px;
+    width: 26px;
+}
+
+code {
+    direction: ltr;
+}
+
+div.highlight,
+pre {
+    position: relative;
+}
+
+.copy-code {
+    display: none;
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    color: #00E0CA;
+    background: #00121F;
+    border-radius: var(--radius);
+    padding: 0 5px;
+    font-size: 14px;
+    user-select: none;
+}
+
+div.highlight:hover .copy-code,
+pre:hover .copy-code {
+    display: block;
+    color: #00E0CA;
+    background-color: #0A2233;
+}
