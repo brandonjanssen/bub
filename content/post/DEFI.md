@@ -1,8 +1,8 @@
 ---
 title: "DEFI"
 date: 2022-10-07T20:17:47+08:00
-tags: ["DEFI","MTV"]
-categories: ["DEFI", "Blockchain"]
+tags: ["DEFI","MTV","VAX"]
+categories: ["DEFI","DEX"]
 # author: "Me"
 # # author: ["Me", "You"] # multiple authors
 # showToc: true
@@ -24,9 +24,9 @@ categories: ["DEFI", "Blockchain"]
 # ShowRssButtonInSectionTermList: true
 # UseHugoToc: true
 cover:
-    image: "img/vax.png" # image path/url
-    alt: "Tetu" # alt text
-    caption: "Tetu on Polygon" # display caption under cover
+    image: "https://imgur.com/8orRF88.png" # image path/url
+    #alt: "Tetu" # alt text
+    #caption: "Tetu on Polygon" # display caption under cover
     relative: false # when using page bundles set this to true
     # hidden: true # on
     hidden: false # on

@@ -31,7 +31,7 @@ cover:
     hidden: false # on
     # hidden: true # on
 ---
-# #Proxima
+# Proxima
 > Is a crypto game on #MultiVac #$[MTV](MTV.md) 
 > 
 > Will give all info you need to know, just keep reading.

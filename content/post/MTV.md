@@ -1,8 +1,9 @@
 ---
 title: "MTV"
 date: 2022-10-07T22:59:46+08:00
-tags: ["MTV","Blockchain"]
-author: "Me"
+tags: ["MTV"]
+categories: ["Blockchain","Crypto"]
+author: "Brandon Janssen "
 # author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: false
