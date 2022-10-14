@@ -2,80 +2,111 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://thoughts-to-sipaway.netlify.app/categories/</loc>
+    <loc>https://jantech.xyz/</loc>
+    <lastmod>2022-10-13T21:58:31+08:00</lastmod>
+  </url><url>
+    <loc>https://jantech.xyz/categories/blockchain/</loc>
+    <lastmod>2022-10-13T21:58:31+08:00</lastmod>
+  </url><url>
+    <loc>https://jantech.xyz/categories/</loc>
+    <lastmod>2022-10-13T21:58:31+08:00</lastmod>
+  </url><url>
+    <loc>https://jantech.xyz/categories/crypto/</loc>
+    <lastmod>2022-10-13T21:58:31+08:00</lastmod>
+  </url><url>
+    <loc>https://jantech.xyz/tags/defi/</loc>
+    <lastmod>2022-10-13T21:58:31+08:00</lastmod>
+  </url><url>
+    <loc>https://jantech.xyz/tags/fusion/</loc>
+    <lastmod>2022-10-13T21:58:31+08:00</lastmod>
+  </url><url>
+    <loc>https://jantech.xyz/post/nova-network-strategies-on-fusion/</loc>
+    <lastmod>2022-10-13T21:58:31+08:00</lastmod>
+  </url><url>
+    <loc>https://jantech.xyz/post/</loc>
+    <lastmod>2022-10-13T21:58:31+08:00</lastmod>
+  </url><url>
+    <loc>https://jantech.xyz/tags/snt/</loc>
+    <lastmod>2022-10-13T21:58:31+08:00</lastmod>
+  </url><url>
+    <loc>https://jantech.xyz/tags/staking/</loc>
+    <lastmod>2022-10-13T21:58:31+08:00</lastmod>
+  </url><url>
+    <loc>https://jantech.xyz/tags/</loc>
+    <lastmod>2022-10-13T21:58:31+08:00</lastmod>
+  </url><url>
+    <loc>https://jantech.xyz/categories/crypto-research/</loc>
+    <lastmod>2022-10-13T13:20:15+08:00</lastmod>
+  </url><url>
+    <loc>https://jantech.xyz/tags/research/</loc>
+    <lastmod>2022-10-13T13:20:15+08:00</lastmod>
+  </url><url>
+    <loc>https://jantech.xyz/tags/tools/</loc>
+    <lastmod>2022-10-13T13:20:15+08:00</lastmod>
+  </url><url>
+    <loc>https://jantech.xyz/post/tools-for-research/</loc>
+    <lastmod>2022-10-13T13:20:15+08:00</lastmod>
+  </url><url>
+    <loc>https://jantech.xyz/tags/trading/</loc>
+    <lastmod>2022-10-13T13:20:15+08:00</lastmod>
+  </url><url>
+    <loc>https://jantech.xyz/tags/wallet-tracking/</loc>
+    <lastmod>2022-10-13T13:20:15+08:00</lastmod>
+  </url><url>
+    <loc>https://jantech.xyz/tags/crypto/</loc>
     <lastmod>2022-10-08T16:57:23+08:00</lastmod>
   </url><url>
-    <loc>https://thoughts-to-sipaway.netlify.app/tags/crypto/</loc>
+    <loc>https://jantech.xyz/categories/defi/</loc>
     <lastmod>2022-10-08T16:57:23+08:00</lastmod>
   </url><url>
-    <loc>https://thoughts-to-sipaway.netlify.app/categories/crypto/</loc>
+    <loc>https://jantech.xyz/tags/emoji/</loc>
     <lastmod>2022-10-08T16:57:23+08:00</lastmod>
   </url><url>
-    <loc>https://thoughts-to-sipaway.netlify.app/categories/defi/</loc>
+    <loc>https://jantech.xyz/post/emoji-cheatsheet/</loc>
     <lastmod>2022-10-08T16:57:23+08:00</lastmod>
   </url><url>
-    <loc>https://thoughts-to-sipaway.netlify.app/tags/emoji/</loc>
+    <loc>https://jantech.xyz/tags/games/</loc>
     <lastmod>2022-10-08T16:57:23+08:00</lastmod>
   </url><url>
-    <loc>https://thoughts-to-sipaway.netlify.app/post/emoji-cheatsheet/</loc>
+    <loc>https://jantech.xyz/categories/games/</loc>
     <lastmod>2022-10-08T16:57:23+08:00</lastmod>
   </url><url>
-    <loc>https://thoughts-to-sipaway.netlify.app/tags/games/</loc>
+    <loc>https://jantech.xyz/tags/markdown/</loc>
     <lastmod>2022-10-08T16:57:23+08:00</lastmod>
   </url><url>
-    <loc>https://thoughts-to-sipaway.netlify.app/categories/games/</loc>
+    <loc>https://jantech.xyz/categories/markdown/</loc>
     <lastmod>2022-10-08T16:57:23+08:00</lastmod>
   </url><url>
-    <loc>https://thoughts-to-sipaway.netlify.app/tags/markdown/</loc>
+    <loc>https://jantech.xyz/tags/mtv/</loc>
     <lastmod>2022-10-08T16:57:23+08:00</lastmod>
   </url><url>
-    <loc>https://thoughts-to-sipaway.netlify.app/categories/markdown/</loc>
+    <loc>https://jantech.xyz/categories/mtv/</loc>
     <lastmod>2022-10-08T16:57:23+08:00</lastmod>
   </url><url>
-    <loc>https://thoughts-to-sipaway.netlify.app/tags/mtv/</loc>
+    <loc>https://jantech.xyz/post/proxima/</loc>
     <lastmod>2022-10-08T16:57:23+08:00</lastmod>
   </url><url>
-    <loc>https://thoughts-to-sipaway.netlify.app/categories/mtv/</loc>
+    <loc>https://jantech.xyz/tags/scholarships/</loc>
     <lastmod>2022-10-08T16:57:23+08:00</lastmod>
   </url><url>
-    <loc>https://thoughts-to-sipaway.netlify.app/post/</loc>
+    <loc>https://jantech.xyz/categories/scholarships/</loc>
     <lastmod>2022-10-08T16:57:23+08:00</lastmod>
   </url><url>
-    <loc>https://thoughts-to-sipaway.netlify.app/post/proxima/</loc>
+    <loc>https://jantech.xyz/tags/syntax/</loc>
     <lastmod>2022-10-08T16:57:23+08:00</lastmod>
   </url><url>
-    <loc>https://thoughts-to-sipaway.netlify.app/tags/scholarships/</loc>
-    <lastmod>2022-10-08T16:57:23+08:00</lastmod>
-  </url><url>
-    <loc>https://thoughts-to-sipaway.netlify.app/categories/scholarships/</loc>
-    <lastmod>2022-10-08T16:57:23+08:00</lastmod>
-  </url><url>
-    <loc>https://thoughts-to-sipaway.netlify.app/tags/syntax/</loc>
-    <lastmod>2022-10-08T16:57:23+08:00</lastmod>
-  </url><url>
-    <loc>https://thoughts-to-sipaway.netlify.app/tags/</loc>
-    <lastmod>2022-10-08T16:57:23+08:00</lastmod>
-  </url><url>
-    <loc>https://thoughts-to-sipaway.netlify.app/</loc>
-    <lastmod>2022-10-08T16:57:23+08:00</lastmod>
-  </url><url>
-    <loc>https://thoughts-to-sipaway.netlify.app/tags/blockchain/</loc>
+    <loc>https://jantech.xyz/post/mtv/</loc>
     <lastmod>2022-10-07T22:59:46+08:00</lastmod>
   </url><url>
-    <loc>https://thoughts-to-sipaway.netlify.app/post/mtv/</loc>
-    <lastmod>2022-10-07T22:59:46+08:00</lastmod>
-  </url><url>
-    <loc>https://thoughts-to-sipaway.netlify.app/categories/blockchain/</loc>
+    <loc>https://jantech.xyz/post/defi/</loc>
     <lastmod>2022-10-07T20:17:47+08:00</lastmod>
   </url><url>
-    <loc>https://thoughts-to-sipaway.netlify.app/tags/defi/</loc>
+    <loc>https://jantech.xyz/categories/dex/</loc>
     <lastmod>2022-10-07T20:17:47+08:00</lastmod>
   </url><url>
-    <loc>https://thoughts-to-sipaway.netlify.app/post/defi/</loc>
+    <loc>https://jantech.xyz/tags/vax/</loc>
     <lastmod>2022-10-07T20:17:47+08:00</lastmod>
   </url><url>
-    <loc>https://thoughts-to-sipaway.netlify.app/archives/</loc>
-  </url><url>
-    <loc>https://thoughts-to-sipaway.netlify.app/search/</loc>
+    <loc>https://jantech.xyz/archives/</loc>
   </url>
 </urlset>

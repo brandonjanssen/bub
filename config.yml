@@ -1,7 +1,7 @@
 baseURL: https://jantech.xyz
 # baseURL: https://thoughts-to-sipaway.netlify.app/
 languageCode: en-us
-title: Thought's To Sipaway 
+# title: Thought's To Sipaway 
 theme: "PaperMod"
 
 params:

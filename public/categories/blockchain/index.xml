@@ -1,23 +1,41 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Blockchain on Thought&#39;s To Sipaway</title>
-    <link>https://thoughts-to-sipaway.netlify.app/categories/blockchain/</link>
-    <description>Recent content in Blockchain on Thought&#39;s To Sipaway</description>
+    <title>Blockchain on </title>
+    <link>https://jantech.xyz/categories/blockchain/</link>
+    <description>Recent content in Blockchain on </description>
     <image>
-      <url>https://thoughts-to-sipaway.netlify.app/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://thoughts-to-sipaway.netlify.app/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://jantech.xyz/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://jantech.xyz/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 07 Oct 2022 20:17:47 +0800</lastBuildDate><atom:link href="https://thoughts-to-sipaway.netlify.app/categories/blockchain/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 13 Oct 2022 21:58:31 +0800</lastBuildDate><atom:link href="https://jantech.xyz/categories/blockchain/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>DEFI</title>
-      <link>https://thoughts-to-sipaway.netlify.app/post/defi/</link>
-      <pubDate>Fri, 07 Oct 2022 20:17:47 +0800</pubDate>
+      <title>Nova Network: Strategies on Fusion</title>
+      <link>https://jantech.xyz/post/nova-network-strategies-on-fusion/</link>
+      <pubDate>Thu, 13 Oct 2022 21:58:31 +0800</pubDate>
       
-      <guid>https://thoughts-to-sipaway.netlify.app/post/defi/</guid>
-      <description>VAX #VAX operates on the #MULTIVAC Blockchain. </description>
+      <guid>https://jantech.xyz/post/nova-network-strategies-on-fusion/</guid>
+      <description>A interesting place to stake your $SNT.</description>
+    </item>
+    
+    <item>
+      <title>Tools for Research</title>
+      <link>https://jantech.xyz/post/tools-for-research/</link>
+      <pubDate>Thu, 13 Oct 2022 13:20:15 +0800</pubDate>
+      
+      <guid>https://jantech.xyz/post/tools-for-research/</guid>
+      <description>List of tools for researching crypto.</description>
+    </item>
+    
+    <item>
+      <title>MTV</title>
+      <link>https://jantech.xyz/post/mtv/</link>
+      <pubDate>Fri, 07 Oct 2022 22:59:46 +0800</pubDate>
+      
+      <guid>https://jantech.xyz/post/mtv/</guid>
+      <description>Fast, Cheap, Blockchain with potential. </description>
     </item>
     
   </channel>

@@ -1,94 +1,157 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tags on Thought&#39;s To Sipaway</title>
-    <link>https://thoughts-to-sipaway.netlify.app/tags/</link>
-    <description>Recent content in Tags on Thought&#39;s To Sipaway</description>
+    <title>Tags on </title>
+    <link>https://jantech.xyz/tags/</link>
+    <description>Recent content in Tags on </description>
     <image>
-      <url>https://thoughts-to-sipaway.netlify.app/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://thoughts-to-sipaway.netlify.app/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://jantech.xyz/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://jantech.xyz/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 08 Oct 2022 16:57:23 +0800</lastBuildDate><atom:link href="https://thoughts-to-sipaway.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 13 Oct 2022 21:58:31 +0800</lastBuildDate><atom:link href="https://jantech.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DEFI</title>
+      <link>https://jantech.xyz/tags/defi/</link>
+      <pubDate>Thu, 13 Oct 2022 21:58:31 +0800</pubDate>
+      
+      <guid>https://jantech.xyz/tags/defi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fusion</title>
+      <link>https://jantech.xyz/tags/fusion/</link>
+      <pubDate>Thu, 13 Oct 2022 21:58:31 +0800</pubDate>
+      
+      <guid>https://jantech.xyz/tags/fusion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SNT</title>
+      <link>https://jantech.xyz/tags/snt/</link>
+      <pubDate>Thu, 13 Oct 2022 21:58:31 +0800</pubDate>
+      
+      <guid>https://jantech.xyz/tags/snt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Staking</title>
+      <link>https://jantech.xyz/tags/staking/</link>
+      <pubDate>Thu, 13 Oct 2022 21:58:31 +0800</pubDate>
+      
+      <guid>https://jantech.xyz/tags/staking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Research</title>
+      <link>https://jantech.xyz/tags/research/</link>
+      <pubDate>Thu, 13 Oct 2022 13:20:15 +0800</pubDate>
+      
+      <guid>https://jantech.xyz/tags/research/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tools</title>
+      <link>https://jantech.xyz/tags/tools/</link>
+      <pubDate>Thu, 13 Oct 2022 13:20:15 +0800</pubDate>
+      
+      <guid>https://jantech.xyz/tags/tools/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Trading</title>
+      <link>https://jantech.xyz/tags/trading/</link>
+      <pubDate>Thu, 13 Oct 2022 13:20:15 +0800</pubDate>
+      
+      <guid>https://jantech.xyz/tags/trading/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wallet Tracking</title>
+      <link>https://jantech.xyz/tags/wallet-tracking/</link>
+      <pubDate>Thu, 13 Oct 2022 13:20:15 +0800</pubDate>
+      
+      <guid>https://jantech.xyz/tags/wallet-tracking/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Crypto</title>
-      <link>https://thoughts-to-sipaway.netlify.app/tags/crypto/</link>
+      <link>https://jantech.xyz/tags/crypto/</link>
       <pubDate>Sat, 08 Oct 2022 16:57:23 +0800</pubDate>
       
-      <guid>https://thoughts-to-sipaway.netlify.app/tags/crypto/</guid>
+      <guid>https://jantech.xyz/tags/crypto/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Emoji</title>
-      <link>https://thoughts-to-sipaway.netlify.app/tags/emoji/</link>
+      <link>https://jantech.xyz/tags/emoji/</link>
       <pubDate>Sat, 08 Oct 2022 16:57:23 +0800</pubDate>
       
-      <guid>https://thoughts-to-sipaway.netlify.app/tags/emoji/</guid>
+      <guid>https://jantech.xyz/tags/emoji/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Games</title>
-      <link>https://thoughts-to-sipaway.netlify.app/tags/games/</link>
+      <link>https://jantech.xyz/tags/games/</link>
       <pubDate>Sat, 08 Oct 2022 16:57:23 +0800</pubDate>
       
-      <guid>https://thoughts-to-sipaway.netlify.app/tags/games/</guid>
+      <guid>https://jantech.xyz/tags/games/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Markdown</title>
-      <link>https://thoughts-to-sipaway.netlify.app/tags/markdown/</link>
+      <link>https://jantech.xyz/tags/markdown/</link>
       <pubDate>Sat, 08 Oct 2022 16:57:23 +0800</pubDate>
       
-      <guid>https://thoughts-to-sipaway.netlify.app/tags/markdown/</guid>
+      <guid>https://jantech.xyz/tags/markdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>MTV</title>
-      <link>https://thoughts-to-sipaway.netlify.app/tags/mtv/</link>
+      <link>https://jantech.xyz/tags/mtv/</link>
       <pubDate>Sat, 08 Oct 2022 16:57:23 +0800</pubDate>
       
-      <guid>https://thoughts-to-sipaway.netlify.app/tags/mtv/</guid>
+      <guid>https://jantech.xyz/tags/mtv/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Scholarships</title>
-      <link>https://thoughts-to-sipaway.netlify.app/tags/scholarships/</link>
+      <link>https://jantech.xyz/tags/scholarships/</link>
       <pubDate>Sat, 08 Oct 2022 16:57:23 +0800</pubDate>
       
-      <guid>https://thoughts-to-sipaway.netlify.app/tags/scholarships/</guid>
+      <guid>https://jantech.xyz/tags/scholarships/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Syntax</title>
-      <link>https://thoughts-to-sipaway.netlify.app/tags/syntax/</link>
+      <link>https://jantech.xyz/tags/syntax/</link>
       <pubDate>Sat, 08 Oct 2022 16:57:23 +0800</pubDate>
       
-      <guid>https://thoughts-to-sipaway.netlify.app/tags/syntax/</guid>
+      <guid>https://jantech.xyz/tags/syntax/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Blockchain</title>
-      <link>https://thoughts-to-sipaway.netlify.app/tags/blockchain/</link>
-      <pubDate>Fri, 07 Oct 2022 22:59:46 +0800</pubDate>
-      
-      <guid>https://thoughts-to-sipaway.netlify.app/tags/blockchain/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>DEFI</title>
-      <link>https://thoughts-to-sipaway.netlify.app/tags/defi/</link>
+      <title>VAX</title>
+      <link>https://jantech.xyz/tags/vax/</link>
       <pubDate>Fri, 07 Oct 2022 20:17:47 +0800</pubDate>
       
-      <guid>https://thoughts-to-sipaway.netlify.app/tags/defi/</guid>
+      <guid>https://jantech.xyz/tags/vax/</guid>
       <description></description>
     </item>
     
