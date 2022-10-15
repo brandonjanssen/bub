@@ -25,10 +25,17 @@ params:
   ShowCodeCopyButtons: true
   # ShowCodeCopyButtons: false
   ShowWordCount: true
-  ShowRssButtonInSectionTermList: true
-  UseHugoToc: true
+  ShowRssButtonInSectionTermList: true 
+  
+
+  # Toc ##############################################
+  UseHugoToc: false 
+  tocfolding: false
   disableSpecial1stPost: false
   disableScrollToTop: false
+
+
+  # Comments    #######################################
   # comments: false
   comments: true
   hidemeta: false
