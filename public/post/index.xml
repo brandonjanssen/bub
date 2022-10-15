@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on </title>
+    <title>Posts on JanTech.xyz</title>
     <link>https://jantech.xyz/post/</link>
-    <description>Recent content in Posts on </description>
+    <description>Recent content in Posts on JanTech.xyz</description>
     <image>
       <url>https://jantech.xyz/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://jantech.xyz/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 Oct 2022 21:58:31 +0800</lastBuildDate><atom:link href="https://jantech.xyz/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 14 Oct 2022 22:35:17 +0800</lastBuildDate><atom:link href="https://jantech.xyz/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Learning Linux the Hard Way</title>
+      <link>https://jantech.xyz/post/learning-linux-the-hard-way/</link>
+      <pubDate>Fri, 14 Oct 2022 22:35:17 +0800</pubDate>
+      
+      <guid>https://jantech.xyz/post/learning-linux-the-hard-way/</guid>
+      <description>Linux the fruit that just keeps giving </description>
+    </item>
+    
     <item>
       <title>Nova Network: Strategies on Fusion</title>
       <link>https://jantech.xyz/post/nova-network-strategies-on-fusion/</link>
@@ -132,7 +141,8 @@ sudo apt update &amp;amp;&amp;amp; sudo apt upgrade apt search flameshot 6 from 
       <pubDate>Fri, 07 Oct 2022 20:17:47 +0800</pubDate>
       
       <guid>https://jantech.xyz/post/defi/</guid>
-      <description>VAX #VAX operates on the #MULTIVAC Blockchain. </description>
+      <description>VAX #VAX operates on the #MULTIVAC Blockchain.
+I will be documenting all my experiences and troubles as try to help others. My main focus will be about Linux, Crypto, Obsidian and other tech related stories i can think of or find.</description>
     </item>
     
   </channel>
