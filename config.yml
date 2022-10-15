@@ -145,8 +145,8 @@ minify:
 
   analytics:
     google:
-      SiteVerificationTag: "GTM-55HPFPJ"
-      # SiteVerificationTag: "G-T6KYST102H"
+      # SiteVerificationTag: "GTM-55HPFPJ"
+      SiteVerificationTag: "G-T6KYST102H"
     bing:
       SiteVerificationTag: "XYZabc"
     yandex:
