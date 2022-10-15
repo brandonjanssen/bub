@@ -3,7 +3,7 @@ title: "Learning Linux the Hard Way"
 date: 2022-10-14T22:35:17+08:00
 #tags: ["MTV"]
 categories: ["About Me"]
-author: "Brandon Janssen "
+# author: "Brandon Janssen "
 # author: ["Me", "You"] # multiple authors
 showToc: false
 TocOpen: false
