@@ -33,3 +33,5 @@ cover:
 ---
 # [VAX](https://vax.mtv.guru/#/swap)
  - #VAX operates on the #MULTIVAC Blockchain.
+   
+   I will be documenting all my experiences and troubles as try to help others. My main focus will be about Linux, Crypto, Obsidian and other tech related stories i can think of or find.

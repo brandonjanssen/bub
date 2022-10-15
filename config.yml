@@ -1,7 +1,7 @@
 baseURL: https://jantech.xyz
 # baseURL: https://thoughts-to-sipaway.netlify.app/
 languageCode: en-us
-# title: Thought's To Sipaway 
+title: JanTech.xyz
 theme: "PaperMod"
 
 params:
@@ -13,7 +13,7 @@ params:
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
-  defaultTheme: auto # dark, light
+  defaultTheme: dark #auto, light
   # disableThemeToggle: false
   disableThemeToggle: true
   ShowReadingTime: true
@@ -36,8 +36,8 @@ params:
   tocopen: false
 # -----------------------------------------------------------
   homeInfoParams:
-    Title: "long time no see"
-    Content: where have you been
+    Title: "Hello and Welcome To My Mind"
+    Content: I will be documenting all my experiences and troubles as try to help others. My main focus will be about Linux, Crypto, Obsidian and other tech related stories i can think of or find.
   socialIcons:
     - name: facebook
       url: "https://web.facebook.com/robert.t.norwood"
@@ -56,16 +56,18 @@ params:
 # -----------------------------------------------------
   # profile-mode
   # profileMode:
-  #   enabled: false # needs to be explicitly set
-  #   # enabled: true # needs to be explicitly set
+  #   # enabled: false # needs to be explicitly set
+  #   enabled: true # needs to be explicitly set
   #   title: ExampleSite
-  #   subtitle: "vscode"
-  #   imageUrl: "https://imgur.com/5gHdemB.png"
-  #   imageWidth: 120
-  #   imageHeight: 120
+  #   subtitle: ""
+  #   imageUrl: "https://raw.githubusercontent.com/brandonjanssen/Obsidian/b7b62225dc02284dc4419562d133cc1b159f5ec1/ring-globe.excalidraw.svg"
+  #   imageWidth: 250
+  #   imageHeight: 250
   #   imageTitle: my image
   #   buttons:
-  #     - name: Archive
+  #     # - name: Home 
+  #     #   url: "/http://localhost:1313/"
+  #     - name: Archive's
   #       url: "/archive/"
   #     - name: GitHub
   #       url: "https://github.com/"
@@ -73,11 +75,14 @@ params:
   # socialIcons:
   #   - name: "twitter"
   #     url:  "https://twitter.com/D_M_N_E"
-  #   - name: stackoverflow
-  #     url: "https://stackoverflow.com"
+  #   # - name: stackoverflow
+  #   #   url: "https://stackoverflow.com"
   #   - name: github
   #     url: "https://github.com/brandonjanssen"
-
+  #   - name: facebook
+  #     url: "https://web.facebook.com/robert.t.norwood"
+  #   - name: linkedin
+  #     url: "https://www.linkedin.com/in/brandon-janssen-37a303252/"
   # home-info mode
   # homeInfoParams:
     # Title: "Hi there \U0001F44B"
@@ -87,23 +92,24 @@ menu:
     - identifier: categories
       name: Categories
       url: /categories/
-      weight: 10
+      weight: 30
     - identifier: tags
       name: Tags
       url: /tags/
-      weight: 20
+      weight: 40
     - identifier: archives
       name: Archives
       url: /archives/
+      weight: 20
     #   weight: 30
     # - identifier: search
     #   name: Search
     #   url: /search/
     #   weight: 40
-    # - identifier: example
-    #   name: example.org
-    #   url: https://example.org
-    #   weight: 40
+    - identifier: home 
+      name: Home 
+      url: http://localhost:1313/
+      weight: 10
 
 
 
@@ -138,7 +144,7 @@ minify:
 
   analytics:
     google:
-      SiteVerificationTag: "XYZabc"
+      SiteVerificationTag: "G-T6KYST102H"
     bing:
       SiteVerificationTag: "XYZabc"
     yandex:
