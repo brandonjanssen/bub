@@ -1,5 +1,5 @@
 ---
-title: "DEFI"
+title: "VAX Value Added Exchange"
 date: 2022-10-07T20:17:47+08:00
 tags: ["DEFI"]
 categories: ["MTV"]

@@ -1,7 +1,7 @@
 ---
 title: "Emoji Cheatsheet"
 date: 2022-10-08T16:57:23+08:00
-tags: ["Emoji","Markdown", "Syntax"]
+tags: ["Emoji"]
 categories: ["Markdown"]
 # author: "Me"
 # # author: ["Me", "You"] # multiple authors

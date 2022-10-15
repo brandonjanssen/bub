@@ -3,13 +3,13 @@ title: "MTV"
 date: 2022-10-07T22:59:46+08:00
 tags: ["MTV"]
 categories: ["Blockchain","Crypto"]
-author: "Brandon Janssen "
+# author: "Brandon Janssen "
 # author: ["Me", "You"] # multiple authors
 showToc: true
-TocOpen: false
+TocOpen: true
 draft: false
 hidemeta: false
-comments: true
+# comments: true
 description: "Fast, Cheap, Blockchain with potential. "
 canonicalURL: "https://mtv.ac/"
 disableHLJS: true # to disable highlightjs
