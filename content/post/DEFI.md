@@ -1,8 +1,8 @@
 ---
 title: "DEFI"
 date: 2022-10-07T20:17:47+08:00
-tags: ["DEFI","MTV","VAX"]
-categories: ["DEFI","DEX"]
+tags: ["DEFI"]
+categories: ["MTV"]
 # author: "Me"
 # # author: ["Me", "You"] # multiple authors
 # showToc: true
@@ -23,13 +23,13 @@ categories: ["DEFI","DEX"]
 # ShowWordCount: true
 # ShowRssButtonInSectionTermList: true
 # UseHugoToc: true
-cover:
-    image: "https://imgur.com/8orRF88.png" # image path/url
+# cover:
+    # image: "https://imgur.com/8orRF88.png" # image path/url
     #alt: "Tetu" # alt text
     #caption: "Tetu on Polygon" # display caption under cover
-    relative: false # when using page bundles set this to true
+    # relative: false # when using page bundles set this to true
     # hidden: true # on
-    hidden: false # on
+    # hidden: false # on
 
 #     <!-- Google Tag Manager -->
 # <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':

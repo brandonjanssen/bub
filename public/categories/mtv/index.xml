@@ -5,8 +5,8 @@
     <link>https://jantech.xyz/categories/mtv/</link>
     <description>Recent content in MTV on JanTech.xyz</description>
     <image>
-      <url>https://jantech.xyz/105</url>
-      <link>https://jantech.xyz/105</link>
+      <url>https://jantech.xyz/img/twitter-card.png</url>
+      <link>https://jantech.xyz/img/twitter-card.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -20,6 +20,16 @@
       <description>Proxima Is a crypto game on #MultiVac #$MTV
 Will give all info you need to know, just keep reading.
 sudo apt update &amp;amp;&amp;amp; sudo apt upgrade apt search flameshot 6 from pdf2docx import Converter pdf_file = &amp;#39;sample2.pdf&amp;#39; word_file = &amp;#39;sample2.docx&amp;#39; # docx_file = &amp;#39;sample.docx&amp;#39; # Converter Method cv = Converter(pdf_file) # cv.convert(docx_file, start=0, end=None) cv.convert(word_file, start=0, end=None) cv.close() #Parse Method #parse(pdf_file, word_file, start=0, end=None) import os import subprocess from typing import List # noqa: F401 from libqtile import hook from libqtile.</description>
+    </item>
+    
+    <item>
+      <title>DEFI</title>
+      <link>https://jantech.xyz/post/defi/</link>
+      <pubDate>Fri, 07 Oct 2022 20:17:47 +0800</pubDate>
+      
+      <guid>https://jantech.xyz/post/defi/</guid>
+      <description>VAX #VAX operates on the #MULTIVAC Blockchain.
+I will be documenting all my experiences and troubles as try to help others. My main focus will be about Linux, Crypto, Obsidian and other tech related stories i can think of or find.</description>
     </item>
     
   </channel>

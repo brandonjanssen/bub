@@ -12,7 +12,7 @@ params:
   # author: Me
   # author: ["Me", "You"] # multiple authors
   twitter-cards: true   #############################################################################
-  images: "img/twitter-card.png"
+  images: ["img/twitter-card.png"]
   # images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
   defaultTheme: dark #auto, light
@@ -91,6 +91,14 @@ params:
     # Content: Welcome to my blog
 menu:
   main:
+    - identifier: home 
+      name: Home 
+      url: https://www.jantech.xyz/
+      weight: 10
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 20
     - identifier: categories
       name: Categories
       url: /categories/
@@ -99,19 +107,11 @@ menu:
       name: Tags
       url: /tags/
       weight: 40
-    - identifier: archives
-      name: Archives
-      url: /archives/
-      weight: 20
     #   weight: 30
     # - identifier: search
     #   name: Search
     #   url: /search/
     #   weight: 40
-    - identifier: home 
-      name: Home 
-      url: https://www.jantech.xyz/
-      weight: 10
 
 
 

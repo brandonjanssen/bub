@@ -5,8 +5,8 @@
     <link>https://jantech.xyz/categories/</link>
     <description>Recent content in Categories on JanTech.xyz</description>
     <image>
-      <url>https://jantech.xyz/105</url>
-      <link>https://jantech.xyz/105</link>
+      <url>https://jantech.xyz/img/twitter-card.png</url>
+      <link>https://jantech.xyz/img/twitter-card.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -89,15 +89,6 @@
       <pubDate>Sat, 08 Oct 2022 16:57:23 +0800</pubDate>
       
       <guid>https://jantech.xyz/categories/scholarships/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>DEX</title>
-      <link>https://jantech.xyz/categories/dex/</link>
-      <pubDate>Fri, 07 Oct 2022 20:17:47 +0800</pubDate>
-      
-      <guid>https://jantech.xyz/categories/dex/</guid>
       <description></description>
     </item>
     
