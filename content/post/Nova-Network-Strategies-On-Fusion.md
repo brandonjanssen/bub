@@ -2,11 +2,9 @@
 title: "Nova Network: Strategies on Fusion"
 date: 2022-10-13T21:58:31+08:00
 tags: ["SNT", "Fusion","DEFI"]
-categories: ["Blockchain"]
-# author: "Brandon Janssen"
-# # author: ["Me", "You"] # multiple authors
-  showToc: true
-  TocOpen: true
+categories: "Blockchain"
+showToc: true
+TocOpen: true
 #   draft: false
 #   hidemeta: false
 # comments: false

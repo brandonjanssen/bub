@@ -1,0 +1,165 @@
+{
+  "main": {
+    "id": "38c9c6649c5416f0",
+    "type": "split",
+    "children": [
+      {
+        "id": "222effcda31ff9c2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d73a2a0971c49edc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/post/Learning-Linux-the-hard-way.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0ff3ea996df23744",
+    "type": "split",
+    "children": [
+      {
+        "id": "02b43352b3bc945d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6c96e706464e22ec",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "87d294c31dd98dde",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#Research",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0d61b30eed72521a",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 239
+  },
+  "right": {
+    "id": "fe9a15c5927f83b2",
+    "type": "split",
+    "children": [
+      {
+        "id": "8f98e5142c0bae41",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9c00ffe1767af816",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "content/post/Learning-Linux-the-hard-way.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4f5c69bbe35d814d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "048948cd92942224",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "content/post/Learning-Linux-the-hard-way.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "506b0be6ffa2aa71",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "content/post/Learning-Linux-the-hard-way.md"
+              }
+            }
+          },
+          {
+            "id": "507831e5c7b3a8ea",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "d73a2a0971c49edc",
+  "lastOpenFiles": [
+    "content/post/MTV.md",
+    "content/post/Learning-Linux-the-hard-way.md",
+    "content/post/DEFI.md",
+    "content/post/Proxima.md",
+    "content/post/Nova-Network-Strategies-On-Fusion.md",
+    "content/post/Tools-For-Research.md",
+    "content/archives.md",
+    "content/post/Markdown Syntax.md",
+    "Markdown Syntax.md",
+    "Tool For Research.md"
+  ]
+}
