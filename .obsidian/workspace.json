@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "222effcda31ff9c2",
+        "id": "b38a0189d8843424",
         "type": "tabs",
         "children": [
           {
-            "id": "d73a2a0971c49edc",
+            "id": "71de684674e7a25e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -150,7 +150,7 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "d73a2a0971c49edc",
+  "active": "71de684674e7a25e",
   "lastOpenFiles": [
     "content/post/Learning-Linux-the-hard-way.md",
     "content/post/MTV.md",
