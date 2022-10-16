@@ -3,8 +3,8 @@ title: "Tools for Research"
 date: 2022-10-13T13:20:15+08:00
 tags: ["Tools", "Research","Trading", "Wallet Tracking"]
 categories: ["Blockchain", "Crypto Tools"]
-#   showToc: true
-#   TocOpen: false
+showToc: true
+TocOpen: true
 #   draft: false
 #   hidemeta: false
 # comments: false

@@ -21,6 +21,25 @@
             }
           }
         ]
+      },
+      {
+        "id": "9c08490203d25aed",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cec041e4ee9e719c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/post/Nova-Network-Strategies-On-Fusion.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -86,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/post/Tools-For-Research.md",
+                "file": "content/post/Nova-Network-Strategies-On-Fusion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/post/Tools-For-Research.md",
+                "file": "content/post/Nova-Network-Strategies-On-Fusion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/post/Tools-For-Research.md"
+                "file": "content/post/Nova-Network-Strategies-On-Fusion.md"
               }
             }
           },
@@ -149,11 +168,11 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "7b473e3987abc668",
+  "active": "cec041e4ee9e719c",
   "lastOpenFiles": [
+    "content/post/Tools-For-Research.md",
     "content/post/Nova-Network-Strategies-On-Fusion.md",
     "static/img/logo.png",
-    "content/post/Tools-For-Research.md",
     "content/post/Learning-Linux-the-hard-way.md",
     "content/post/MTV.md",
     "content/post/DEFI.md",
