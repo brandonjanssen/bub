@@ -3,14 +3,12 @@ title: "Tools for Research"
 date: 2022-10-13T13:20:15+08:00
 tags: ["Tools", "Research","Trading", "Wallet Tracking"]
 categories: ["Blockchain", "Crypto Research"]
-# author: "Brandon Janssen"
-# # author: ["Me", "You"] # multiple authors
 #   showToc: true
 #   TocOpen: false
 #   draft: false
 #   hidemeta: false
 # comments: false
-description: "List of tools for researching crypto."
+# description: "List of tools for researching crypto."
 # canonicalURL: "https://canonical.url/to/page"
 # disableHLJS: true # to disable highlightjs
 # disableShare: false

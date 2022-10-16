@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 239
+    "width": 239,
+    "collapsed": true
   },
   "right": {
     "id": "fe9a15c5927f83b2",
@@ -151,8 +152,8 @@
   },
   "active": "d73a2a0971c49edc",
   "lastOpenFiles": [
-    "content/post/MTV.md",
     "content/post/Learning-Linux-the-hard-way.md",
+    "content/post/MTV.md",
     "content/post/DEFI.md",
     "content/post/Proxima.md",
     "content/post/Nova-Network-Strategies-On-Fusion.md",

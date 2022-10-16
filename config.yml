@@ -9,7 +9,7 @@ params:
     linkFullImages: true
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   keywords: [Blog, Crypto, Blockchain, Obsidian]
-  author: Me
+  # author: Me
   # author: ["Me", "You"] # multiple authors
   twitter-cards: true   #############################################################################
   # images: ["img/twitter-card.png"]
@@ -29,7 +29,7 @@ params:
   
 
   # Toc ##############################################
-  UseHugoToc: false 
+  UseHugoToc: true
   tocfolding: false
   disableSpecial1stPost: false
   disableScrollToTop: false
