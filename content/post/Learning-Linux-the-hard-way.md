@@ -12,7 +12,7 @@ hidemeta: false
 comments: false
 description: "Linux the fruit that just keeps giving "
 ---
-# The way I learned Linux 
+# How I am evolving since I learned linux 
 
 I started my computer crash course during the start of the covid lockdowns with a [Raspberry Pi 4b](https://www.raspberrypi.com/). Being self-taught it was the best way to start since I had no previous experience with computers and the cost of failure was low.
 
