@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/post/Nova-Network-Strategies-On-Fusion.md",
+                "file": "content/post/Tools-For-Research.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 215.5,
-    "collapsed": true
+    "width": 215.5
   },
   "right": {
     "id": "fe9a15c5927f83b2",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/post/Nova-Network-Strategies-On-Fusion.md",
+                "file": "content/post/Tools-For-Research.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/post/Nova-Network-Strategies-On-Fusion.md",
+                "file": "content/post/Tools-For-Research.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/post/Nova-Network-Strategies-On-Fusion.md"
+                "file": "content/post/Tools-For-Research.md"
               }
             }
           },
@@ -152,8 +151,8 @@
   },
   "active": "7b473e3987abc668",
   "lastOpenFiles": [
-    "static/img/logo.png",
     "content/post/Nova-Network-Strategies-On-Fusion.md",
+    "static/img/logo.png",
     "content/post/Tools-For-Research.md",
     "content/post/Learning-Linux-the-hard-way.md",
     "content/post/MTV.md",
