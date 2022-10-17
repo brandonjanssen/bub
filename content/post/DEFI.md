@@ -44,18 +44,9 @@ cover:
 # height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 # <!-- End Google Tag Manager (noscript) -->
 ---
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-55HPFPJ');</script>
-<!-- End Google Tag Manager -->
+
 # [VAX](https://vax.mtv.guru/#/swap)
  - #VAX operates on the #MULTIVAC Blockchain.
    
    I will be documenting all my experiences and troubles as try to help others. My main focus will be about Linux, Crypto, Obsidian and other tech related stories i can think of or find.
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-55HPFPJ"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+[I'm a link with title](https://iphysresearch.github.io/blog/about/ "Click This!") 

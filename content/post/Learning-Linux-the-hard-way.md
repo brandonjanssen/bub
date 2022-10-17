@@ -56,7 +56,7 @@ I have focus now and that is HTML, CSS, JavaScript, Python, and UI/UX this makes
 
 
 ---
-My real passion is Blockchain and now [Agoric](https://agoric.com/) lets you write DEFI contracts in JavaScript, so I think this is a great opportunity to use all of the languages I mentioned above and put them to good use.
+My intrest is Blockchain and now [Agoric](https://agoric.com/) lets you write DEFI contracts in JavaScript, so I think this is a great opportunity to use all of the languages I mentioned above and put them to good use.
 
 ---
 
