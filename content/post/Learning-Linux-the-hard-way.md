@@ -1,5 +1,5 @@
 ---
-title: "Learning Linux the Hard Way"
+title: "How I am evolving since I learned linux "
 date: 2022-10-14T22:35:17+08:00
 #tags: ["MTV"]
 categories: ["About Me"]
@@ -12,7 +12,7 @@ hidemeta: false
 comments: false
 # description: "Linux the fruit that just keeps giving "
 ---
-# How I am evolving since I learned linux 
+
 
 I started my computer crash course during the start of the covid lockdowns with a [Raspberry Pi 4b](https://www.raspberrypi.com/). Being self-taught it was the best way to start since I had no previous experience with computers and the cost of failure was low.
 

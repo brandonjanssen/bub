@@ -1,7 +1,7 @@
 baseURL: https://jantech.xyz
 # baseURL: https://thoughts-to-sipaway.netlify.app/
 languageCode: en-us
-title: JanTech.xyz
+title: JanTech
 theme: "PaperMod"
 
 params:
@@ -12,7 +12,7 @@ params:
   # author: Me
   # author: ["Me", "You"] # multiple authors
   twitter-cards: true   #############################################################################
-  # images: ["img/twitter-card.png"]
+  images: ["img/lobe.png"]
   # images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
   defaultTheme: dark #auto, light
@@ -141,13 +141,14 @@ minify:
     # disableFingerprinting: true
     favicon: "<link / abs url>"
     favicon16x16: "<link / abs url>"
-    favicon32x32: "/img/ringed-globe.svg"
+    favicon32x32: "img/lobe.png"
     apple_touch_icon: "<link / abs url>"
     safari_pinned_tab: "<link / abs url>"
 
   # label:
-  #   text: ""
-  #   icon: /apple-touch-icon.png
+  #   text: "yooou"
+  #   icon: img/lobe.png
+  #   # icon: /apple-touch-icon.png
   #   iconHeight: 35
 
 
