@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>About Me on JanTech.xyz</title>
+    <link>https://jantech.xyz/categories/about-me/</link>
+    <description>Recent content in About Me on JanTech.xyz</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 14 Oct 2022 22:35:17 +0800</lastBuildDate><atom:link href="https://jantech.xyz/categories/about-me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Learning Linux the Hard Way</title>
+      <link>https://jantech.xyz/post/learning-linux-the-hard-way/</link>
+      <pubDate>Fri, 14 Oct 2022 22:35:17 +0800</pubDate>
+      
+      <guid>https://jantech.xyz/post/learning-linux-the-hard-way/</guid>
+      <description>How I am evolving since I learned linux I started my computer crash course during the start of the covid lockdowns with a Raspberry Pi 4b. Being self-taught it was the best way to start since I had no previous experience with computers and the cost of failure was low.
+Since then I have mastered turning a server into a fully customized desktop using Qtile as my window manager and this took some time to get used to, but well worth the effort if you like the speed of transitioning from project to project.</description>
+    </item>
+    
+  </channel>
+</rss>

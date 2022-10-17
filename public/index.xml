@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>JanTech.xyz</title>
+    <link>https://jantech.xyz/</link>
+    <description>Recent content on JanTech.xyz</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 14 Oct 2022 22:35:17 +0800</lastBuildDate><atom:link href="https://jantech.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Learning Linux the Hard Way</title>
+      <link>https://jantech.xyz/post/learning-linux-the-hard-way/</link>
+      <pubDate>Fri, 14 Oct 2022 22:35:17 +0800</pubDate>
+      
+      <guid>https://jantech.xyz/post/learning-linux-the-hard-way/</guid>
+      <description>How I am evolving since I learned linux I started my computer crash course during the start of the covid lockdowns with a Raspberry Pi 4b. Being self-taught it was the best way to start since I had no previous experience with computers and the cost of failure was low.
+Since then I have mastered turning a server into a fully customized desktop using Qtile as my window manager and this took some time to get used to, but well worth the effort if you like the speed of transitioning from project to project.</description>
+    </item>
+    
+    <item>
+      <title>Nova Network: Strategies on Fusion</title>
+      <link>https://jantech.xyz/post/nova-network-strategies-on-fusion/</link>
+      <pubDate>Thu, 13 Oct 2022 21:58:31 +0800</pubDate>
+      
+      <guid>https://jantech.xyz/post/nova-network-strategies-on-fusion/</guid>
+      <description>Strategies On Fusion Nova Network Is a different kind of protocol , no crazy APY or APR, built for long term success #GrownUpDeFi. So with this in mind this is a long term hold and commitment on some of these ideas, If you believe in the success of Nova Network. DYOR They have great docs and offer a lot of help if you want to build with them, check out their GitHub</description>
+    </item>
+    
+    <item>
+      <title>Tools for Research</title>
+      <link>https://jantech.xyz/post/tools-for-research/</link>
+      <pubDate>Thu, 13 Oct 2022 13:20:15 +0800</pubDate>
+      
+      <guid>https://jantech.xyz/post/tools-for-research/</guid>
+      <description>Wallet Tracking DeBank you put your wallet address here to see your investments.This is not small block-chain friendly.If you use this correctly you can enter other wallet addresses and see what they are investing in. Nansen Portfolio this is probably the best wallet tracker, also gives analytics of the tokens that you hold. Tin.Network, I only use this to track wallets on Harmony ONE. Defi Dashboard Nanoly this is good for searching farms with good APY&amp;rsquo;s or APR Defillama is a overview of all of DEFI Trading View DEX Screener search most popular #EVM chain and their coins and they have been adding #IBC chains as well of lately.</description>
+    </item>
+    
+    <item>
+      <title>Emoji Cheatsheet</title>
+      <link>https://jantech.xyz/post/emoji-cheatsheet/</link>
+      <pubDate>Sat, 08 Oct 2022 16:57:23 +0800</pubDate>
+      
+      <guid>https://jantech.xyz/post/emoji-cheatsheet/</guid>
+      <description>:bowtie:
+:smile:
+:simple_smile:
+:laughing:
+:blush:
+:smiley:
+:relaxed:
+:smirk:
+:heart_eyes:
+:kissing_heart:
+:kissing_closed_eyes:
+:flushed:
+:relieved:
+:satisfied:
+:grin:
+:wink:
+:stuck_out_tongue_winking_eye:
+:stuck_out_tongue_closed_eyes:
+:grinning:
+:kissing:
+:kissing_smiling_eyes:
+:stuck_out_tongue:
+:sleeping:
+:worried:
+:frowning:
+:anguished:
+:open_mouth:
+:grimacing:
+:confused:
+:hushed:
+:expressionless:
+:unamused:
+:sweat_smile:
+:sweat:
+:disappointed_relieved:
+:weary:
+:pensive:
+:disappointed:
+:confounded:
+:fearful:
+:cold_sweat:
+:persevere:
+:cry:
+:sob:
+:joy:
+:astonished:
+:scream:
+:neckbeard:
+:tired_face:
+:angry:
+:rage:
+:triumph:
+:sleepy:
+:yum:
+:mask:
+:sunglasses:
+:dizzy_face:
+:imp:
+:smiling_imp:
+:neutral_face:
+:no_mouth:
+:innocent:
+:alien:
+:yellow_heart:
+:blue_heart:
+:purple_heart:
+:heart:
+:green_heart:
+:broken_heart:</description>
+    </item>
+    
+    <item>
+      <title>Proxima</title>
+      <link>https://jantech.xyz/post/proxima/</link>
+      <pubDate>Sat, 08 Oct 2022 16:57:23 +0800</pubDate>
+      
+      <guid>https://jantech.xyz/post/proxima/</guid>
+      <description>Proxima Is a crypto game on #MultiVac #$MTV
+Will give all info you need to know, just keep reading.
+sudo apt update &amp;amp;&amp;amp; sudo apt upgrade apt search flameshot 6 from pdf2docx import Converter pdf_file = &amp;#39;sample2.pdf&amp;#39; word_file = &amp;#39;sample2.docx&amp;#39; # docx_file = &amp;#39;sample.docx&amp;#39; # Converter Method cv = Converter(pdf_file) # cv.convert(docx_file, start=0, end=None) cv.convert(word_file, start=0, end=None) cv.close() #Parse Method #parse(pdf_file, word_file, start=0, end=None) import os import subprocess from typing import List # noqa: F401 from libqtile import hook from libqtile.</description>
+    </item>
+    
+    <item>
+      <title>MTV</title>
+      <link>https://jantech.xyz/post/mtv/</link>
+      <pubDate>Fri, 07 Oct 2022 22:59:46 +0800</pubDate>
+      
+      <guid>https://jantech.xyz/post/mtv/</guid>
+      <description>Fast, Cheap, Blockchain with potential. </description>
+    </item>
+    
+    <item>
+      <title>VAX Value Added Exchange</title>
+      <link>https://jantech.xyz/post/defi/</link>
+      <pubDate>Fri, 07 Oct 2022 20:17:47 +0800</pubDate>
+      
+      <guid>https://jantech.xyz/post/defi/</guid>
+      <description>VAX</description>
+    </item>
+    
+    
+  </channel>
+</rss>

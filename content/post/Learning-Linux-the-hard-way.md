@@ -10,7 +10,7 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-description: "Linux the fruit that just keeps giving "
+# description: "Linux the fruit that just keeps giving "
 ---
 # How I am evolving since I learned linux 
 
@@ -43,6 +43,8 @@ I have focus now and that is HTML, CSS, JavaScript, Python, and UI/UX this makes
 >
 >
 >1.  Add some content 
+>
+> 2. Add a Logo
 >  1. Add a comments sections to each page.
 >
 > 2. See if i can create a eCommerce page using a static  website.
@@ -51,12 +53,12 @@ I have focus now and that is HTML, CSS, JavaScript, Python, and UI/UX this makes
 >
 >1.  A  Linux and a opensource guide page to find useful tools would be nice for beginners that have a hard time finding there needs.
 >
->My site link [JanTech](https://www.jantech.xyz/)
+
 
 
 
 ---
-My intrest is Blockchain and now [Agoric](https://agoric.com/) lets you write DEFI contracts in JavaScript, so I think this is a great opportunity to use all of the languages I mentioned above and put them to good use.
+[Agoric](https://agoric.com/) lets you write DEFI contracts in JavaScript, so I think this is a great opportunity to use all of the languages I mentioned above and put them to good use.
 
 ---
 
