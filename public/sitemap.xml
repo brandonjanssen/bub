@@ -2,23 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jantech.xyz/categories/about-me/</loc>
-    <lastmod>2022-10-14T22:35:17+08:00</lastmod>
+    <loc>https://jantech.xyz/tags/arch-text/</loc>
+    <lastmod>2022-10-17T21:39:29+08:00</lastmod>
   </url><url>
     <loc>https://jantech.xyz/categories/</loc>
+    <lastmod>2022-10-17T21:39:29+08:00</lastmod>
+  </url><url>
+    <loc>https://jantech.xyz/categories/excalidraw/</loc>
+    <lastmod>2022-10-17T21:39:29+08:00</lastmod>
+  </url><url>
+    <loc>https://jantech.xyz/</loc>
+    <lastmod>2022-10-17T21:39:29+08:00</lastmod>
+  </url><url>
+    <loc>https://jantech.xyz/categories/obsidian/</loc>
+    <lastmod>2022-10-17T21:39:29+08:00</lastmod>
+  </url><url>
+    <loc>https://jantech.xyz/post/</loc>
+    <lastmod>2022-10-17T21:39:29+08:00</lastmod>
+  </url><url>
+    <loc>https://jantech.xyz/tags/</loc>
+    <lastmod>2022-10-17T21:39:29+08:00</lastmod>
+  </url><url>
+    <loc>https://jantech.xyz/tags/text/</loc>
+    <lastmod>2022-10-17T21:39:29+08:00</lastmod>
+  </url><url>
+    <loc>https://jantech.xyz/post/text-arch/</loc>
+    <lastmod>2022-10-17T21:39:29+08:00</lastmod>
+  </url><url>
+    <loc>https://jantech.xyz/categories/about-me/</loc>
     <lastmod>2022-10-14T22:35:17+08:00</lastmod>
   </url><url>
     <loc>https://jantech.xyz/post/learning-linux-the-hard-way/</loc>
     <lastmod>2022-10-14T22:35:17+08:00</lastmod>
-  </url><url>
-    <loc>https://jantech.xyz/</loc>
-    <lastmod>2022-10-14T22:35:17+08:00</lastmod>
-  </url><url>
-    <loc>https://jantech.xyz/post/</loc>
-    <lastmod>2022-10-14T22:35:17+08:00</lastmod>
-  </url><url>
-    <loc>https://jantech.xyz/post/nova-network-strategies-on-fusion/</loc>
-    <lastmod>2022-10-13T21:58:31+08:00</lastmod>
   </url><url>
     <loc>https://jantech.xyz/categories/blockchain/</loc>
     <lastmod>2022-10-13T21:58:31+08:00</lastmod>
@@ -32,7 +47,7 @@
     <loc>https://jantech.xyz/tags/snt/</loc>
     <lastmod>2022-10-13T21:58:31+08:00</lastmod>
   </url><url>
-    <loc>https://jantech.xyz/tags/</loc>
+    <loc>https://jantech.xyz/post/nova-network-strategies-on-fusion/</loc>
     <lastmod>2022-10-13T21:58:31+08:00</lastmod>
   </url><url>
     <loc>https://jantech.xyz/categories/crypto-tools/</loc>

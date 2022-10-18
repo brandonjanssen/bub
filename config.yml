@@ -26,6 +26,11 @@ params:
   # ShowCodeCopyButtons: false
   ShowWordCount: true
   ShowRssButtonInSectionTermList: true 
+
+  # BANNER ##########################################
+  cascade:
+  banner: img/banner.png
+
   
 
   # Toc ##############################################

@@ -4,21 +4,42 @@
     "type": "split",
     "children": [
       {
-        "id": "83673a8241502074",
+        "id": "6dc3a258e54ec58d",
         "type": "tabs",
         "children": [
           {
-            "id": "7b473e3987abc668",
+            "id": "0e3217900d663620",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/post/DEFI.md",
+                "file": "content/post/Text-Arch.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
-            }
+            },
+            "group": "24fb32bdb7d4b718"
+          }
+        ]
+      },
+      {
+        "id": "1b7ac63ccbc5ecd3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aa6150749fdd612e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/post/Text-Arch.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              }
+            },
+            "group": "24fb32bdb7d4b718"
           }
         ]
       }
@@ -70,7 +91,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 215.5
+    "width": 215.5,
+    "collapsed": true
   },
   "right": {
     "id": "fe9a15c5927f83b2",
@@ -86,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/post/DEFI.md",
+                "file": "content/post/Text-Arch.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/post/DEFI.md",
+                "file": "content/post/Text-Arch.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/post/DEFI.md"
+                "file": "content/post/Text-Arch.md"
               }
             }
           },
@@ -149,17 +171,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "7b473e3987abc668",
+  "active": "0e3217900d663620",
   "lastOpenFiles": [
-    "content/post/Tools-For-Research.md",
     "content/post/Nova-Network-Strategies-On-Fusion.md",
+    "content/post/Text-Arch.md",
+    "content/post/Tools-For-Research.md",
     "static/img/logo.png",
     "content/post/Learning-Linux-the-hard-way.md",
     "content/post/MTV.md",
     "content/post/DEFI.md",
     "content/post/Proxima.md",
     "content/archives.md",
-    "content/post/Markdown Syntax.md",
-    "Markdown Syntax.md"
+    "content/post/Markdown Syntax.md"
   ]
 }

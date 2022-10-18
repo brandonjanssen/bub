@@ -1,5 +1,5 @@
 ---
-# title: "Strategies on Fusion"
+title: "Strategies on Fusion"
 date: 2022-10-13T21:58:31+08:00
 tags: ["SNT", "Fusion","DEFI"]
 categories: "Blockchain"
@@ -113,11 +113,11 @@ What i am doing is buying on Fantom and Bridging it to NovaNetwork which is a fr
 
 
 
-## Socials 
+<!-- ## Socials  -->
 
 
 
-[![twitter](https://user-images.githubusercontent.com/66816413/190385475-aefb4ff5-695b-4606-a215-3a95c43e892c.png)
+<!-- [![twitter](https://user-images.githubusercontent.com/66816413/190385475-aefb4ff5-695b-4606-a215-3a95c43e892c.png)
 ](https://twitter.com/NovaFinOfficial)
 [![telegram](https://user-images.githubusercontent.com/66816413/190385550-c6c13cba-4b2e-419b-982d-dc52d910664d.png)
 ](https://t.me/NovaChannelOfficial)
@@ -128,7 +128,7 @@ What i am doing is buying on Fantom and Bridging it to NovaNetwork which is a fr
 [![mscore](https://user-images.githubusercontent.com/66816413/190385774-bb369498-9b80-4808-a845-0ba494e41166.png)
 ](https://medium.com/@NovaNetwork) 
 [![SNT](https://user-images.githubusercontent.com/66816413/190390073-18f99e56-08f1-464c-9729-b1f158a559af.png)
-](https://novanetwork.io/#/)
+](https://novanetwork.io/#/) -->
 
 
 
