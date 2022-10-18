@@ -5,6 +5,7 @@ tags: ["Arch-Text","Text"]
 categories: ["Obsidian","Excalidraw"]
 showToc: false
 TocOpen: true
+author: Brandon Janssen
 #   draft: false
 #   hidemeta: false
 # comments: false
