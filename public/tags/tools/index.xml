@@ -17,7 +17,65 @@
       <pubDate>Thu, 13 Oct 2022 13:20:15 +0800</pubDate>
       
       <guid>https://jantech.xyz/post/tools-for-research/</guid>
-      <description>Wallet Tracking DeBank you put your wallet address here to see your investments.This is not small block-chain friendly.If you use this correctly you can enter other wallet addresses and see what they are investing in. Nansen Portfolio this is probably the best wallet tracker, also gives analytics of the tokens that you hold. Tin.Network, I only use this to track wallets on Harmony ONE. Defi Dashboard Nanoly this is good for searching farms with good APY&amp;rsquo;s or APR Defillama is a overview of all of DEFI Trading View DEX Screener search most popular #EVM chain and their coins and they have been adding #IBC chains as well of lately.</description>
+      <description>&lt;h1 id=&#34;wallet-tracking&#34;&gt;Wallet Tracking&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://debank.com&#34;&gt;DeBank&lt;/a&gt; you put your wallet address here to see your investments.This is not small block-chain friendly.If you use this correctly you can enter other wallet  addresses and see what they are investing in.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://portfolio.nansen.ai/&#34;&gt;Nansen Portfolio&lt;/a&gt; this is probably the best wallet tracker, also gives analytics of the tokens that you hold.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://tin.network/en/dashboard&#34;&gt;Tin.Network&lt;/a&gt;, I only use this to track wallets on Harmony ONE.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;defi-dashboard&#34;&gt;Defi Dashboard&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://nanoly.com/&#34;&gt;Nanoly&lt;/a&gt; this is good for searching farms with good APY&amp;rsquo;s or APR&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://defillama.com/&#34;&gt;Defillama&lt;/a&gt;  is a overview of all of DEFI&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;trading-view&#34;&gt;Trading View&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dexscreener.com/&#34;&gt;DEX Screener&lt;/a&gt; search most popular #EVM chain and their coins  and they have been adding #IBC chains as well of lately.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.coingecko.com/&#34;&gt;Coingecko&lt;/a&gt; token search engine must use.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://geckoterminal.com/&#34;&gt;Gecko Terminal&lt;/a&gt; use this like dex screener, this had a recent overhaul and i think its better than &lt;a href=&#34;https://dexscreener.com/&#34;&gt;dexscreener &lt;/a&gt; now.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://nomics.com&#34;&gt;Nomics&lt;/a&gt; use this like dex screener but for small unknown coins.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.tradingview.com&#34;&gt;Trading View&lt;/a&gt; is a important tool, you can see futures,stocks,bonds,commodities,cyrpto it does a lot. You have to make a account to use it.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;researching&#34;&gt;Researching&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dune.com/browse/dashboards&#34;&gt;Dune&lt;/a&gt; for deep research.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://messari.io&#34;&gt;Messari&lt;/a&gt; is another great tool for research.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;market-cap-potential&#34;&gt;Market Cap Potential&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.marketcapof.com&#34;&gt;Market Cap Calculator&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      
+      <content:encoded><![CDATA[<h1 id="wallet-tracking">Wallet Tracking</h1>
+<ul>
+<li><a href="https://debank.com">DeBank</a> you put your wallet address here to see your investments.This is not small block-chain friendly.If you use this correctly you can enter other wallet  addresses and see what they are investing in.</li>
+<li><a href="https://portfolio.nansen.ai/">Nansen Portfolio</a> this is probably the best wallet tracker, also gives analytics of the tokens that you hold.</li>
+<li><a href="https://tin.network/en/dashboard">Tin.Network</a>, I only use this to track wallets on Harmony ONE.</li>
+</ul>
+<h2 id="defi-dashboard">Defi Dashboard</h2>
+<ul>
+<li><a href="https://nanoly.com/">Nanoly</a> this is good for searching farms with good APY&rsquo;s or APR</li>
+<li><a href="https://defillama.com/">Defillama</a>  is a overview of all of DEFI</li>
+</ul>
+<h2 id="trading-view">Trading View</h2>
+<ul>
+<li><a href="https://dexscreener.com/">DEX Screener</a> search most popular #EVM chain and their coins  and they have been adding #IBC chains as well of lately.</li>
+<li><a href="https://www.coingecko.com/">Coingecko</a> token search engine must use.</li>
+<li><a href="https://geckoterminal.com/">Gecko Terminal</a> use this like dex screener, this had a recent overhaul and i think its better than <a href="https://dexscreener.com/">dexscreener </a> now.</li>
+<li><a href="https://nomics.com">Nomics</a> use this like dex screener but for small unknown coins.</li>
+<li><a href="https://www.tradingview.com">Trading View</a> is a important tool, you can see futures,stocks,bonds,commodities,cyrpto it does a lot. You have to make a account to use it.</li>
+</ul>
+<h2 id="researching">Researching</h2>
+<ul>
+<li><a href="https://dune.com/browse/dashboards">Dune</a> for deep research.</li>
+<li><a href="https://messari.io">Messari</a> is another great tool for research.</li>
+</ul>
+<h2 id="market-cap-potential">Market Cap Potential</h2>
+<ul>
+<li><a href="https://www.marketcapof.com">Market Cap Calculator</a></li>
+</ul>
+]]></content:encoded>
     </item>
     
   </channel>

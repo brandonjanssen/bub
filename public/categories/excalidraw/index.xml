@@ -17,8 +17,141 @@
       <pubDate>Mon, 17 Oct 2022 21:39:29 +0800</pubDate>
       
       <guid>https://jantech.xyz/post/text-arch/</guid>
-      <description>Text To Arch Script With Excalidraw On Obsidian First we need to install excalidraw on obsidian. This is the link for Excalidraw GitHub and it will show quite a bit of info, but you will want to install it from community plugins page in setting and you will have to turn on restricted mode.
-In the top right button that looks like settings icon click that and it will bring up all the scripts available to install, the text arch script was close to the bottom of the page.</description>
+      <description>&lt;h1 id=&#34;text-to-arch-script-with-excalidraw-on-obsidian&#34;&gt;Text To Arch Script With Excalidraw On Obsidian&lt;/h1&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://imgur.com/I8c05jw.png&#34; alt=&#34;&#34;  /&gt;
+&lt;/p&gt;
+&lt;p&gt;First we need to install excalidraw on obsidian. This is the link for &lt;a href=&#34;https://github.com/zsviczian/obsidian-excalidraw-plugin&#34;&gt;Excalidraw GitHub&lt;/a&gt; and it  will show quite a bit of info, but you will want to install it from community plugins page in setting and you will have to turn on restricted mode.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://imgur.com/uV1pgOk.png&#34; alt=&#34;Text&#34;  title=&#34;Title&#34;  /&gt;
+&lt;/p&gt;
+&lt;p&gt;In the top right button that looks like settings icon click that and it will bring up all the scripts available to install, the text arch script was close to the bottom of the page.&lt;/p&gt;
+&lt;p&gt;After that is done we have to figure out how to use it, if you are like me and pretty new to excalidraw it can take a little time to sort out all the features it has to offer.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Now you will want to write some text, make sure the text is in a expandable box. Then at top right click the obsidian icon, a drop down menu will appear and there will be a section that says &lt;em&gt;&lt;strong&gt;Downloaded Scripts&lt;/strong&gt;&lt;/em&gt;. Next click the text arch icon then follow the instructions.&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://imgur.com/vfPAUYQ.png&#34; alt=&#34;&#34;  /&gt;
+&lt;/p&gt;
+&lt;p&gt;After messing around with it for a few minutes you can achieve something like this, or something  much much better.&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://imgur.com/3Q0Xbp6.png&#34; alt=&#34;&#34;  /&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Excalidraw is an exceptional add on to obsidian and has helped me several times in my short knowing of this tool. This tool fits so many needs, drawing, flow charts, mind maps, and much more, add in scripting and the possibilities are endless. Want to know more, this is his youtube channel  &lt;a href=&#34;https://www.youtube.com/c/VisualPKM&#34;&gt;Zsolt&amp;rsquo;s Visual Personal Knowledge Management&lt;/a&gt;, his videos are quite lengthy sometimes but detailed.&lt;/p&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This is the script that will be installed on obsidian and  can be found &lt;a href=&#34;https://github.com/zsviczian/obsidian-excalidraw-plugin/blob/master/ea-scripts/Text%20Arch.md&#34;&gt;here.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This script is viewable and editable on obsidian.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;*/
+el = ea.getViewSelectedElement();
+if(!el || el.type!==&amp;#34;text&amp;#34;) {
+	new Notice(&amp;#34;Please select a text element&amp;#34;);
+  return;
+}
+
+ea.style.fontSize = el.fontSize;
+ea.style.fontFamily = el.fontFamily;
+ea.style.strokeColor = el.strokeColor;
+ea.style.opacity = el.opacity;
+
+const r = parseInt (await utils.inputPrompt(&amp;#34;The radius of the arch you&amp;#39;d like to fit the text to&amp;#34;,&amp;#34;number&amp;#34;,&amp;#34;150&amp;#34;));
+const archAbove = await utils.suggester([&amp;#34;Arch above&amp;#34;,&amp;#34;Arch below&amp;#34;],[true,false]);
+
+if(isNaN(r)) {
+  new Notice(&amp;#34;The radius is not a number&amp;#34;);
+  return;
+}
+
+circlePoint = (angle) =&amp;gt; archAbove
+  ? [
+		r * Math.sin(angle),
+		-r * Math.cos(angle)
+	]
+	: [
+		-r * Math.sin(angle),
+		r * Math.cos(angle)
+	];
+
+let rot = (archAbove ? -0.5 : 0.5) * ea.measureText(el.text).width/r;
+
+let objectIDs = [];
+for(i=0;i&amp;lt;el.text.length;i++) {
+	const character = el.text.substring(i,i+1);
+	const width = ea.measureText(character).width;
+  ea.style.angle = rot;
+  const [x,y] = circlePoint(rot);
+  rot += (archAbove ? 1 : -1) *width / r;
+  objectIDs.push(ea.addText(x,y,character));
+}
+ea.addToGroup(objectIDs);
+ea.addElementsToView(true);
+&lt;/code&gt;&lt;/pre&gt;</description>
+      
+      <content:encoded><![CDATA[<h1 id="text-to-arch-script-with-excalidraw-on-obsidian">Text To Arch Script With Excalidraw On Obsidian</h1>
+<p><img loading="lazy" src="https://imgur.com/I8c05jw.png" alt=""  />
+</p>
+<p>First we need to install excalidraw on obsidian. This is the link for <a href="https://github.com/zsviczian/obsidian-excalidraw-plugin">Excalidraw GitHub</a> and it  will show quite a bit of info, but you will want to install it from community plugins page in setting and you will have to turn on restricted mode.</p>
+<hr>
+<p><img loading="lazy" src="https://imgur.com/uV1pgOk.png" alt="Text"  title="Title"  />
+</p>
+<p>In the top right button that looks like settings icon click that and it will bring up all the scripts available to install, the text arch script was close to the bottom of the page.</p>
+<p>After that is done we have to figure out how to use it, if you are like me and pretty new to excalidraw it can take a little time to sort out all the features it has to offer.</p>
+<hr>
+<p>Now you will want to write some text, make sure the text is in a expandable box. Then at top right click the obsidian icon, a drop down menu will appear and there will be a section that says <em><strong>Downloaded Scripts</strong></em>. Next click the text arch icon then follow the instructions.</p>
+<p><img loading="lazy" src="https://imgur.com/vfPAUYQ.png" alt=""  />
+</p>
+<p>After messing around with it for a few minutes you can achieve something like this, or something  much much better.</p>
+<p><img loading="lazy" src="https://imgur.com/3Q0Xbp6.png" alt=""  />
+</p>
+<hr>
+<p>Excalidraw is an exceptional add on to obsidian and has helped me several times in my short knowing of this tool. This tool fits so many needs, drawing, flow charts, mind maps, and much more, add in scripting and the possibilities are endless. Want to know more, this is his youtube channel  <a href="https://www.youtube.com/c/VisualPKM">Zsolt&rsquo;s Visual Personal Knowledge Management</a>, his videos are quite lengthy sometimes but detailed.</p>
+<hr>
+<blockquote>
+<p>This is the script that will be installed on obsidian and  can be found <a href="https://github.com/zsviczian/obsidian-excalidraw-plugin/blob/master/ea-scripts/Text%20Arch.md">here.</a></p>
+<p>This script is viewable and editable on obsidian.</p>
+</blockquote>
+<pre tabindex="0"><code>*/
+el = ea.getViewSelectedElement();
+if(!el || el.type!==&#34;text&#34;) {
+	new Notice(&#34;Please select a text element&#34;);
+  return;
+}
+
+ea.style.fontSize = el.fontSize;
+ea.style.fontFamily = el.fontFamily;
+ea.style.strokeColor = el.strokeColor;
+ea.style.opacity = el.opacity;
+
+const r = parseInt (await utils.inputPrompt(&#34;The radius of the arch you&#39;d like to fit the text to&#34;,&#34;number&#34;,&#34;150&#34;));
+const archAbove = await utils.suggester([&#34;Arch above&#34;,&#34;Arch below&#34;],[true,false]);
+
+if(isNaN(r)) {
+  new Notice(&#34;The radius is not a number&#34;);
+  return;
+}
+
+circlePoint = (angle) =&gt; archAbove
+  ? [
+		r * Math.sin(angle),
+		-r * Math.cos(angle)
+	]
+	: [
+		-r * Math.sin(angle),
+		r * Math.cos(angle)
+	];
+
+let rot = (archAbove ? -0.5 : 0.5) * ea.measureText(el.text).width/r;
+
+let objectIDs = [];
+for(i=0;i&lt;el.text.length;i++) {
+	const character = el.text.substring(i,i+1);
+	const width = ea.measureText(character).width;
+  ea.style.angle = rot;
+  const [x,y] = circlePoint(rot);
+  rot += (archAbove ? 1 : -1) *width / r;
+  objectIDs.push(ea.addText(x,y,character));
+}
+ea.addToGroup(objectIDs);
+ea.addElementsToView(true);
+</code></pre>]]></content:encoded>
     </item>
     
   </channel>

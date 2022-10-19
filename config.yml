@@ -18,6 +18,7 @@ params:
   defaultTheme: dark #auto, light
   # disableThemeToggle: false
   disableThemeToggle: true
+  ShowFullTextinRSS: true
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
@@ -64,6 +65,9 @@ params:
 
     - name: linkedin
       url: "https://www.linkedin.com/in/brandon-janssen-37a303252/"
+
+    - name: rss
+      url: "https://www.jantech.xyz/index.xml"
 
     # - name: Archive
     #   url: "/archive/"
