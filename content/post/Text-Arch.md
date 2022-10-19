@@ -15,7 +15,7 @@ author: Brandon Janssen
 # disableShare: false
 # disableHLJS: false
 hideSummary: false
-searchHidden: true
+searchHidden: false
 ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
@@ -42,6 +42,7 @@ First we need to install excalidraw on obsidian. This is the link for [Excalidra
 In the top right button that looks like settings icon click that and it will bring up all the scripts available to install, the text arch script was close to the bottom of the page. 
 
 After that is done we have to figure out how to use it, if you are like me and pretty new to excalidraw it can take a little time to sort out all the features it has to offer.
+
 
 
 ---

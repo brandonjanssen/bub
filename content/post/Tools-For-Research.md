@@ -48,3 +48,5 @@ UseHugoToc: true
 - [Messari](https://messari.io) is another great tool for research.
 ## Market Cap Potential
 - [Market Cap Calculator](https://www.marketcapof.com)
+## GitHub Commits on projects
+- [CryptoMiso](https://www.cryptomiso.com/) shows you how busy devs are on #GitHub developing #Blockchain or #Crypto projects that you are invested in.

@@ -1,18 +1,41 @@
 ---
 title: "How I am evolving since I learned linux "
 date: 2022-10-14T22:35:17+08:00
-#tags: ["MTV"]
+# weight: 1
+# aliases: ["/first"]
+tags: ["MTV"]
 categories: ["About Me"]
-# author: "Brandon Janssen "
+# author: "Me"
 # author: ["Me", "You"] # multiple authors
-showToc: false
-TocOpen: false
+showToc: true
+TocOpen: true
 draft: false
 hidemeta: false
 comments: false
-# description: "Linux the fruit that just keeps giving "
+# description: "Desc Text."
+canonicalURL: "https://canonical.url/to/page"
+disableHLJS: true # to disable highlightjs
+disableShare: false
+disableHLJS: false
+hideSummary: false
+searchHidden: true
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: true
+ShowRssButtonInSectionTermList: true
+UseHugoToc: true
+cover:
+    image: "<image path/url>" # image path/url
+    alt: "<alt text>" # alt text
+    caption: "<text>" # display caption under cover
+    relative: false # when using page bundles set this to true
+    hidden: true # only hide on current single page
+# editPost:
+#     URL: "https://github.com/<path_to_repo>/content"
+#     Text: "Suggest Changes" # edit text
+#     appendFilePath: true # to append file path to Edit link
 ---
-
 
 I started my computer crash course during the start of the covid lockdowns with a [Raspberry Pi 4b](https://www.raspberrypi.com/). Being self-taught it was the best way to start since I had no previous experience with computers and the cost of failure was low.
 

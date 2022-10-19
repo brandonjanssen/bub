@@ -1,14 +1,34 @@
 baseURL: https://jantech.xyz
 # baseURL: https://thoughts-to-sipaway.netlify.app/
 languageCode: en-us
+paginate: 5
 title: JanTech
 theme: "PaperMod"
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+# googleAnalytics: UA-123-45
+googleAnalytics: G-T6KYST102H
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
 
 params:
   cover: 
     linkFullImages: true
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   keywords: [Blog, Crypto, Blockchain, Obsidian]
+  # hidden: true # hide everywhere but not in structured data
+  hidden: false # hide everywhere but not in structured data
+  hiddenInList: false # hide on list pages and home
+    # hiddenInList: true # hide on list pages and home
+  hiddenInSingle: false # hide on single page
+    # hiddenInSingle: true # hide on single page 
   # author: Me
   # author: ["Me", "You"] # multiple authors
   twitter-cards: true   #############################################################################
@@ -18,7 +38,6 @@ params:
   defaultTheme: dark #auto, light
   # disableThemeToggle: false
   disableThemeToggle: true
-  ShowFullTextinRSS: true
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
@@ -26,30 +45,29 @@ params:
   ShowCodeCopyButtons: true
   # ShowCodeCopyButtons: false
   ShowWordCount: true
-  ShowRssButtonInSectionTermList: true 
+  # ShowRssButtonInSectionTermList: true
+  # ShowFullTextinRSS: true
+  outputs:
+          home:
+            - HTML
+            - RSS
+            - JSON # is necessary
 
-  # BANNER ##########################################
-  cascade:
-  banner: img/banner.png
+  assets:
+    disableHLJS: false # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "<link / abs url>"
+    favicon16x16: "<link / abs url>"
+    favicon32x32: "favicon.ico"
+    apple_touch_icon: "<link / abs url>"
+    safari_pinned_tab: "<link / abs url>"
 
-  
+  # label:
+  #   text: "yooou"
+  #   icon: img/lobe.png
+  #   # icon: /apple-touch-icon.png
+  #   iconHeight: 35
 
-  # Toc ##############################################
-  UseHugoToc: true
-  tocfolding: false
-  disableSpecial1stPost: false
-  disableScrollToTop: false
-
-
-  # Comments    #######################################
-  # comments: false
-  comments: true
-  hidemeta: false
-  hideSummary: false
-  showtoc: true
-  # showtoc: false
-  tocopen: false
-# -----------------------------------------------------------
   homeInfoParams:
     Title: "Hello and Welcome To My Mind"
     Content: I will be creating content and documenting all my experiences and troubles as try to help others. The main topics will be about Linux, Crypto, Obsidian and other tech related stories i can think of or find.
@@ -66,8 +84,8 @@ params:
     - name: linkedin
       url: "https://www.linkedin.com/in/brandon-janssen-37a303252/"
 
-    - name: rss
-      url: "https://www.jantech.xyz/index.xml"
+    # - name: rss
+    #   url: "https://feedreader.com/online/#/reader/category/0/feed/25321188/"
 
     # - name: Archive
     #   url: "/archive/"
@@ -105,6 +123,27 @@ params:
   # homeInfoParams:
     # Title: "Hi there \U0001F44B"
     # Content: Welcome to my blog
+
+  analytics:
+    google:
+      # SiteVerificationTag: "GTM-55HPFPJ"
+      SiteVerificationTag: "G-T6KYST102H"
+    bing:
+      SiteVerificationTag: "XYZabc"
+    yandex:
+      SiteVerificationTag: "XYZabc"
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
 menu:
   main:
     - identifier: home 
@@ -129,73 +168,6 @@ menu:
     #   url: /search/
     #   weight: 40
 
-
-
-enableRobotsTXT: true
-buildDrafts: false
-buildFuture: false
-buildExpired: false
-
-# googleAnalytics: UA-123-45
-googleAnalytics: G-T6KYST102H
-
-minify:
-  disableXML: true
-  minifyOutput: true
-
-
-
-  assets:
-    disableHLJS: false # to disable highlight.js
-    # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "img/lobe.png"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
-
-  # label:
-  #   text: "yooou"
-  #   icon: img/lobe.png
-  #   # icon: /apple-touch-icon.png
-  #   iconHeight: 35
-
-
-
-  analytics:
-    google:
-      # SiteVerificationTag: "GTM-55HPFPJ"
-      SiteVerificationTag: "G-T6KYST102H"
-    bing:
-      SiteVerificationTag: "XYZabc"
-    yandex:
-      SiteVerificationTag: "XYZabc"
-
-  cover:
-    # hidden: true # hide everywhere but not in structured data
-    hidden: false # hide everywhere but not in structured data
-    hiddenInList: false # hide on list pages and home
-    # hiddenInList: true # hide on list pages and home
-    hiddenInSingle: false # hide on single page
-    # hiddenInSingle: true # hide on single page
-    outputs:
-          home:
-            - HTML
-            - RSS
-            - JSON # is necessary
-
-
-  # for search
-  # https://fusejs.io/api/options.html
-  fuseOpts:
-    isCaseSensitive: false
-    shouldSort: true
-    location: 0
-    distance: 1000
-    threshold: 0.4
-    minMatchCharLength: 0
-    keys: ["title", "permalink", "summary", "content"]
-
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
@@ -203,8 +175,43 @@ markup:
     # noClasses: true
     noClasses: false
     # anchorLineNos: true
-    # codeFences: true
-    # guessSyntax: true
+    codeFences: true
+    guessSyntax: true
     # lineNos: true
     # style: monokai
+
+  # BANNER ##########################################
+  # cascade:
+  # banner: img/banner.png
+
+  
+
+  # Toc ##############################################
+  UseHugoToc: true
+  tocfolding: false
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+
+
+  # Comments    #######################################
+  # comments: false
+  comments: true
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+  # showtoc: false
+  tocopen: true
+# -----------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
 
