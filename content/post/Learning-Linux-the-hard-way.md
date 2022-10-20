@@ -58,6 +58,11 @@ Focus is key with any tech and I have been focusing on the wrong things, my focu
 ---
 
 I have focus now and that is HTML, CSS, JavaScript, Python, and UI/UX this makes sense to me since I like tinkering with configs, what could be better than building websites to let out all my creativity.
+
+---
+[Agoric](https://agoric.com/) lets you write DEFI contracts in JavaScript, so I think this is a great opportunity to use all of the languages I mentioned above and put them to good use.
+
+---
 > 
 > 
 >As of 10-12-2022 i have created my first website. Focusing on design first and now starting to create  content. All posts with the exception of this one are incomplete as of ***10-16-2022***
@@ -78,10 +83,6 @@ I have focus now and that is HTML, CSS, JavaScript, Python, and UI/UX this makes
 >
 
 
-
-
----
-[Agoric](https://agoric.com/) lets you write DEFI contracts in JavaScript, so I think this is a great opportunity to use all of the languages I mentioned above and put them to good use.
 
 ---
 

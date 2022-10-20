@@ -5,15 +5,14 @@ tags: ["Arch-Text","Text"]
 categories: ["Obsidian","Excalidraw"]
 showToc: false
 TocOpen: true
-author: Brandon Janssen
-#   draft: false
-#   hidemeta: false
-# comments: false
+# author: Brandon Janssen
+draft: false
+hidemeta: false
+comments: false
 #description: "A "
 # canonicalURL: "https://github.com/zsviczian/obsidian-excalidraw-plugin"
-# disableHLJS: true # to disable highlightjs
-# disableShare: false
-# disableHLJS: false
+disableHLJS: true # to disable highlightjs
+disableShare: false
 hideSummary: false
 searchHidden: false
 ShowReadingTime: true
@@ -21,6 +20,7 @@ ShowBreadCrumbs: true
 ShowPostNavLinks: true
 ShowWordCount: true
 ShowRssButtonInSectionTermList: true
+ShowRss: true
 UseHugoToc: true
 cover:
     image: "img/banner.png" # image path/url
@@ -28,7 +28,6 @@ cover:
     # caption: "Fusion operates on the NovaNetwork and Fantom Network" # display caption under cover
     #relative: false # when using page bundles set this to true
     hidden: false # on
-    #%% hidden: true # on
 ---
 
 # Text To Arch Script With Excalidraw On Obsidian

@@ -40,51 +40,50 @@
 &lt;p&gt;This is the script that will be installed on obsidian and  can be found &lt;a href=&#34;https://github.com/zsviczian/obsidian-excalidraw-plugin/blob/master/ea-scripts/Text%20Arch.md&#34;&gt;here.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;This script is viewable and editable on obsidian.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;*/
-el = ea.getViewSelectedElement();
-if(!el || el.type!==&amp;#34;text&amp;#34;) {
-	new Notice(&amp;#34;Please select a text element&amp;#34;);
-  return;
-}
-
-ea.style.fontSize = el.fontSize;
-ea.style.fontFamily = el.fontFamily;
-ea.style.strokeColor = el.strokeColor;
-ea.style.opacity = el.opacity;
-
-const r = parseInt (await utils.inputPrompt(&amp;#34;The radius of the arch you&amp;#39;d like to fit the text to&amp;#34;,&amp;#34;number&amp;#34;,&amp;#34;150&amp;#34;));
-const archAbove = await utils.suggester([&amp;#34;Arch above&amp;#34;,&amp;#34;Arch below&amp;#34;],[true,false]);
-
-if(isNaN(r)) {
-  new Notice(&amp;#34;The radius is not a number&amp;#34;);
-  return;
-}
-
-circlePoint = (angle) =&amp;gt; archAbove
-  ? [
-		r * Math.sin(angle),
-		-r * Math.cos(angle)
-	]
-	: [
-		-r * Math.sin(angle),
-		r * Math.cos(angle)
-	];
-
-let rot = (archAbove ? -0.5 : 0.5) * ea.measureText(el.text).width/r;
-
-let objectIDs = [];
-for(i=0;i&amp;lt;el.text.length;i++) {
-	const character = el.text.substring(i,i+1);
-	const width = ea.measureText(character).width;
-  ea.style.angle = rot;
-  const [x,y] = circlePoint(rot);
-  rot += (archAbove ? 1 : -1) *width / r;
-  objectIDs.push(ea.addText(x,y,character));
-}
-ea.addToGroup(objectIDs);
-ea.addElementsToView(true);
-&lt;/code&gt;&lt;/pre&gt;</description>
-      
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;*/
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;el = ea.getViewSelectedElement();
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;if(!el || el.type!==&amp;#34;text&amp;#34;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	new Notice(&amp;#34;Please select a text element&amp;#34;);
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  return;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ea.style.fontSize = el.fontSize;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ea.style.fontFamily = el.fontFamily;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ea.style.strokeColor = el.strokeColor;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ea.style.opacity = el.opacity;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;const r = parseInt (await utils.inputPrompt(&amp;#34;The radius of the arch you&amp;#39;d like to fit the text to&amp;#34;,&amp;#34;number&amp;#34;,&amp;#34;150&amp;#34;));
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;const archAbove = await utils.suggester([&amp;#34;Arch above&amp;#34;,&amp;#34;Arch below&amp;#34;],[true,false]);
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;if(isNaN(r)) {
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  new Notice(&amp;#34;The radius is not a number&amp;#34;);
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  return;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;circlePoint = (angle) =&amp;gt; archAbove
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  ? [
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		r * Math.sin(angle),
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		-r * Math.cos(angle)
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	]
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	: [
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		-r * Math.sin(angle),
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		r * Math.cos(angle)
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	];
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;let rot = (archAbove ? -0.5 : 0.5) * ea.measureText(el.text).width/r;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;let objectIDs = [];
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;for(i=0;i&amp;lt;el.text.length;i++) {
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	const character = el.text.substring(i,i+1);
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	const width = ea.measureText(character).width;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  ea.style.angle = rot;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  const [x,y] = circlePoint(rot);
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  rot += (archAbove ? 1 : -1) *width / r;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  objectIDs.push(ea.addText(x,y,character));
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ea.addToGroup(objectIDs);
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ea.addElementsToView(true);
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
       <content:encoded><![CDATA[<h1 id="text-to-arch-script-with-excalidraw-on-obsidian">Text To Arch Script With Excalidraw On Obsidian</h1>
 <p><img loading="lazy" src="https://imgur.com/I8c05jw.png" alt=""  />
 </p>
@@ -108,50 +107,50 @@ ea.addElementsToView(true);
 <p>This is the script that will be installed on obsidian and  can be found <a href="https://github.com/zsviczian/obsidian-excalidraw-plugin/blob/master/ea-scripts/Text%20Arch.md">here.</a></p>
 <p>This script is viewable and editable on obsidian.</p>
 </blockquote>
-<pre tabindex="0"><code>*/
-el = ea.getViewSelectedElement();
-if(!el || el.type!==&#34;text&#34;) {
-	new Notice(&#34;Please select a text element&#34;);
-  return;
-}
-
-ea.style.fontSize = el.fontSize;
-ea.style.fontFamily = el.fontFamily;
-ea.style.strokeColor = el.strokeColor;
-ea.style.opacity = el.opacity;
-
-const r = parseInt (await utils.inputPrompt(&#34;The radius of the arch you&#39;d like to fit the text to&#34;,&#34;number&#34;,&#34;150&#34;));
-const archAbove = await utils.suggester([&#34;Arch above&#34;,&#34;Arch below&#34;],[true,false]);
-
-if(isNaN(r)) {
-  new Notice(&#34;The radius is not a number&#34;);
-  return;
-}
-
-circlePoint = (angle) =&gt; archAbove
-  ? [
-		r * Math.sin(angle),
-		-r * Math.cos(angle)
-	]
-	: [
-		-r * Math.sin(angle),
-		r * Math.cos(angle)
-	];
-
-let rot = (archAbove ? -0.5 : 0.5) * ea.measureText(el.text).width/r;
-
-let objectIDs = [];
-for(i=0;i&lt;el.text.length;i++) {
-	const character = el.text.substring(i,i+1);
-	const width = ea.measureText(character).width;
-  ea.style.angle = rot;
-  const [x,y] = circlePoint(rot);
-  rot += (archAbove ? 1 : -1) *width / r;
-  objectIDs.push(ea.addText(x,y,character));
-}
-ea.addToGroup(objectIDs);
-ea.addElementsToView(true);
-</code></pre>]]></content:encoded>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">*/
+</span></span><span class="line"><span class="cl">el = ea.getViewSelectedElement();
+</span></span><span class="line"><span class="cl">if(!el || el.type!==&#34;text&#34;) {
+</span></span><span class="line"><span class="cl">	new Notice(&#34;Please select a text element&#34;);
+</span></span><span class="line"><span class="cl">  return;
+</span></span><span class="line"><span class="cl">}
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">ea.style.fontSize = el.fontSize;
+</span></span><span class="line"><span class="cl">ea.style.fontFamily = el.fontFamily;
+</span></span><span class="line"><span class="cl">ea.style.strokeColor = el.strokeColor;
+</span></span><span class="line"><span class="cl">ea.style.opacity = el.opacity;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">const r = parseInt (await utils.inputPrompt(&#34;The radius of the arch you&#39;d like to fit the text to&#34;,&#34;number&#34;,&#34;150&#34;));
+</span></span><span class="line"><span class="cl">const archAbove = await utils.suggester([&#34;Arch above&#34;,&#34;Arch below&#34;],[true,false]);
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">if(isNaN(r)) {
+</span></span><span class="line"><span class="cl">  new Notice(&#34;The radius is not a number&#34;);
+</span></span><span class="line"><span class="cl">  return;
+</span></span><span class="line"><span class="cl">}
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">circlePoint = (angle) =&gt; archAbove
+</span></span><span class="line"><span class="cl">  ? [
+</span></span><span class="line"><span class="cl">		r * Math.sin(angle),
+</span></span><span class="line"><span class="cl">		-r * Math.cos(angle)
+</span></span><span class="line"><span class="cl">	]
+</span></span><span class="line"><span class="cl">	: [
+</span></span><span class="line"><span class="cl">		-r * Math.sin(angle),
+</span></span><span class="line"><span class="cl">		r * Math.cos(angle)
+</span></span><span class="line"><span class="cl">	];
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">let rot = (archAbove ? -0.5 : 0.5) * ea.measureText(el.text).width/r;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">let objectIDs = [];
+</span></span><span class="line"><span class="cl">for(i=0;i&lt;el.text.length;i++) {
+</span></span><span class="line"><span class="cl">	const character = el.text.substring(i,i+1);
+</span></span><span class="line"><span class="cl">	const width = ea.measureText(character).width;
+</span></span><span class="line"><span class="cl">  ea.style.angle = rot;
+</span></span><span class="line"><span class="cl">  const [x,y] = circlePoint(rot);
+</span></span><span class="line"><span class="cl">  rot += (archAbove ? 1 : -1) *width / r;
+</span></span><span class="line"><span class="cl">  objectIDs.push(ea.addText(x,y,character));
+</span></span><span class="line"><span class="cl">}
+</span></span><span class="line"><span class="cl">ea.addToGroup(objectIDs);
+</span></span><span class="line"><span class="cl">ea.addElementsToView(true);
+</span></span></code></pre></div>]]></content:encoded>
     </item>
     
     <item>
@@ -171,6 +170,9 @@ ea.addElementsToView(true);
 &lt;p&gt;Focus is key with any tech and I have been focusing on the wrong things, my focus on Linux has been good but I have spent too much time on the configurations of Linux and not learning the tech that helps create.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;I have focus now and that is HTML, CSS, JavaScript, Python, and UI/UX this makes sense to me since I like tinkering with configs, what could be better than building websites to let out all my creativity.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href=&#34;https://agoric.com/&#34;&gt;Agoric&lt;/a&gt; lets you write DEFI contracts in JavaScript, so I think this is a great opportunity to use all of the languages I mentioned above and put them to good use.&lt;/p&gt;
+&lt;hr&gt;
 &lt;blockquote&gt;
 &lt;p&gt;As of 10-12-2022 i have created my first website. Focusing on design first and now starting to create  content. All posts with the exception of this one are incomplete as of &lt;em&gt;&lt;strong&gt;10-16-2022&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;h4 id=&#34;list-of-things-to-complete-are-the-following&#34;&gt;List of things to complete are the following.&lt;/h4&gt;
@@ -196,13 +198,10 @@ ea.addElementsToView(true);
 &lt;/ol&gt;
 &lt;/blockquote&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;a href=&#34;https://agoric.com/&#34;&gt;Agoric&lt;/a&gt; lets you write DEFI contracts in JavaScript, so I think this is a great opportunity to use all of the languages I mentioned above and put them to good use.&lt;/p&gt;
-&lt;hr&gt;
 &lt;p&gt;&lt;a href=&#34;https://twitter.com/D_M_N_E&#34;&gt;🆃🆆🅸🆃🆃🅴🆁&lt;/a&gt;
 &lt;a href=&#34;https://github.com/brandonjanssen&#34;&gt;🅶🅸🆃🅷🆄🅱&lt;/a&gt;
 &lt;a href=&#34;https://www.jantech.xyz/&#34;&gt;🆆🅴🅱🆂🅸🆃🅴&lt;/a&gt;&lt;/p&gt;
 </description>
-      
       <content:encoded><![CDATA[<p>I started my computer crash course during the start of the covid lockdowns with a <a href="https://www.raspberrypi.com/">Raspberry Pi 4b</a>. Being self-taught it was the best way to start since I had no previous experience with computers and the cost of failure was low.</p>
 <hr>
 <p>Since then I have mastered turning a server into a fully customized desktop using <a href="http://www.qtile.org/">Qtile</a> as my window manager and this took some time to get used to, but well worth the effort if you like the speed of transitioning from project to project.</p>
@@ -214,6 +213,9 @@ ea.addElementsToView(true);
 <p>Focus is key with any tech and I have been focusing on the wrong things, my focus on Linux has been good but I have spent too much time on the configurations of Linux and not learning the tech that helps create.</p>
 <hr>
 <p>I have focus now and that is HTML, CSS, JavaScript, Python, and UI/UX this makes sense to me since I like tinkering with configs, what could be better than building websites to let out all my creativity.</p>
+<hr>
+<p><a href="https://agoric.com/">Agoric</a> lets you write DEFI contracts in JavaScript, so I think this is a great opportunity to use all of the languages I mentioned above and put them to good use.</p>
+<hr>
 <blockquote>
 <p>As of 10-12-2022 i have created my first website. Focusing on design first and now starting to create  content. All posts with the exception of this one are incomplete as of <em><strong>10-16-2022</strong></em></p>
 <h4 id="list-of-things-to-complete-are-the-following">List of things to complete are the following.</h4>
@@ -238,8 +240,6 @@ ea.addElementsToView(true);
 </li>
 </ol>
 </blockquote>
-<hr>
-<p><a href="https://agoric.com/">Agoric</a> lets you write DEFI contracts in JavaScript, so I think this is a great opportunity to use all of the languages I mentioned above and put them to good use.</p>
 <hr>
 <p><a href="https://twitter.com/D_M_N_E">🆃🆆🅸🆃🆃🅴🆁</a>
 <a href="https://github.com/brandonjanssen">🅶🅸🆃🅷🆄🅱</a>
@@ -304,7 +304,6 @@ ea.addElementsToView(true);
 &lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
 </description>
-      
       <content:encoded><![CDATA[<h1 id="strategies-on-fusion--httpsfusionnovanetworkio"><a href="https://fusion.novanetwork.io/#/">Strategies On Fusion  </a></h1>
 <p><a href="https://novanetwork.io/ecosystem">Nova Network</a> Is a different kind of protocol , no crazy APY or APR, built for long term success #GrownUpDeFi. So with this in mind this is a long term hold and commitment on some of these ideas,  If you believe in the success of <a href="https://novanetwork.io/">Nova Network.</a> <!-- raw HTML omitted -->DYOR<!-- raw HTML omitted --> They have great docs and offer a lot of help if you want to build with them, check out their <a href="https://github.com/nova-network-inc">GitHub</a></p>
 <h2 id="income-staking">Income Staking</h2>
@@ -373,7 +372,7 @@ ea.addElementsToView(true);
 &lt;h2 id=&#34;defi-dashboard&#34;&gt;Defi Dashboard&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://nanoly.com/&#34;&gt;Nanoly&lt;/a&gt; this is good for searching farms with good APY&amp;rsquo;s or APR&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://defillama.com/&#34;&gt;Defillama&lt;/a&gt;  is a overview of all of DEFI&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://defillama.com/&#34;&gt;Defillama&lt;/a&gt;  is a overview of all of #DEFI&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;trading-view&#34;&gt;Trading View&lt;/h2&gt;
 &lt;ul&gt;
@@ -392,8 +391,11 @@ ea.addElementsToView(true);
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.marketcapof.com&#34;&gt;Market Cap Calculator&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h2 id=&#34;github-commits-on-projects&#34;&gt;GitHub Commits on projects&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cryptomiso.com/&#34;&gt;CryptoMiso&lt;/a&gt; shows you how busy devs are on #GitHub developing #Blockchain or #Crypto projects that you are invested in.&lt;/li&gt;
+&lt;/ul&gt;
 </description>
-      
       <content:encoded><![CDATA[<h1 id="wallet-tracking">Wallet Tracking</h1>
 <ul>
 <li><a href="https://debank.com">DeBank</a> you put your wallet address here to see your investments.This is not small block-chain friendly.If you use this correctly you can enter other wallet  addresses and see what they are investing in.</li>
@@ -403,7 +405,7 @@ ea.addElementsToView(true);
 <h2 id="defi-dashboard">Defi Dashboard</h2>
 <ul>
 <li><a href="https://nanoly.com/">Nanoly</a> this is good for searching farms with good APY&rsquo;s or APR</li>
-<li><a href="https://defillama.com/">Defillama</a>  is a overview of all of DEFI</li>
+<li><a href="https://defillama.com/">Defillama</a>  is a overview of all of #DEFI</li>
 </ul>
 <h2 id="trading-view">Trading View</h2>
 <ul>
@@ -421,6 +423,10 @@ ea.addElementsToView(true);
 <h2 id="market-cap-potential">Market Cap Potential</h2>
 <ul>
 <li><a href="https://www.marketcapof.com">Market Cap Calculator</a></li>
+</ul>
+<h2 id="github-commits-on-projects">GitHub Commits on projects</h2>
+<ul>
+<li><a href="https://www.cryptomiso.com/">CryptoMiso</a> shows you how busy devs are on #GitHub developing #Blockchain or #Crypto projects that you are invested in.</li>
 </ul>
 ]]></content:encoded>
     </item>

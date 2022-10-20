@@ -1,30 +1,108 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>MTV on JanTech.xyz</title>
+    <title>MTV on JanTech</title>
     <link>https://jantech.xyz/tags/mtv/</link>
-    <description>Recent content in MTV on JanTech.xyz</description>
+    <description>Recent content in MTV on JanTech</description>
+    <image>
+      <url>https://jantech.xyz/img/lobe.png</url>
+      <link>https://jantech.xyz/img/lobe.png</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 08 Oct 2022 16:57:23 +0800</lastBuildDate><atom:link href="https://jantech.xyz/tags/mtv/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 14 Oct 2022 22:35:17 +0800</lastBuildDate><atom:link href="https://jantech.xyz/tags/mtv/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Proxima</title>
-      <link>https://jantech.xyz/post/proxima/</link>
-      <pubDate>Sat, 08 Oct 2022 16:57:23 +0800</pubDate>
+      <title>How I am evolving since I learned linux </title>
+      <link>https://jantech.xyz/post/learning-linux-the-hard-way/</link>
+      <pubDate>Fri, 14 Oct 2022 22:35:17 +0800</pubDate>
       
-      <guid>https://jantech.xyz/post/proxima/</guid>
-      <description>Proxima Is a crypto game on #MultiVac #$MTV
-Will give all info you need to know, just keep reading.
-sudo apt update &amp;amp;&amp;amp; sudo apt upgrade apt search flameshot 6 from pdf2docx import Converter pdf_file = &amp;#39;sample2.pdf&amp;#39; word_file = &amp;#39;sample2.docx&amp;#39; # docx_file = &amp;#39;sample.docx&amp;#39; # Converter Method cv = Converter(pdf_file) # cv.convert(docx_file, start=0, end=None) cv.convert(word_file, start=0, end=None) cv.close() #Parse Method #parse(pdf_file, word_file, start=0, end=None) import os import subprocess from typing import List # noqa: F401 from libqtile import hook from libqtile.</description>
-    </item>
-    
-    <item>
-      <title>MTV</title>
-      <link>https://jantech.xyz/post/mtv/</link>
-      <pubDate>Fri, 07 Oct 2022 22:59:46 +0800</pubDate>
-      
-      <guid>https://jantech.xyz/post/mtv/</guid>
-      <description>Fast, Cheap, Blockchain with potential. </description>
+      <guid>https://jantech.xyz/post/learning-linux-the-hard-way/</guid>
+      <description>&lt;p&gt;I started my computer crash course during the start of the covid lockdowns with a &lt;a href=&#34;https://www.raspberrypi.com/&#34;&gt;Raspberry Pi 4b&lt;/a&gt;. Being self-taught it was the best way to start since I had no previous experience with computers and the cost of failure was low.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Since then I have mastered turning a server into a fully customized desktop using &lt;a href=&#34;http://www.qtile.org/&#34;&gt;Qtile&lt;/a&gt; as my window manager and this took some time to get used to, but well worth the effort if you like the speed of transitioning from project to project.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;The downside of being self-taught is you have no sense of direction on what to focus on.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Since those first few years, I have configured &lt;a href=&#34;https://www.gnu.org/software/emacs/&#34;&gt;Emacs&lt;/a&gt; several times and honestly, I believe it is the best. It  takes a long time to configure it the way you want,  with all the possibilities it has to offer. Since I didn&amp;rsquo;t use &lt;a href=&#34;https://github.com/brandonjanssen&#34;&gt;GitHub&lt;/a&gt; at the time to save all my configs, I would have to learn it over and over again. Like I had to do with all the other programs I installed, until I found the power of  &lt;a href=&#34;https://github.com&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Focus is key with any tech and I have been focusing on the wrong things, my focus on Linux has been good but I have spent too much time on the configurations of Linux and not learning the tech that helps create.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;I have focus now and that is HTML, CSS, JavaScript, Python, and UI/UX this makes sense to me since I like tinkering with configs, what could be better than building websites to let out all my creativity.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href=&#34;https://agoric.com/&#34;&gt;Agoric&lt;/a&gt; lets you write DEFI contracts in JavaScript, so I think this is a great opportunity to use all of the languages I mentioned above and put them to good use.&lt;/p&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;As of 10-12-2022 i have created my first website. Focusing on design first and now starting to create  content. All posts with the exception of this one are incomplete as of &lt;em&gt;&lt;strong&gt;10-16-2022&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;h4 id=&#34;list-of-things-to-complete-are-the-following&#34;&gt;List of things to complete are the following.&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Add some content&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Add a Logo&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Add a comments sections to each page.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;See if i can create a eCommerce page using a static  website.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Would like to add a section for just Crypto, like a page for best farm APR&amp;rsquo;s and APY&amp;rsquo;s&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A  Linux and a opensource guide page to find useful tools would be nice for beginners that have a hard time finding there needs.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/D_M_N_E&#34;&gt;🆃🆆🅸🆃🆃🅴🆁&lt;/a&gt;
+&lt;a href=&#34;https://github.com/brandonjanssen&#34;&gt;🅶🅸🆃🅷🆄🅱&lt;/a&gt;
+&lt;a href=&#34;https://www.jantech.xyz/&#34;&gt;🆆🅴🅱🆂🅸🆃🅴&lt;/a&gt;&lt;/p&gt;
+</description>
+      <content:encoded><![CDATA[<p>I started my computer crash course during the start of the covid lockdowns with a <a href="https://www.raspberrypi.com/">Raspberry Pi 4b</a>. Being self-taught it was the best way to start since I had no previous experience with computers and the cost of failure was low.</p>
+<hr>
+<p>Since then I have mastered turning a server into a fully customized desktop using <a href="http://www.qtile.org/">Qtile</a> as my window manager and this took some time to get used to, but well worth the effort if you like the speed of transitioning from project to project.</p>
+<hr>
+<p>The downside of being self-taught is you have no sense of direction on what to focus on.</p>
+<hr>
+<p>Since those first few years, I have configured <a href="https://www.gnu.org/software/emacs/">Emacs</a> several times and honestly, I believe it is the best. It  takes a long time to configure it the way you want,  with all the possibilities it has to offer. Since I didn&rsquo;t use <a href="https://github.com/brandonjanssen">GitHub</a> at the time to save all my configs, I would have to learn it over and over again. Like I had to do with all the other programs I installed, until I found the power of  <a href="https://github.com">GitHub</a>.</p>
+<hr>
+<p>Focus is key with any tech and I have been focusing on the wrong things, my focus on Linux has been good but I have spent too much time on the configurations of Linux and not learning the tech that helps create.</p>
+<hr>
+<p>I have focus now and that is HTML, CSS, JavaScript, Python, and UI/UX this makes sense to me since I like tinkering with configs, what could be better than building websites to let out all my creativity.</p>
+<hr>
+<p><a href="https://agoric.com/">Agoric</a> lets you write DEFI contracts in JavaScript, so I think this is a great opportunity to use all of the languages I mentioned above and put them to good use.</p>
+<hr>
+<blockquote>
+<p>As of 10-12-2022 i have created my first website. Focusing on design first and now starting to create  content. All posts with the exception of this one are incomplete as of <em><strong>10-16-2022</strong></em></p>
+<h4 id="list-of-things-to-complete-are-the-following">List of things to complete are the following.</h4>
+<ol>
+<li>
+<p>Add some content</p>
+</li>
+<li>
+<p>Add a Logo</p>
+</li>
+<li>
+<p>Add a comments sections to each page.</p>
+</li>
+<li>
+<p>See if i can create a eCommerce page using a static  website.</p>
+</li>
+<li>
+<p>Would like to add a section for just Crypto, like a page for best farm APR&rsquo;s and APY&rsquo;s</p>
+</li>
+<li>
+<p>A  Linux and a opensource guide page to find useful tools would be nice for beginners that have a hard time finding there needs.</p>
+</li>
+</ol>
+</blockquote>
+<hr>
+<p><a href="https://twitter.com/D_M_N_E">🆃🆆🅸🆃🆃🅴🆁</a>
+<a href="https://github.com/brandonjanssen">🅶🅸🆃🅷🆄🅱</a>
+<a href="https://www.jantech.xyz/">🆆🅴🅱🆂🅸🆃🅴</a></p>
+]]></content:encoded>
     </item>
     
   </channel>

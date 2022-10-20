@@ -36,7 +36,7 @@ UseHugoToc: true
 - [Tin.Network](https://tin.network/en/dashboard), I only use this to track wallets on Harmony ONE.  
 ## Defi Dashboard
 -  [Nanoly](https://nanoly.com/) this is good for searching farms with good APY's or APR
-- [Defillama](https://defillama.com/)  is a overview of all of DEFI
+- [Defillama](https://defillama.com/)  is a overview of all of #DEFI
 ## Trading View
 - [DEX Screener](https://dexscreener.com/) search most popular #EVM chain and their coins  and they have been adding #IBC chains as well of lately.
 - [Coingecko](https://www.coingecko.com/) token search engine must use.
@@ -50,6 +50,3 @@ UseHugoToc: true
 - [Market Cap Calculator](https://www.marketcapof.com)
 ## GitHub Commits on projects
 - [CryptoMiso](https://www.cryptomiso.com/) shows you how busy devs are on #GitHub developing #Blockchain or #Crypto projects that you are invested in.
-
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">here is my writeup of 8 account takeovers method<a href="https://t.co/VtQqsy70tO">https://t.co/VtQqsy70tO</a><a href="https://twitter.com/hashtag/infosec?src=hash&amp;ref_src=twsrc%5Etfw">#infosec</a> <a href="https://twitter.com/hashtag/bugbountytips?src=hash&amp;ref_src=twsrc%5Etfw">#bugbountytips</a> <a href="https://twitter.com/hashtag/bugbounty?src=hash&amp;ref_src=twsrc%5Etfw">#bugbounty</a> <a href="https://twitter.com/hashtag/cybersecuritytips?src=hash&amp;ref_src=twsrc%5Etfw">#cybersecuritytips</a></p>&mdash; Md Maruf Hosan (@0xMaruf) <a href="https://twitter.com/0xMaruf/status/1582586936136384512?ref_src=twsrc%5Etfw">October 19, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

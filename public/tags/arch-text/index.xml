@@ -40,51 +40,50 @@
 &lt;p&gt;This is the script that will be installed on obsidian and  can be found &lt;a href=&#34;https://github.com/zsviczian/obsidian-excalidraw-plugin/blob/master/ea-scripts/Text%20Arch.md&#34;&gt;here.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;This script is viewable and editable on obsidian.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;*/
-el = ea.getViewSelectedElement();
-if(!el || el.type!==&amp;#34;text&amp;#34;) {
-	new Notice(&amp;#34;Please select a text element&amp;#34;);
-  return;
-}
-
-ea.style.fontSize = el.fontSize;
-ea.style.fontFamily = el.fontFamily;
-ea.style.strokeColor = el.strokeColor;
-ea.style.opacity = el.opacity;
-
-const r = parseInt (await utils.inputPrompt(&amp;#34;The radius of the arch you&amp;#39;d like to fit the text to&amp;#34;,&amp;#34;number&amp;#34;,&amp;#34;150&amp;#34;));
-const archAbove = await utils.suggester([&amp;#34;Arch above&amp;#34;,&amp;#34;Arch below&amp;#34;],[true,false]);
-
-if(isNaN(r)) {
-  new Notice(&amp;#34;The radius is not a number&amp;#34;);
-  return;
-}
-
-circlePoint = (angle) =&amp;gt; archAbove
-  ? [
-		r * Math.sin(angle),
-		-r * Math.cos(angle)
-	]
-	: [
-		-r * Math.sin(angle),
-		r * Math.cos(angle)
-	];
-
-let rot = (archAbove ? -0.5 : 0.5) * ea.measureText(el.text).width/r;
-
-let objectIDs = [];
-for(i=0;i&amp;lt;el.text.length;i++) {
-	const character = el.text.substring(i,i+1);
-	const width = ea.measureText(character).width;
-  ea.style.angle = rot;
-  const [x,y] = circlePoint(rot);
-  rot += (archAbove ? 1 : -1) *width / r;
-  objectIDs.push(ea.addText(x,y,character));
-}
-ea.addToGroup(objectIDs);
-ea.addElementsToView(true);
-&lt;/code&gt;&lt;/pre&gt;</description>
-      
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;*/
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;el = ea.getViewSelectedElement();
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;if(!el || el.type!==&amp;#34;text&amp;#34;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	new Notice(&amp;#34;Please select a text element&amp;#34;);
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  return;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ea.style.fontSize = el.fontSize;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ea.style.fontFamily = el.fontFamily;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ea.style.strokeColor = el.strokeColor;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ea.style.opacity = el.opacity;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;const r = parseInt (await utils.inputPrompt(&amp;#34;The radius of the arch you&amp;#39;d like to fit the text to&amp;#34;,&amp;#34;number&amp;#34;,&amp;#34;150&amp;#34;));
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;const archAbove = await utils.suggester([&amp;#34;Arch above&amp;#34;,&amp;#34;Arch below&amp;#34;],[true,false]);
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;if(isNaN(r)) {
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  new Notice(&amp;#34;The radius is not a number&amp;#34;);
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  return;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;circlePoint = (angle) =&amp;gt; archAbove
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  ? [
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		r * Math.sin(angle),
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		-r * Math.cos(angle)
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	]
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	: [
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		-r * Math.sin(angle),
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		r * Math.cos(angle)
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	];
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;let rot = (archAbove ? -0.5 : 0.5) * ea.measureText(el.text).width/r;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;let objectIDs = [];
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;for(i=0;i&amp;lt;el.text.length;i++) {
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	const character = el.text.substring(i,i+1);
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	const width = ea.measureText(character).width;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  ea.style.angle = rot;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  const [x,y] = circlePoint(rot);
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  rot += (archAbove ? 1 : -1) *width / r;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  objectIDs.push(ea.addText(x,y,character));
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ea.addToGroup(objectIDs);
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ea.addElementsToView(true);
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
       <content:encoded><![CDATA[<h1 id="text-to-arch-script-with-excalidraw-on-obsidian">Text To Arch Script With Excalidraw On Obsidian</h1>
 <p><img loading="lazy" src="https://imgur.com/I8c05jw.png" alt=""  />
 </p>
@@ -108,50 +107,50 @@ ea.addElementsToView(true);
 <p>This is the script that will be installed on obsidian and  can be found <a href="https://github.com/zsviczian/obsidian-excalidraw-plugin/blob/master/ea-scripts/Text%20Arch.md">here.</a></p>
 <p>This script is viewable and editable on obsidian.</p>
 </blockquote>
-<pre tabindex="0"><code>*/
-el = ea.getViewSelectedElement();
-if(!el || el.type!==&#34;text&#34;) {
-	new Notice(&#34;Please select a text element&#34;);
-  return;
-}
-
-ea.style.fontSize = el.fontSize;
-ea.style.fontFamily = el.fontFamily;
-ea.style.strokeColor = el.strokeColor;
-ea.style.opacity = el.opacity;
-
-const r = parseInt (await utils.inputPrompt(&#34;The radius of the arch you&#39;d like to fit the text to&#34;,&#34;number&#34;,&#34;150&#34;));
-const archAbove = await utils.suggester([&#34;Arch above&#34;,&#34;Arch below&#34;],[true,false]);
-
-if(isNaN(r)) {
-  new Notice(&#34;The radius is not a number&#34;);
-  return;
-}
-
-circlePoint = (angle) =&gt; archAbove
-  ? [
-		r * Math.sin(angle),
-		-r * Math.cos(angle)
-	]
-	: [
-		-r * Math.sin(angle),
-		r * Math.cos(angle)
-	];
-
-let rot = (archAbove ? -0.5 : 0.5) * ea.measureText(el.text).width/r;
-
-let objectIDs = [];
-for(i=0;i&lt;el.text.length;i++) {
-	const character = el.text.substring(i,i+1);
-	const width = ea.measureText(character).width;
-  ea.style.angle = rot;
-  const [x,y] = circlePoint(rot);
-  rot += (archAbove ? 1 : -1) *width / r;
-  objectIDs.push(ea.addText(x,y,character));
-}
-ea.addToGroup(objectIDs);
-ea.addElementsToView(true);
-</code></pre>]]></content:encoded>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">*/
+</span></span><span class="line"><span class="cl">el = ea.getViewSelectedElement();
+</span></span><span class="line"><span class="cl">if(!el || el.type!==&#34;text&#34;) {
+</span></span><span class="line"><span class="cl">	new Notice(&#34;Please select a text element&#34;);
+</span></span><span class="line"><span class="cl">  return;
+</span></span><span class="line"><span class="cl">}
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">ea.style.fontSize = el.fontSize;
+</span></span><span class="line"><span class="cl">ea.style.fontFamily = el.fontFamily;
+</span></span><span class="line"><span class="cl">ea.style.strokeColor = el.strokeColor;
+</span></span><span class="line"><span class="cl">ea.style.opacity = el.opacity;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">const r = parseInt (await utils.inputPrompt(&#34;The radius of the arch you&#39;d like to fit the text to&#34;,&#34;number&#34;,&#34;150&#34;));
+</span></span><span class="line"><span class="cl">const archAbove = await utils.suggester([&#34;Arch above&#34;,&#34;Arch below&#34;],[true,false]);
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">if(isNaN(r)) {
+</span></span><span class="line"><span class="cl">  new Notice(&#34;The radius is not a number&#34;);
+</span></span><span class="line"><span class="cl">  return;
+</span></span><span class="line"><span class="cl">}
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">circlePoint = (angle) =&gt; archAbove
+</span></span><span class="line"><span class="cl">  ? [
+</span></span><span class="line"><span class="cl">		r * Math.sin(angle),
+</span></span><span class="line"><span class="cl">		-r * Math.cos(angle)
+</span></span><span class="line"><span class="cl">	]
+</span></span><span class="line"><span class="cl">	: [
+</span></span><span class="line"><span class="cl">		-r * Math.sin(angle),
+</span></span><span class="line"><span class="cl">		r * Math.cos(angle)
+</span></span><span class="line"><span class="cl">	];
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">let rot = (archAbove ? -0.5 : 0.5) * ea.measureText(el.text).width/r;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">let objectIDs = [];
+</span></span><span class="line"><span class="cl">for(i=0;i&lt;el.text.length;i++) {
+</span></span><span class="line"><span class="cl">	const character = el.text.substring(i,i+1);
+</span></span><span class="line"><span class="cl">	const width = ea.measureText(character).width;
+</span></span><span class="line"><span class="cl">  ea.style.angle = rot;
+</span></span><span class="line"><span class="cl">  const [x,y] = circlePoint(rot);
+</span></span><span class="line"><span class="cl">  rot += (archAbove ? 1 : -1) *width / r;
+</span></span><span class="line"><span class="cl">  objectIDs.push(ea.addText(x,y,character));
+</span></span><span class="line"><span class="cl">}
+</span></span><span class="line"><span class="cl">ea.addToGroup(objectIDs);
+</span></span><span class="line"><span class="cl">ea.addElementsToView(true);
+</span></span></code></pre></div>]]></content:encoded>
     </item>
     
   </channel>
