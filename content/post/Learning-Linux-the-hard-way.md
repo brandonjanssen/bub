@@ -3,8 +3,8 @@ title: "How I am evolving since I learned linux "
 date: 2022-10-14T22:35:17+08:00
 # weight: 1
 # aliases: ["/first"]
-tags: ["MTV"]
-categories: ["About Me"]
+tags: ["Linux"]
+categories: ["Learning"]
 # author: "Me"
 # author: ["Me", "You"] # multiple authors
 showToc: true

@@ -10,7 +10,37 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 17 Oct 2022 21:39:29 +0800</lastBuildDate><atom:link href="https://jantech.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 20 Oct 2022 20:15:08 +0800</lastBuildDate><atom:link href="https://jantech.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Images</title>
+      <link>https://jantech.xyz/tags/images/</link>
+      <pubDate>Thu, 20 Oct 2022 20:15:08 +0800</pubDate>
+      
+      <guid>https://jantech.xyz/tags/images/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Text</title>
+      <link>https://jantech.xyz/tags/text/</link>
+      <pubDate>Thu, 20 Oct 2022 20:15:08 +0800</pubDate>
+      
+      <guid>https://jantech.xyz/tags/text/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Text-from-Image</title>
+      <link>https://jantech.xyz/tags/text-from-image/</link>
+      <pubDate>Thu, 20 Oct 2022 20:15:08 +0800</pubDate>
+      
+      <guid>https://jantech.xyz/tags/text-from-image/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
     <item>
       <title>Arch-Text</title>
       <link>https://jantech.xyz/tags/arch-text/</link>
@@ -22,21 +52,11 @@
     </item>
     
     <item>
-      <title>Text</title>
-      <link>https://jantech.xyz/tags/text/</link>
-      <pubDate>Mon, 17 Oct 2022 21:39:29 +0800</pubDate>
-      
-      <guid>https://jantech.xyz/tags/text/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>MTV</title>
-      <link>https://jantech.xyz/tags/mtv/</link>
+      <title>Linux</title>
+      <link>https://jantech.xyz/tags/linux/</link>
       <pubDate>Fri, 14 Oct 2022 22:35:17 +0800</pubDate>
       
-      <guid>https://jantech.xyz/tags/mtv/</guid>
+      <guid>https://jantech.xyz/tags/linux/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>

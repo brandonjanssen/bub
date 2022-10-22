@@ -2,7 +2,7 @@
 title: "Strategies on Fusion"
 date: 2022-10-13T21:58:31+08:00
 tags: ["SNT", "Fusion","DEFI"]
-categories: "Blockchain"
+categories: ["Blockchain","DEFI","NovaNetwork"]
 showToc: true
 TocOpen: true
 #   draft: false

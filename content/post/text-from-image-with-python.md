@@ -1,7 +1,7 @@
 ---
 title: "Text From Image With Python"
 date: 2022-10-20T20:15:08+08:00
-tags: ["Text-from-Image","Text"]
+tags: ["Text-from-Image","Text","Images"]
 categories: "Python"
 showToc: false
 TocOpen: true
@@ -28,6 +28,7 @@ cover:
     # caption: "Fusion operates on the NovaNetwork and Fantom Network" # display caption under cover
     #relative: false # when using page bundles set this to true
     hidden: false # on
+
 ---
 
 # Copying Text from Image with Python
@@ -87,12 +88,7 @@ This is a pic of my qtile configs
 ![](https://imgur.com/f0ywglU.png)
 This is the output
 ![](https://imgur.com/iLwgoj1.png)
-So it did a pretty decent job, it had some trouble with all of my commits. After its complete just copy and paste what you want to do with the text.
+So it did a pretty decent job, it had some trouble with all of my commits. After its complete just copy and do whatever you would like.
 
 
 
-
-
-![](https://twitter.com/reactive_dude/status/1583124550195490816?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1583124550195490816%7Ctwgr%5E%7Ctwcon%5Es1_c10&ref_url=file%3A%2F%2F%2Ftmp%2F.mount_LogseqEIMfHY%2Fresources%2Fapp%2Felectron.html%2Fpage%2Fcss20tweets)
-
-![[ <iframe src="https://twitter.com/reactive_dude/status/1583124550195490816?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1583124550195490816%7Ctwgr%5E%7Ctwcon%5Es1_c10&amp;ref_url=file%3A%2F%2F%2Ftmp%2F.mount_LogseqEIMfHY%2Fresources%2Fapp%2Felectron.html%2Fpage%2Fcss20tweets" allow="fullscreen" allowfullscreen="" style="height: 100%; width: 100%; aspect-ratio: 1 / 1;"></iframe> ]]
