@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/CSS Tweets.md",
+                "file": "content/post/text-from-image-with-python.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/CSS Tweets.md",
+                "file": "content/post/text-from-image-with-python.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/CSS Tweets.md",
+                "file": "content/post/text-from-image-with-python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pages/CSS Tweets.md",
+                "file": "content/post/text-from-image-with-python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/CSS Tweets.md"
+                "file": "content/post/text-from-image-with-python.md"
               }
             }
           },
@@ -172,6 +172,7 @@
   },
   "active": "04fa559fa45dfdea",
   "lastOpenFiles": [
+    "pages/CSS Tweets.md",
     "content/post/text-from-image-with-python.md",
     "content/post/Nova-Network-Strategies-On-Fusion.md",
     "content/post/Tools-For-Research.md",
@@ -180,7 +181,6 @@
     "content/archives.md",
     "static/img/logo.png",
     "content/post/MTV.md",
-    "content/post/DEFI.md",
-    "content/post/Proxima.md"
+    "content/post/DEFI.md"
   ]
 }
