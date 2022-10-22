@@ -1,1 +1,2 @@
-- https://twitter.com/reactive_dude/status/1583124550195490816?t=_DI3AT_XIOaQJirhhBssgA&s=09
+- [qui](https://twitter.com/reactive_dude/status/1583124550195490816?t=_DI3AT_XIOaQJirhhBssgA&s=09)
+-
