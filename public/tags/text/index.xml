@@ -40,7 +40,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;2. cd imagepy 
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;3. touch img2txt.py
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;4. open folder within VScode 
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;step-2-write-a-couple-lines-of-code&#34;&gt;Step 2. write a couple lines of code&lt;/h2&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;step-2-write-a-couple-lines-of-code&#34;&gt;Step 2. Write a couple lines of code&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;import cv2                                                                                         
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;import pytesseract                                                                                 
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
@@ -83,7 +83,7 @@ So it did a pretty decent job, it had some trouble with all of my commits. After
 </span></span><span class="line"><span class="cl">2. cd imagepy 
 </span></span><span class="line"><span class="cl">3. touch img2txt.py
 </span></span><span class="line"><span class="cl">4. open folder within VScode 
-</span></span></code></pre></div><h2 id="step-2-write-a-couple-lines-of-code">Step 2. write a couple lines of code</h2>
+</span></span></code></pre></div><h2 id="step-2-write-a-couple-lines-of-code">Step 2. Write a couple lines of code</h2>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">import cv2                                                                                         
 </span></span><span class="line"><span class="cl">import pytesseract                                                                                 
 </span></span><span class="line"><span class="cl">

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Units on JanTech</title>
+    <link>https://jantech.xyz/tags/units/</link>
+    <description>Recent content in Units on JanTech</description>
+    <image>
+      <url>https://jantech.xyz/img/lobe.png</url>
+      <link>https://jantech.xyz/img/lobe.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 22 Oct 2022 18:15:35 +0800</lastBuildDate><atom:link href="https://jantech.xyz/tags/units/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CSS UNIT CHEATSHEET</title>
+      <link>https://jantech.xyz/post/css-unit-cheatsheet/</link>
+      <pubDate>Sat, 22 Oct 2022 18:15:35 +0800</pubDate>
+      
+      <guid>https://jantech.xyz/post/css-unit-cheatsheet/</guid>
+      <description>&lt;h2 id=&#34;absolute-units&#34;&gt;Absolute Units&lt;/h2&gt;
+&lt;p&gt;Absolute is the same size regardless of the
+parent element or size of window .&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Absolute Units&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&amp;raquo;=&amp;raquo;&amp;gt;&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;px&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&amp;ndash;&amp;gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1px = 1/96th  of 1 inch (96px=1 inch)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;pt&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&amp;ndash;&amp;gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1pt = 1/72th of 1 inch&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;mm&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&amp;ndash;&amp;gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1mm = 1/10th of 1 cm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;cm&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&amp;ndash;&amp;gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;= Centimetres&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;pc&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&amp;ndash;&amp;gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;12pt = 1pc&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;in&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&amp;ndash;&amp;gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;= Inches&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;relative-units&#34;&gt;Relative Units&lt;/h2&gt;
+&lt;p&gt;Relative  scales to the parent or window size&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Relative Units&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&amp;raquo;=&amp;raquo;&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;%&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&amp;ndash;&amp;gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Relative to the parent element&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;em&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&amp;ndash;&amp;gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Relative to the font size of the element&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;rem&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&amp;ndash;&amp;gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Relative to the font size of the root element&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ch&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&amp;ndash;&amp;gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Relative to the width of the &amp;ldquo;0&amp;rdquo; (zero)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;vh&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&amp;ndash;&amp;gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Relative to 1% of the viewport&amp;rsquo;s height.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;vmin&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&amp;ndash;&amp;gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Relative to 1% of the viewport&amp;rsquo;s smaller&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;vmax&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&amp;ndash;&amp;gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Relative to 1% of the viewport&amp;rsquo;s larger dimension.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+      <content:encoded><![CDATA[<h2 id="absolute-units">Absolute Units</h2>
+<p>Absolute is the same size regardless of the
+parent element or size of window .</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Absolute Units</th>
+<th style="text-align:center">&raquo;=&raquo;&gt;</th>
+<th style="text-align:center">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">px</td>
+<td style="text-align:center">&ndash;&gt;</td>
+<td style="text-align:center">1px = 1/96th  of 1 inch (96px=1 inch)</td>
+</tr>
+<tr>
+<td style="text-align:center">pt</td>
+<td style="text-align:center">&ndash;&gt;</td>
+<td style="text-align:center">1pt = 1/72th of 1 inch</td>
+</tr>
+<tr>
+<td style="text-align:center">mm</td>
+<td style="text-align:center">&ndash;&gt;</td>
+<td style="text-align:center">1mm = 1/10th of 1 cm</td>
+</tr>
+<tr>
+<td style="text-align:center">cm</td>
+<td style="text-align:center">&ndash;&gt;</td>
+<td style="text-align:center">= Centimetres</td>
+</tr>
+<tr>
+<td style="text-align:center">pc</td>
+<td style="text-align:center">&ndash;&gt;</td>
+<td style="text-align:center">12pt = 1pc</td>
+</tr>
+<tr>
+<td style="text-align:center">in</td>
+<td style="text-align:center">&ndash;&gt;</td>
+<td style="text-align:center">= Inches</td>
+</tr>
+</tbody>
+</table>
+<h2 id="relative-units">Relative Units</h2>
+<p>Relative  scales to the parent or window size</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Relative Units</th>
+<th style="text-align:center">&raquo;=&raquo;</th>
+<th style="text-align:center">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">%</td>
+<td style="text-align:center">&ndash;&gt;</td>
+<td style="text-align:center">Relative to the parent element</td>
+</tr>
+<tr>
+<td style="text-align:center">em</td>
+<td style="text-align:center">&ndash;&gt;</td>
+<td style="text-align:center">Relative to the font size of the element</td>
+</tr>
+<tr>
+<td style="text-align:center">rem</td>
+<td style="text-align:center">&ndash;&gt;</td>
+<td style="text-align:center">Relative to the font size of the root element</td>
+</tr>
+<tr>
+<td style="text-align:center">ch</td>
+<td style="text-align:center">&ndash;&gt;</td>
+<td style="text-align:center">Relative to the width of the &ldquo;0&rdquo; (zero)</td>
+</tr>
+<tr>
+<td style="text-align:center">vh</td>
+<td style="text-align:center">&ndash;&gt;</td>
+<td style="text-align:center">Relative to 1% of the viewport&rsquo;s height.</td>
+</tr>
+<tr>
+<td style="text-align:center">vmin</td>
+<td style="text-align:center">&ndash;&gt;</td>
+<td style="text-align:center">Relative to 1% of the viewport&rsquo;s smaller</td>
+</tr>
+<tr>
+<td style="text-align:center">vmax</td>
+<td style="text-align:center">&ndash;&gt;</td>
+<td style="text-align:center">Relative to 1% of the viewport&rsquo;s larger dimension.</td>
+</tr>
+</tbody>
+</table>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>

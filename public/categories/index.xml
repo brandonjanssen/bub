@@ -10,7 +10,27 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 20 Oct 2022 20:15:08 +0800</lastBuildDate><atom:link href="https://jantech.xyz/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 Oct 2022 18:40:02 +0800</lastBuildDate><atom:link href="https://jantech.xyz/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CheatSheet</title>
+      <link>https://jantech.xyz/categories/cheatsheet/</link>
+      <pubDate>Sat, 22 Oct 2022 18:40:02 +0800</pubDate>
+      
+      <guid>https://jantech.xyz/categories/cheatsheet/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>CSS</title>
+      <link>https://jantech.xyz/categories/css/</link>
+      <pubDate>Sat, 22 Oct 2022 18:40:02 +0800</pubDate>
+      
+      <guid>https://jantech.xyz/categories/css/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
     <item>
       <title>Python</title>
       <link>https://jantech.xyz/categories/python/</link>

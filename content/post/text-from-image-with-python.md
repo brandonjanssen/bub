@@ -69,7 +69,7 @@ sudo apt-get install libtesseract-dev tesseract-ocr
   3. touch img2txt.py
   4. open folder within VScode 
 ```
-## Step 2. write a couple lines of code
+## Step 2. Write a couple lines of code
 ```
 import cv2                                                                                         
 import pytesseract                                                                                 

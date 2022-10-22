@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>CSS on JanTech</title>
+    <link>https://jantech.xyz/tags/css/</link>
+    <description>Recent content in CSS on JanTech</description>
+    <image>
+      <url>https://jantech.xyz/img/lobe.png</url>
+      <link>https://jantech.xyz/img/lobe.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 22 Oct 2022 18:40:02 +0800</lastBuildDate><atom:link href="https://jantech.xyz/tags/css/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CSS Selectors CheatSheet</title>
+      <link>https://jantech.xyz/post/css-selectors-cheatsheet/</link>
+      <pubDate>Sat, 22 Oct 2022 18:40:02 +0800</pubDate>
+      
+      <guid>https://jantech.xyz/post/css-selectors-cheatsheet/</guid>
+      <description>&lt;h1 id=&#34;css-combinator-selectors&#34;&gt;CSS Combinator Selectors&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Descendant
+&lt;ul&gt;
+&lt;li&gt;Matching all elements inside parent.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &amp;lt;!-- Descendant --&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;.container img {
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	max-width: 100;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Child
+&lt;ul&gt;
+&lt;li&gt;Applies to only direct children of parent, further nested elements wont be selected.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;   &amp;lt;!-- Child --&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;.nav &amp;gt; li {
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	padding: 10px;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Chained
+&lt;ul&gt;
+&lt;li&gt;Will select both class names.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;     &amp;lt;!-- Chained --&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;.class6.class3 {
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	color:black
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Sibling
+&lt;ul&gt;
+&lt;li&gt;Selects elements next to sibling.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;lt;!-- Sibling --&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;h4 ~ a {
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	font-weight:bold;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Adjacent sibling
+&lt;ul&gt;
+&lt;li&gt;Used to select element directly after a specific element.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &amp;lt;!-- Adjacent sibling --&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;p + img {
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	background-color: #1f2335;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+      <content:encoded><![CDATA[<h1 id="css-combinator-selectors">CSS Combinator Selectors</h1>
+<ul>
+<li>Descendant
+<ul>
+<li>Matching all elements inside parent.</li>
+</ul>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">    &lt;!-- Descendant --&gt;
+</span></span><span class="line"><span class="cl">.container img {
+</span></span><span class="line"><span class="cl">	max-width: 100;
+</span></span><span class="line"><span class="cl">}
+</span></span></code></pre></div><ul>
+<li>Child
+<ul>
+<li>Applies to only direct children of parent, further nested elements wont be selected.</li>
+</ul>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">   &lt;!-- Child --&gt;
+</span></span><span class="line"><span class="cl">.nav &gt; li {
+</span></span><span class="line"><span class="cl">	padding: 10px;
+</span></span><span class="line"><span class="cl">}
+</span></span></code></pre></div><ul>
+<li>Chained
+<ul>
+<li>Will select both class names.</li>
+</ul>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">     &lt;!-- Chained --&gt;
+</span></span><span class="line"><span class="cl">.class6.class3 {
+</span></span><span class="line"><span class="cl">	color:black
+</span></span><span class="line"><span class="cl">}
+</span></span></code></pre></div><ul>
+<li>Sibling
+<ul>
+<li>Selects elements next to sibling.</li>
+</ul>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">      &lt;!-- Sibling --&gt;
+</span></span><span class="line"><span class="cl">h4 ~ a {
+</span></span><span class="line"><span class="cl">	font-weight:bold;
+</span></span><span class="line"><span class="cl">}
+</span></span></code></pre></div><ul>
+<li>Adjacent sibling
+<ul>
+<li>Used to select element directly after a specific element.</li>
+</ul>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">  &lt;!-- Adjacent sibling --&gt;
+</span></span><span class="line"><span class="cl">p + img {
+</span></span><span class="line"><span class="cl">	background-color: #1f2335;
+</span></span><span class="line"><span class="cl">}
+</span></span></code></pre></div>]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>CSS UNIT CHEATSHEET</title>
+      <link>https://jantech.xyz/post/css-unit-cheatsheet/</link>
+      <pubDate>Sat, 22 Oct 2022 18:15:35 +0800</pubDate>
+      
+      <guid>https://jantech.xyz/post/css-unit-cheatsheet/</guid>
+      <description>&lt;h2 id=&#34;absolute-units&#34;&gt;Absolute Units&lt;/h2&gt;
+&lt;p&gt;Absolute is the same size regardless of the
+parent element or size of window .&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Absolute Units&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&amp;raquo;=&amp;raquo;&amp;gt;&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;px&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&amp;ndash;&amp;gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1px = 1/96th  of 1 inch (96px=1 inch)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;pt&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&amp;ndash;&amp;gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1pt = 1/72th of 1 inch&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;mm&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&amp;ndash;&amp;gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1mm = 1/10th of 1 cm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;cm&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&amp;ndash;&amp;gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;= Centimetres&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;pc&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&amp;ndash;&amp;gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;12pt = 1pc&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;in&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&amp;ndash;&amp;gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;= Inches&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;relative-units&#34;&gt;Relative Units&lt;/h2&gt;
+&lt;p&gt;Relative  scales to the parent or window size&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Relative Units&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&amp;raquo;=&amp;raquo;&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;%&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&amp;ndash;&amp;gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Relative to the parent element&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;em&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&amp;ndash;&amp;gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Relative to the font size of the element&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;rem&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&amp;ndash;&amp;gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Relative to the font size of the root element&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;ch&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&amp;ndash;&amp;gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Relative to the width of the &amp;ldquo;0&amp;rdquo; (zero)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;vh&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&amp;ndash;&amp;gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Relative to 1% of the viewport&amp;rsquo;s height.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;vmin&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&amp;ndash;&amp;gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Relative to 1% of the viewport&amp;rsquo;s smaller&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;vmax&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&amp;ndash;&amp;gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Relative to 1% of the viewport&amp;rsquo;s larger dimension.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+      <content:encoded><![CDATA[<h2 id="absolute-units">Absolute Units</h2>
+<p>Absolute is the same size regardless of the
+parent element or size of window .</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Absolute Units</th>
+<th style="text-align:center">&raquo;=&raquo;&gt;</th>
+<th style="text-align:center">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">px</td>
+<td style="text-align:center">&ndash;&gt;</td>
+<td style="text-align:center">1px = 1/96th  of 1 inch (96px=1 inch)</td>
+</tr>
+<tr>
+<td style="text-align:center">pt</td>
+<td style="text-align:center">&ndash;&gt;</td>
+<td style="text-align:center">1pt = 1/72th of 1 inch</td>
+</tr>
+<tr>
+<td style="text-align:center">mm</td>
+<td style="text-align:center">&ndash;&gt;</td>
+<td style="text-align:center">1mm = 1/10th of 1 cm</td>
+</tr>
+<tr>
+<td style="text-align:center">cm</td>
+<td style="text-align:center">&ndash;&gt;</td>
+<td style="text-align:center">= Centimetres</td>
+</tr>
+<tr>
+<td style="text-align:center">pc</td>
+<td style="text-align:center">&ndash;&gt;</td>
+<td style="text-align:center">12pt = 1pc</td>
+</tr>
+<tr>
+<td style="text-align:center">in</td>
+<td style="text-align:center">&ndash;&gt;</td>
+<td style="text-align:center">= Inches</td>
+</tr>
+</tbody>
+</table>
+<h2 id="relative-units">Relative Units</h2>
+<p>Relative  scales to the parent or window size</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Relative Units</th>
+<th style="text-align:center">&raquo;=&raquo;</th>
+<th style="text-align:center">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">%</td>
+<td style="text-align:center">&ndash;&gt;</td>
+<td style="text-align:center">Relative to the parent element</td>
+</tr>
+<tr>
+<td style="text-align:center">em</td>
+<td style="text-align:center">&ndash;&gt;</td>
+<td style="text-align:center">Relative to the font size of the element</td>
+</tr>
+<tr>
+<td style="text-align:center">rem</td>
+<td style="text-align:center">&ndash;&gt;</td>
+<td style="text-align:center">Relative to the font size of the root element</td>
+</tr>
+<tr>
+<td style="text-align:center">ch</td>
+<td style="text-align:center">&ndash;&gt;</td>
+<td style="text-align:center">Relative to the width of the &ldquo;0&rdquo; (zero)</td>
+</tr>
+<tr>
+<td style="text-align:center">vh</td>
+<td style="text-align:center">&ndash;&gt;</td>
+<td style="text-align:center">Relative to 1% of the viewport&rsquo;s height.</td>
+</tr>
+<tr>
+<td style="text-align:center">vmin</td>
+<td style="text-align:center">&ndash;&gt;</td>
+<td style="text-align:center">Relative to 1% of the viewport&rsquo;s smaller</td>
+</tr>
+<tr>
+<td style="text-align:center">vmax</td>
+<td style="text-align:center">&ndash;&gt;</td>
+<td style="text-align:center">Relative to 1% of the viewport&rsquo;s larger dimension.</td>
+</tr>
+</tbody>
+</table>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>
