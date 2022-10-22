@@ -34,13 +34,13 @@ cover:
 # Copying Text from Image with Python
 One of the fastest ways to extract text from a image is with python. The basic script to do this is very small, it can get quite complicated depending on what you are trying to achieve.
 
-I will only show the basics to make this work and this only applies to Linux Debian based systems.
+I will only show the basics to make this work on Linux Debian based systems.
 
 if you like it and want to know more there is plenty of resources to research from.
 
 ---
  - We will need PyTesseract
- - And we will need  OpenCV
+ - We will need  OpenCV
 
 I will be using VScode to demonstrate all of this. Install these two libraries using the terminal.
 
@@ -62,12 +62,17 @@ sudo apt update
 sudo apt-get install libtesseract-dev tesseract-ocr  
 ```
 
+
+
 1.  **From the terminal**
+  
+  
   ```
   1. mkdir imagepy
   2. cd imagepy 
   3. touch img2txt.py
   4. open folder within VScode 
+  5. copy and paste below into img2txt.py
 ```
 ## Step 2. Write a couple lines of code
 ```
