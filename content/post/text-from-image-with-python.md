@@ -90,3 +90,6 @@ This is the output
 So it did a pretty decent job, it had some trouble with all of my commits. After its complete just copy and paste what you want to do with the text.
 
 
+[[quick capture]]:{{twitter https://twitter.com/reactive_dude/status/1583124550195490816?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1583124550195490816%7Ctwgr%5E%7Ctwcon%5Es1_c10&ref_url=file%3A%2F%2F%2Ftmp%2F.mount_LogseqEIMfHY%2Fresources%2Fapp%2Felectron.html%2Fpage%2Fcss20tweets}}
+
+
