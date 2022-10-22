@@ -24,7 +24,7 @@
   :block/updated-at 1666268582210}
  {:block/name "\"text from image with python\"",
   :block/created-at 1666268582691,
-  :block/updated-at 1666268582691}
+  :block/updated-at 1666273517608}
  {:block/name "\"text\"]",
   :block/created-at 1666268582572,
   :block/updated-at 1666268582572}
@@ -286,6 +286,9 @@
  {:block/name "oct 20th, 2022",
   :block/created-at 1666268580613,
   :block/updated-at 1666268580613}
+ {:block/name "python",
+  :block/created-at 1666273517606,
+  :block/updated-at 1666273517606}
  {:block/name "readme",
   :block/created-at 1666268582945,
   :block/updated-at 1666268582945}
