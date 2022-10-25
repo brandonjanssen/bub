@@ -9,6 +9,5 @@ cover:
     caption: "Fusion operates on the NovaNetwork and Fantom Network" # display caption under cover
     #relative: false # when using page bundles set this to true
     hidden: false # on
-    #%% hidden: true # on
 ---
 
