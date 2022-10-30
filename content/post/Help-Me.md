@@ -3,6 +3,7 @@ title: "List of educational and helpful links for Linux "
 date: 2022-10-30T15:40:39+08:00
 tags: ["Linux","Linux Help","Linux Links"]
 categories: ["Linux Links","Linux Tools","Learning"]
+weight: 1
 showToc: true
 TocOpen: true
 # author: Brandon Janssen
@@ -31,7 +32,7 @@ cover:
 ---
 # I will keep adding to this list
 -  This will take some time to add everything to this list.
-## Linux Guru Links
+## Linux help Links
 > - [Distro Tube:](https://distro.tube/) This guy is the one that is responsible for getting me started with Linux. [Distro Tube GitLab:](https://gitlab.com/dwt1) A great place to get some help to figure out your configs. [Youtube,](https://www.youtube.com/c/DistroTube/videos) [Odysee](https://odysee.com/@DistroTube:2)
 >>- [Eric Murphy:](https://ericmurphy.xyz/) I built my first website because Eric's help. Here is his [GitHub](https://github.com/ericmurphyxyz) also he has a great YouTube channel with lots of help, you can find that [here](https://www.youtube.com/c/EricMurphyxyz/videos)
 >>>- [Linux Dabbler](https://github.com/linuxdabbler) is a great source for Linux Debian based help. He offers quite a bit of help with tilling window managers on Debian, his [GitHub](https://github.com/linuxdabbler) has lot of solutions for Debian. He really likes SpectrWM, you can watch him [here](https://www.youtube.com/c/linuxdabbler/videos) on YouTube.

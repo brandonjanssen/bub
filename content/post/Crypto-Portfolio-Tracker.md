@@ -2,6 +2,7 @@
 title: "Crypto Portfolio Tracker and Price Chart"
 date: 2022-10-29T17:22:27+08:00
 tags: ["Crypto", "Crypto Portfolio Tracker","Price Charts","Crypto Tools","Wallet Tracking"]
+#weight: 2
 categories: ["Crypto","Crypto Tools","Price Chart"]
 cover:
     image: "https://imgur.com/onGr1wx.png" # image path/url
