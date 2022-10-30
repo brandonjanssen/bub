@@ -5,6 +5,43 @@ paginate: 5
 title: JanTech
 theme: "PaperMod"
 
+# Enable for syntax highlighting
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: false
+pygmentsCodefences: true
+markup:
+  goldmark:
+    extensions:
+      definitionList: true
+      footnote: true
+      linkify: true
+      linkifyProtocol: https
+      strikethrough: true
+      table: true
+      taskList: true
+      typographer: true
+    highlight:
+        # anchorLineNos: true
+        codeFences: true
+        guessSyntax: true
+        lineNos: true
+        noClasses: false
+        style: rainbow_dash
+        hl_Lines: ""
+        lineNoStart: 1
+        lineNumbersInTable: true
+        tabWidth: 4
+    parser:
+      attribute:
+        block: false
+        title: true
+      autoHeadingID: true
+      autoHeadingIDType: github
+    renderer:
+      hardWraps: false
+      unsafe: false
+      xhtml: false
+
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
@@ -55,6 +92,7 @@ params:
   comments: true
   hidemeta: false
   hideSummary: false
+  iframe: true
   
   assets:
     disableHLJS: true # to disable highlight.js
@@ -81,7 +119,7 @@ params:
 
   homeInfoParams:
     Title: "Welcome To My Digital Libary"
-    Content: I will be documenting, categorizing and creating content about tech, such as CSS, Python, HTML, Crypto, Linux, JS, and or anything i use.
+    Content: I will be documenting, categorizing and creating content about tech, such as CSS, Python, HTML, Crypto, Linux, JS, and or anything i find useful.
   socialIcons:
     - name: facebook
       url: "https://web.facebook.com/robert.t.norwood"
@@ -156,15 +194,7 @@ menu:
 
 # -----------------------------------------------------------
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
-pygmentsUseClasses: true
-markup:
-    highlight:
-        # anchorLineNos: true
-        codeFences: true
-        guessSyntax: true
-        # lineNos: true
-        # noClasses: false
-        style: dracula
+
 
 
 

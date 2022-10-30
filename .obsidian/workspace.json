@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a12f819dbf5a7366",
+        "id": "7306c3ed7e8283e9",
         "type": "tabs",
         "children": [
           {
-            "id": "cd6e1ea0e668eb70",
+            "id": "800d107aa9b52087",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/post/text-from-image-with-python.md",
+                "file": "content/post/Tools-For-Research.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/post/text-from-image-with-python.md",
+                "file": "content/post/Tools-For-Research.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/post/text-from-image-with-python.md",
+                "file": "content/post/Tools-For-Research.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/post/text-from-image-with-python.md"
+                "file": "content/post/Tools-For-Research.md"
               }
             }
           },
@@ -146,20 +146,17 @@
     "width": 300,
     "collapsed": true
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
-  "active": "cd6e1ea0e668eb70",
+  "active": "800d107aa9b52087",
   "lastOpenFiles": [
+    "content/post/Help-Me.md",
     "content/post/Text-Arch.md",
+    "content/post/text-from-image-with-python.md",
     "content/post/Nova-Network-Strategies-On-Fusion.md",
-    "content/post/Learning-Linux-the-hard-way.md",
-    "content/post/CSS-UNIT-CHEATSHEET.md",
+    "content/post/Crypto-Portfolio-Tracker.md",
     "content/post/CSS-Selectors-CheatSheet.md",
     "content/post/Tools-For-Research.md",
-    "content/post/text-from-image-with-python.md",
-    "content/post/bob.md",
-    "archetypes/default.md",
-    "content/post/CSS Units.md"
+    "content/post/Learning-Linux-the-hard-way.md",
+    "content/post/CSS-UNIT-CHEATSHEET.md",
+    "content/post/bob.md"
   ]
 }

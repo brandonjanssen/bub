@@ -47,7 +47,7 @@ I will be using VScode to demonstrate all of this. Install these two libraries u
 ## Step 1. Dependencies
 
 
-```
+```py
 pip install opencv-python
 ```
 ```
@@ -67,7 +67,7 @@ sudo apt-get install libtesseract-dev tesseract-ocr
 1.  **From the terminal**
   
   
-  ```
+  ```bash
   1. mkdir imagepy
   2. cd imagepy 
   3. touch img2txt.py
@@ -75,7 +75,7 @@ sudo apt-get install libtesseract-dev tesseract-ocr
   5. copy and paste below into img2txt.py
 ```
 ## Step 2. Write a couple lines of code
-```
+```py
 import cv2                                                                                         
 import pytesseract                                                                                 
 

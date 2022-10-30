@@ -3,7 +3,64 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://jantech.xyz/categories/</loc>
-    <lastmod>2022-10-22T18:40:02+08:00</lastmod>
+    <lastmod>2022-10-30T15:40:39+08:00</lastmod>
+  </url><url>
+    <loc>https://jantech.xyz/</loc>
+    <lastmod>2022-10-30T15:40:39+08:00</lastmod>
+  </url><url>
+    <loc>https://jantech.xyz/categories/learning/</loc>
+    <lastmod>2022-10-30T15:40:39+08:00</lastmod>
+  </url><url>
+    <loc>https://jantech.xyz/tags/linux/</loc>
+    <lastmod>2022-10-30T15:40:39+08:00</lastmod>
+  </url><url>
+    <loc>https://jantech.xyz/tags/linux-help/</loc>
+    <lastmod>2022-10-30T15:40:39+08:00</lastmod>
+  </url><url>
+    <loc>https://jantech.xyz/tags/linux-links/</loc>
+    <lastmod>2022-10-30T15:40:39+08:00</lastmod>
+  </url><url>
+    <loc>https://jantech.xyz/categories/linux-links/</loc>
+    <lastmod>2022-10-30T15:40:39+08:00</lastmod>
+  </url><url>
+    <loc>https://jantech.xyz/categories/linux-tools/</loc>
+    <lastmod>2022-10-30T15:40:39+08:00</lastmod>
+  </url><url>
+    <loc>https://jantech.xyz/post/help-me/</loc>
+    <lastmod>2022-10-30T15:40:39+08:00</lastmod>
+  </url><url>
+    <loc>https://jantech.xyz/post/</loc>
+    <lastmod>2022-10-30T15:40:39+08:00</lastmod>
+  </url><url>
+    <loc>https://jantech.xyz/tags/</loc>
+    <lastmod>2022-10-30T15:40:39+08:00</lastmod>
+  </url><url>
+    <loc>https://jantech.xyz/tags/crypto/</loc>
+    <lastmod>2022-10-29T17:22:27+08:00</lastmod>
+  </url><url>
+    <loc>https://jantech.xyz/categories/crypto/</loc>
+    <lastmod>2022-10-29T17:22:27+08:00</lastmod>
+  </url><url>
+    <loc>https://jantech.xyz/tags/crypto-portfolio-tracker/</loc>
+    <lastmod>2022-10-29T17:22:27+08:00</lastmod>
+  </url><url>
+    <loc>https://jantech.xyz/post/crypto-portfolio-tracker/</loc>
+    <lastmod>2022-10-29T17:22:27+08:00</lastmod>
+  </url><url>
+    <loc>https://jantech.xyz/tags/crypto-tools/</loc>
+    <lastmod>2022-10-29T17:22:27+08:00</lastmod>
+  </url><url>
+    <loc>https://jantech.xyz/categories/crypto-tools/</loc>
+    <lastmod>2022-10-29T17:22:27+08:00</lastmod>
+  </url><url>
+    <loc>https://jantech.xyz/categories/price-chart/</loc>
+    <lastmod>2022-10-29T17:22:27+08:00</lastmod>
+  </url><url>
+    <loc>https://jantech.xyz/tags/price-charts/</loc>
+    <lastmod>2022-10-29T17:22:27+08:00</lastmod>
+  </url><url>
+    <loc>https://jantech.xyz/tags/wallet-tracking/</loc>
+    <lastmod>2022-10-29T17:22:27+08:00</lastmod>
   </url><url>
     <loc>https://jantech.xyz/categories/cheatsheet/</loc>
     <lastmod>2022-10-22T18:40:02+08:00</lastmod>
@@ -14,19 +71,10 @@
     <loc>https://jantech.xyz/categories/css/</loc>
     <lastmod>2022-10-22T18:40:02+08:00</lastmod>
   </url><url>
+    <loc>https://jantech.xyz/tags/css-selectors/</loc>
+    <lastmod>2022-10-22T18:40:02+08:00</lastmod>
+  </url><url>
     <loc>https://jantech.xyz/post/css-selectors-cheatsheet/</loc>
-    <lastmod>2022-10-22T18:40:02+08:00</lastmod>
-  </url><url>
-    <loc>https://jantech.xyz/</loc>
-    <lastmod>2022-10-22T18:40:02+08:00</lastmod>
-  </url><url>
-    <loc>https://jantech.xyz/post/</loc>
-    <lastmod>2022-10-22T18:40:02+08:00</lastmod>
-  </url><url>
-    <loc>https://jantech.xyz/tags/selectors/</loc>
-    <lastmod>2022-10-22T18:40:02+08:00</lastmod>
-  </url><url>
-    <loc>https://jantech.xyz/tags/</loc>
     <lastmod>2022-10-22T18:40:02+08:00</lastmod>
   </url><url>
     <loc>https://jantech.xyz/post/css-unit-cheatsheet/</loc>
@@ -65,15 +113,6 @@
     <loc>https://jantech.xyz/post/learning-linux-the-hard-way/</loc>
     <lastmod>2022-10-14T22:35:17+08:00</lastmod>
   </url><url>
-    <loc>https://jantech.xyz/categories/learning/</loc>
-    <lastmod>2022-10-14T22:35:17+08:00</lastmod>
-  </url><url>
-    <loc>https://jantech.xyz/tags/linux/</loc>
-    <lastmod>2022-10-14T22:35:17+08:00</lastmod>
-  </url><url>
-    <loc>https://jantech.xyz/categories/blockchain/</loc>
-    <lastmod>2022-10-13T21:58:31+08:00</lastmod>
-  </url><url>
     <loc>https://jantech.xyz/tags/defi/</loc>
     <lastmod>2022-10-13T21:58:31+08:00</lastmod>
   </url><url>
@@ -83,17 +122,11 @@
     <loc>https://jantech.xyz/tags/fusion/</loc>
     <lastmod>2022-10-13T21:58:31+08:00</lastmod>
   </url><url>
-    <loc>https://jantech.xyz/categories/novanetwork/</loc>
-    <lastmod>2022-10-13T21:58:31+08:00</lastmod>
-  </url><url>
     <loc>https://jantech.xyz/tags/snt/</loc>
     <lastmod>2022-10-13T21:58:31+08:00</lastmod>
   </url><url>
     <loc>https://jantech.xyz/post/nova-network-strategies-on-fusion/</loc>
     <lastmod>2022-10-13T21:58:31+08:00</lastmod>
-  </url><url>
-    <loc>https://jantech.xyz/categories/crypto-tools/</loc>
-    <lastmod>2022-10-13T13:20:15+08:00</lastmod>
   </url><url>
     <loc>https://jantech.xyz/tags/research/</loc>
     <lastmod>2022-10-13T13:20:15+08:00</lastmod>
@@ -105,9 +138,6 @@
     <lastmod>2022-10-13T13:20:15+08:00</lastmod>
   </url><url>
     <loc>https://jantech.xyz/tags/trading/</loc>
-    <lastmod>2022-10-13T13:20:15+08:00</lastmod>
-  </url><url>
-    <loc>https://jantech.xyz/tags/wallet-tracking/</loc>
     <lastmod>2022-10-13T13:20:15+08:00</lastmod>
   </url><url>
     <loc>https://jantech.xyz/archives/</loc>

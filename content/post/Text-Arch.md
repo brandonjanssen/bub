@@ -66,7 +66,7 @@ Excalidraw is an exceptional add on to obsidian and has helped me several times 
 >
 > This script is viewable and editable on obsidian. 
 
-```
+```js
 */
 el = ea.getViewSelectedElement();
 if(!el || el.type!=="text") {

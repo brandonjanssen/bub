@@ -1,0 +1,1013 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Crypto Portfolio Tracker on JanTech</title>
+    <link>https://jantech.xyz/tags/crypto-portfolio-tracker/</link>
+    <description>Recent content in Crypto Portfolio Tracker on JanTech</description>
+    <image>
+      <url>https://jantech.xyz/img/lobe.png</url>
+      <link>https://jantech.xyz/img/lobe.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 29 Oct 2022 17:22:27 +0800</lastBuildDate><atom:link href="https://jantech.xyz/tags/crypto-portfolio-tracker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Crypto Portfolio Tracker and Price Chart</title>
+      <link>https://jantech.xyz/post/crypto-portfolio-tracker/</link>
+      <pubDate>Sat, 29 Oct 2022 17:22:27 +0800</pubDate>
+      
+      <guid>https://jantech.xyz/post/crypto-portfolio-tracker/</guid>
+      <description>&lt;h1 id=&#34;cointop-httpscointopshcli&#34;&gt;Cointop &lt;a href=&#34;https://cointop.sh/cli/&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://cointop.sh/&#34;&gt;Cointop website version &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Cointop docs can be found &lt;a href=&#34;https://docs.cointop.sh/&#34;&gt;here&lt;/a&gt; which gives a wealth of info on how to configure and customize cointop.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;how-to-install&#34;&gt;How to install&lt;/h2&gt;
+&lt;p&gt;There is multiple ways to install cointop depending on the platform you’re on.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;From source (always latest and recommended) &lt;a href=&#34;https://docs.cointop.sh/install/#from-source-always-latest-and-recommended&#34;&gt;#&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;Make sure to have &lt;a href=&#34;https://golang.org/&#34;&gt;go&lt;/a&gt; (1.17+) installed, then do:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;go install github.com/cointop-sh/cointop@latest
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Make sure $GOPATH/bin is added to the $PATH variable if not already.&lt;/p&gt;
+&lt;p&gt;Now you can run cointop:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;cointop
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Download the binary from the&lt;a href=&#34;https://github.com/cointop-sh/cointop/releases&#34;&gt;releases&lt;/a&gt; page.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;curl -o- https://raw.githubusercontent.com/cointop-sh/cointop/master/install.sh | bash
+&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;wget -qO- https://raw.githubusercontent.com/cointop-sh/cointop/master/install.sh | bash
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Homebrew (macOS) &lt;a href=&#34;https://docs.cointop.sh/install/#homebrew-macos&#34;&gt;#&lt;/a&gt;
+cointop is available via &lt;a href=&#34;https://formulae.brew.sh/formula/cointop&#34;&gt;Homebrew&lt;/a&gt; for macOS:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;brew install cointop
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Run&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;cointop
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Snap (Ubuntu) &lt;a href=&#34;https://docs.cointop.sh/install/#snap-ubuntu&#34;&gt;#&lt;/a&gt;
+cointop is available as a &lt;a href=&#34;https://snapcraft.io/cointop&#34;&gt;snap&lt;/a&gt; for Linux users.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo snap install cointop --stable
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Snaps:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo snap run cointop
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Note: snaps don’t work in Windows WSL. See this &lt;a href=&#34;https://forum.snapcraft.io/t/windows-subsystem-for-linux/216&#34;&gt;issue thread.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Copr (Fedora) &lt;a href=&#34;https://docs.cointop.sh/install/#copr-fedora&#34;&gt;#&lt;/a&gt;
+cointop is available as a &lt;a href=&#34;https://copr.fedorainfracloud.org/coprs/miguelmota/cointop/&#34;&gt;copr&lt;/a&gt; package.&lt;/p&gt;
+&lt;p&gt;First, enable the repository&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo dnf copr enable miguelmota/cointop -y
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Install cointop&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo dnf install cointop
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Run&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;cointop
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;AUR &lt;a href=&#34;https://docs.cointop.sh/install/#aur-arch-linux&#34;&gt;#&lt;/a&gt;
+cointop is available as an &lt;a href=&#34;https://aur.archlinux.org/packages/cointop&#34;&gt;AUR&lt;/a&gt; package.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git clone https://aur.archlinux.org/cointop.git
+cd cointop
+makepkg -si
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Using &lt;a href=&#34;https://github.com/Jguer/yay&#34;&gt;yay&lt;/a&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;yay -S cointop
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;XBPS (Void Linux) &lt;a href=&#34;https://docs.cointop.sh/install/#xbps-void-linux&#34;&gt;#&lt;/a&gt;
+cointop is available as a &lt;a href=&#34;https://voidlinux.org/packages/&#34;&gt;XBPS&lt;/a&gt; package.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo xbps-install -S cointop
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Flatpak (Linux) &lt;a href=&#34;https://docs.cointop.sh/install/#flatpak-linux&#34;&gt;#&lt;/a&gt;
+cointop is available as a &lt;a href=&#34;https://flatpak.org/&#34;&gt;Flatpak&lt;/a&gt; package via the &lt;a href=&#34;https://flathub.org/apps/details/com.github.miguelmota.Cointop&#34;&gt;Flathub&lt;/a&gt; registry.&lt;/p&gt;
+&lt;p&gt;Add the flathub repository (if not done so already)&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Install cointop flatpak&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo flatpak install flathub com.github.miguelmota.Cointop
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Run cointop flatpak&lt;/p&gt;
+&lt;p&gt;flatpak run com.github.miguelmota.Cointop
+NixOS (Linux) &lt;a href=&#34;https://docs.cointop.sh/install/#nixos-linux&#34;&gt;#&lt;/a&gt;
+cointop is available as a &lt;a href=&#34;https://search.nixos.org/packages?channel=unstable&amp;amp;show=cointop&amp;amp;from=0&amp;amp;size=30&amp;amp;sort=relevance&amp;amp;query=cointop&#34;&gt;nixpkg.&lt;/a&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;nix-env -iA nixpkgs.cointop
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;AppImage (Linux) &lt;a href=&#34;https://docs.cointop.sh/install/#appimage-linux&#34;&gt;#&lt;/a&gt;
+You can download the AppImage from the &lt;a href=&#34;https://github.com/cointop-sh/cointop/releases&#34;&gt;releases&lt;/a&gt; page.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;VERSION=$(curl --silent &amp;#34;https://api.github.com/repos/cointop-sh/cointop/releases/latest&amp;#34; | grep -Po --color=never &amp;#39;&amp;#34;tag_name&amp;#34;: &amp;#34;.\K.*?(?=&amp;#34;)&amp;#39;)
+URL=&amp;#34;https://github.com/cointop-sh/cointop/releases/download/v$VERSION/cointop-v$VERSION.glibc2.32-x86_64.AppImage&amp;#34;
+wget $URL
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Must make AppImage executable:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;chmod +x cointop-*.AppImage
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Run AppImage:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;./cointop-*.AppImage
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;FreshPorts (FreeBSD / OpenBSD) &lt;a href=&#34;https://docs.cointop.sh/install/#freshports-freebsd--openbsd&#34;&gt;#&lt;/a&gt;
+cointop is available as a &lt;a href=&#34;https://www.freshports.org/finance/cointop/&#34;&gt;FreshPort&lt;/a&gt; package.&lt;/p&gt;
+&lt;p&gt;sudo pkg install cointop
+Windows (PowerShell / WSL) &lt;a href=&#34;https://docs.cointop.sh/install/#windows-powershell--wsl&#34;&gt;#&lt;/a&gt;
+Install &lt;a href=&#34;https://golang.org/doc/install&#34;&gt;Go&lt;/a&gt; and &lt;a href=&#34;https://git-scm.com/download/win&#34;&gt;git&lt;/a&gt;, then:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;go get -u github.com/cointop-sh/cointop
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;You’ll need additional font support for Windows. Please see the &lt;a href=&#34;https://github.com/cointop-sh/cointop/wiki/Windows-Command-Prompt-and-WSL-Font-Support&#34;&gt;wiki&lt;/a&gt; for instructions.&lt;/p&gt;
+&lt;p&gt;Docker &lt;a href=&#34;https://docs.cointop.sh/install/#docker&#34;&gt;#&lt;/a&gt;
+cointop is available on &lt;a href=&#34;https://hub.docker.com/r/cointop/cointop&#34;&gt;Docker Hub.&lt;/a&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;docker run -it cointop/cointop
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Note: the config is under /root/.config/cointop in container, so attach a volume to make it persistent in host:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;docker run -v ~/.cache/cointop:/root/.config/cointop -it cointop/cointop
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Binaries &lt;a href=&#34;https://docs.cointop.sh/install/#binaries&#34;&gt;#&lt;/a&gt;
+You can find pre-built binaries on the &lt;a href=&#34;https://github.com/cointop-sh/cointop/releases&#34;&gt;releases&lt;/a&gt; page.&lt;/p&gt;
+&lt;p&gt;The first time you run cointop, it’ll create a config file in:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;~/.config/cointop/config.toml
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;increase-coin-search-results&#34;&gt;Increase coin search results&lt;/h2&gt;
+&lt;p&gt;There is a limit on the number of coins that cointop fetches by default. You can increase this by passing &lt;code&gt;--max-pages&lt;/code&gt; and &lt;code&gt;--per-page&lt;/code&gt; arguments on the command line. Like this
+&lt;code&gt; /home/dmne/go/bin/cointop --max-pages 500&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;list-of-currencies-for-conversion&#34;&gt;List of currencies for conversion &lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;AUD&lt;/code&gt;, &lt;code&gt;BRL&lt;/code&gt;, &lt;code&gt;CAD&lt;/code&gt;, &lt;code&gt;CFH&lt;/code&gt;, &lt;code&gt;CLP&lt;/code&gt;, &lt;code&gt;CNY&lt;/code&gt;, &lt;code&gt;CZK&lt;/code&gt;, &lt;code&gt;DKK&lt;/code&gt;, &lt;code&gt;EUR&lt;/code&gt;, &lt;code&gt;GBP&lt;/code&gt;, &lt;code&gt;HKD&lt;/code&gt;, &lt;code&gt;HUF&lt;/code&gt;, &lt;code&gt;IDR&lt;/code&gt;, &lt;code&gt;ILS&lt;/code&gt;, &lt;code&gt;INR&lt;/code&gt;, &lt;code&gt;JPY&lt;/code&gt;, &lt;code&gt;KRW&lt;/code&gt;, &lt;code&gt;MXN&lt;/code&gt;, &lt;code&gt;MYR&lt;/code&gt;, &lt;code&gt;NOK&lt;/code&gt;, &lt;code&gt;NZD&lt;/code&gt;, &lt;code&gt;PLN&lt;/code&gt;, &lt;code&gt;PHP&lt;/code&gt;, &lt;code&gt;PKR&lt;/code&gt;, &lt;code&gt;RUB&lt;/code&gt;, &lt;code&gt;SEK&lt;/code&gt;, &lt;code&gt;SGD&lt;/code&gt;, &lt;code&gt;THB&lt;/code&gt;, &lt;code&gt;TRY&lt;/code&gt;, &lt;code&gt;TWD&lt;/code&gt;, &lt;code&gt;USD&lt;/code&gt;, &lt;code&gt;VND&lt;/code&gt;, and &lt;code&gt;ZAR&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Run this in your terminal &lt;code&gt;cointop price&lt;/code&gt; followed buy examples showed below. A small script would be useful if you only want to see exactly what you are looking for.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ cointop price --coin ethereum
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$277.76
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ cointop price -c ethereum --currency btc
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Ƀ0.02814
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ cointop -c ethereum -f eur
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;€245.51
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ cointop price -c ethereum -f usd --api coinmarketcap
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$276.37
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;holdings-view&#34;&gt;Holdings View&lt;/h2&gt;
+&lt;p&gt;Each coin consists of four values: coin name, coin amount, cost-price, cost-currency.&lt;/p&gt;
+&lt;p&gt;For example, the following configuration includes 100 ALGO at USD1.95 each; and 0.1 BTC at AUD50100.83 each.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;holdings&lt;/span&gt; = [[&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Algorand&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;100&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;1.95&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;USD&amp;#34;&lt;/span&gt;], [&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Bitcoin&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;0.1&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;50100.83&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;AUD&amp;#34;&lt;/span&gt;]]
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;With this configuration, four new columns are useful:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;cost_price&lt;/code&gt; the price and currency that the coins were purchased at&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cost&lt;/code&gt; the cost (in the current currency) of the coins&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;pnl&lt;/code&gt; the PNL of the coins (current value vs original cost)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;pnl_percent&lt;/code&gt; the PNL of the coins as a fraction of the original cost&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://imgur.com/qUs79cH.png&#34; alt=&#34;&#34;  /&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;short-cut-keys&#34;&gt;Short cut keys&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;There is a lot of keys to remember, im sure once you get things all figured out you wont use all of them.
+&lt;ul&gt;
+&lt;li&gt;The ones you do use all the the time are configurable to your liking&amp;rsquo;s.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;th&gt;Key&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;th&gt;Key&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://docs.cointop.sh/favorites/#view-favorites&#34;&gt;View Favorites&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;F (Shift+f)&lt;/td&gt;
+&lt;td&gt;last_page&lt;/td&gt;
+&lt;td&gt;$&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://docs.cointop.sh/favorites/#exit-favorites&#34;&gt;Exit Favorites&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;F (Shift+f) or q or Esc&lt;/td&gt;
+&lt;td&gt;move_to_first_page_first_row&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://docs.cointop.sh/favorites/#add-favorite&#34;&gt;Add Favorite&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;f or Space&lt;/td&gt;
+&lt;td&gt;sort_column_1h_change&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://docs.cointop.sh/favorites/#remove-favorite&#34;&gt;Remove Favorite&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;f or Space&lt;/td&gt;
+&lt;td&gt;sort_column_24h_change&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://docs.cointop.sh/portfolio/#view-portfolio&#34;&gt;View Portfolio &lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;P (Shift+p)&lt;/td&gt;
+&lt;td&gt;sort_column_7d_change&lt;/td&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://docs.cointop.sh/portfolio/#exit-portfolio&#34;&gt;Exit Portfolio&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;P (Shift+p)  or q or Esc&lt;/td&gt;
+&lt;td&gt;help&lt;/td&gt;
+&lt;td&gt;?&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://docs.cointop.sh/portfolio/#add-entry&#34;&gt;Add Entry&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;press &lt;code&gt;e&lt;/code&gt; on the highlighted coin,enter new value and press &lt;code&gt;Enter&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;toggle_table_fullscreen&lt;/td&gt;
+&lt;td&gt;\&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://docs.cointop.sh/portfolio/#edit-entry&#34;&gt;Edit Entry &lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;press &lt;code&gt;e&lt;/code&gt; on the highlighted coin,enter new value and press &lt;code&gt;Enter&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;first_chart_range&lt;/td&gt;
+&lt;td&gt;{&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://docs.cointop.sh/portfolio/#remove-entry&#34;&gt; Remove Entry&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;To remove an entry in your portfolio, &lt;code&gt;press e&lt;/code&gt; on the highlighted coin and set the value to an empty value and &lt;code&gt;press Enter&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;last_chart_range&lt;/td&gt;
+&lt;td&gt;}&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://docs.cointop.sh/portfolio/#changing-chart&#34;&gt;Changing Chart&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;To change  the coin for the chart, &lt;code&gt;press Enter&lt;/code&gt; on the highlighted coin. Pressing &lt;code&gt;Enter again&lt;/code&gt; on the same highlighted row will show the global chart again.&lt;/td&gt;
+&lt;td&gt;scroll_left&lt;/td&gt;
+&lt;td&gt;&amp;lt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://docs.cointop.sh/searching/#searching&#34;&gt;Searching&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;To search for coins, &lt;code&gt;press /&lt;/code&gt; to bring up the search prompt. Enter the search query and then hit &lt;code&gt;Enter&lt;/code&gt; to submit. The coin that matches closes to the query will be highlighted.Press &lt;code&gt;Esc&lt;/code&gt; to exit the search prompt&lt;/td&gt;
+&lt;td&gt;scroll_right&lt;/td&gt;
+&lt;td&gt;&amp;gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://docs.cointop.sh/chart/#chart&#34;&gt;Chart View&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;The default chart shown is the global market cap of all cryptocurrencies.Press &lt;code&gt;Enter&lt;/code&gt; to toggle the price chart for the highlighted coin.&lt;/td&gt;
+&lt;td&gt;search&lt;/td&gt;
+&lt;td&gt;/&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://docs.cointop.sh/chart/#date-ranges&#34;&gt;Date Ranges &lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Press&lt;code&gt;]&lt;/code&gt; to cycle to the next date range.Press &lt;code&gt;[&lt;/code&gt; to cycle to the previous date range.Press &lt;code&gt;{&lt;/code&gt;to select the first date range.Press &lt;code&gt;}&lt;/code&gt; to selected the last date range.&lt;/td&gt;
+&lt;td&gt;next_chart_range&lt;/td&gt;
+&lt;td&gt;]&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://docs.cointop.sh/chart/#size&#34;&gt;Chart Size&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Press &lt;code&gt;Ctrl+j&lt;/code&gt; to increase the chart height.Press &lt;code&gt;Ctrl+k&lt;/code&gt; to decrease the chart height.&lt;/td&gt;
+&lt;td&gt;previous_chart_range&lt;/td&gt;
+&lt;td&gt;[&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;You can configure each key in &lt;code&gt;~/.config/cointop/config.toml&lt;/code&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Key&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;th&gt;Key&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;C&lt;/td&gt;
+&lt;td&gt;show_currency_convert_menu&lt;/td&gt;
+&lt;td&gt;E&lt;/td&gt;
+&lt;td&gt;show_portfolio_edit_menu&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;G&lt;/td&gt;
+&lt;td&gt;move_to_page_last_row&lt;/td&gt;
+&lt;td&gt;H&lt;/td&gt;
+&lt;td&gt;move_to_page_visible_first_row&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;L&lt;/td&gt;
+&lt;td&gt;move_to_page_visible_last_row&lt;/td&gt;
+&lt;td&gt;M&lt;/td&gt;
+&lt;td&gt;move_to_page_visible_middle_row&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;O&lt;/td&gt;
+&lt;td&gt;open_link&lt;/td&gt;
+&lt;td&gt;P&lt;/td&gt;
+&lt;td&gt;toggle_portfolio&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;a&lt;/td&gt;
+&lt;td&gt;sort_column_available_supply&lt;/td&gt;
+&lt;td&gt;alt+down&lt;/td&gt;
+&lt;td&gt;sort_column_desc&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;alt+left&lt;/td&gt;
+&lt;td&gt;sort_left_column&lt;/td&gt;
+&lt;td&gt;alt+right&lt;/td&gt;
+&lt;td&gt;sort_right_column&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;alt+up&lt;/td&gt;
+&lt;td&gt;sort_column_asc&lt;/td&gt;
+&lt;td&gt;down&lt;/td&gt;
+&lt;td&gt;move_down&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;left&lt;/td&gt;
+&lt;td&gt;previous_page&lt;/td&gt;
+&lt;td&gt;right&lt;/td&gt;
+&lt;td&gt;next_page&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;up&lt;/td&gt;
+&lt;td&gt;move_up&lt;/td&gt;
+&lt;td&gt;c&lt;/td&gt;
+&lt;td&gt;show_currency_convert_menu&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;b&lt;/td&gt;
+&lt;td&gt;sort_column_balance&lt;/td&gt;
+&lt;td&gt;ctrl+c&lt;/td&gt;
+&lt;td&gt;quit&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ctrl+d&lt;/td&gt;
+&lt;td&gt;page_down&lt;/td&gt;
+&lt;td&gt;ctrl+f&lt;/td&gt;
+&lt;td&gt;open_search&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ctrl+j&lt;/td&gt;
+&lt;td&gt;enlarge_chart&lt;/td&gt;
+&lt;td&gt;ctrl+k&lt;/td&gt;
+&lt;td&gt;shorten_chart&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ctrl+n&lt;/td&gt;
+&lt;td&gt;next_page&lt;/td&gt;
+&lt;td&gt;e&lt;/td&gt;
+&lt;td&gt;show_portfolio_edit_menu&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ctrl+p&lt;/td&gt;
+&lt;td&gt;previous_page&lt;/td&gt;
+&lt;td&gt;end&lt;/td&gt;
+&lt;td&gt;move_to_page_last_row&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ctrl+r&lt;/td&gt;
+&lt;td&gt;refresh&lt;/td&gt;
+&lt;td&gt;enter&lt;/td&gt;
+&lt;td&gt;toggle_row_chart&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ctrl+s&lt;/td&gt;
+&lt;td&gt;save&lt;/td&gt;
+&lt;td&gt;esc&lt;/td&gt;
+&lt;td&gt;quit&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ctrl+u&lt;/td&gt;
+&lt;td&gt;page_up&lt;/td&gt;
+&lt;td&gt;f&lt;/td&gt;
+&lt;td&gt;toggle_favorite&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;pagedown&lt;/td&gt;
+&lt;td&gt;page_down&lt;/td&gt;
+&lt;td&gt;F&lt;/td&gt;
+&lt;td&gt;toggle_show_favorites&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;pageup&lt;/td&gt;
+&lt;td&gt;page_up&lt;/td&gt;
+&lt;td&gt;F1&lt;/td&gt;
+&lt;td&gt;help&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;g&lt;/td&gt;
+&lt;td&gt;move_to_page_first_row&lt;/td&gt;
+&lt;td&gt;j&lt;/td&gt;
+&lt;td&gt;move_down&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;h&lt;/td&gt;
+&lt;td&gt;previous_page&lt;/td&gt;
+&lt;td&gt;k&lt;/td&gt;
+&lt;td&gt;move_up&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;home&lt;/td&gt;
+&lt;td&gt;move_to_page_first_row&lt;/td&gt;
+&lt;td&gt;l&lt;/td&gt;
+&lt;td&gt;next_page&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;m&lt;/td&gt;
+&lt;td&gt;sort_column_market_cap&lt;/td&gt;
+&lt;td&gt;q&lt;/td&gt;
+&lt;td&gt;quit_view&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;n&lt;/td&gt;
+&lt;td&gt;sort_column_name&lt;/td&gt;
+&lt;td&gt;Q&lt;/td&gt;
+&lt;td&gt;quit_view&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;o&lt;/td&gt;
+&lt;td&gt;open_link&lt;/td&gt;
+&lt;td&gt;r&lt;/td&gt;
+&lt;td&gt;sort_column_rank&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;p&lt;/td&gt;
+&lt;td&gt;sort_column_price&lt;/td&gt;
+&lt;td&gt;s&lt;/td&gt;
+&lt;td&gt;sort_column_symbol&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;space&lt;/td&gt;
+&lt;td&gt;toggle_favorite&lt;/td&gt;
+&lt;td&gt;t&lt;/td&gt;
+&lt;td&gt;sort_column_total_supply&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;tab&lt;/td&gt;
+&lt;td&gt;move_down_or_next_page&lt;/td&gt;
+&lt;td&gt;u&lt;/td&gt;
+&lt;td&gt;sort_column_last_updated&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;v&lt;/td&gt;
+&lt;td&gt;sort_column_24h_volume&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://imgur.com/6NCsf23.png&#34; alt=&#34;&#34;  /&gt;
+&lt;/p&gt;
+</description>
+      <content:encoded><![CDATA[<h1 id="cointop-httpscointopshcli">Cointop <a href="https://cointop.sh/cli/">#</a></h1>
+<ul>
+<li><a href="https://cointop.sh/">Cointop website version </a></li>
+<li>Cointop docs can be found <a href="https://docs.cointop.sh/">here</a> which gives a wealth of info on how to configure and customize cointop.</li>
+</ul>
+<hr>
+<h2 id="how-to-install">How to install</h2>
+<p>There is multiple ways to install cointop depending on the platform you’re on.</p>
+<ul>
+<li>From source (always latest and recommended) <a href="https://docs.cointop.sh/install/#from-source-always-latest-and-recommended">#</a>
+<ul>
+<li>Make sure to have <a href="https://golang.org/">go</a> (1.17+) installed, then do:</li>
+</ul>
+</li>
+</ul>
+<pre tabindex="0"><code>go install github.com/cointop-sh/cointop@latest
+</code></pre><p>Make sure $GOPATH/bin is added to the $PATH variable if not already.</p>
+<p>Now you can run cointop:</p>
+<pre tabindex="0"><code>cointop
+</code></pre><p>Download the binary from the<a href="https://github.com/cointop-sh/cointop/releases">releases</a> page.</p>
+<pre tabindex="0"><code>curl -o- https://raw.githubusercontent.com/cointop-sh/cointop/master/install.sh | bash
+</code></pre><pre tabindex="0"><code>wget -qO- https://raw.githubusercontent.com/cointop-sh/cointop/master/install.sh | bash
+</code></pre><p>Homebrew (macOS) <a href="https://docs.cointop.sh/install/#homebrew-macos">#</a>
+cointop is available via <a href="https://formulae.brew.sh/formula/cointop">Homebrew</a> for macOS:</p>
+<pre tabindex="0"><code>brew install cointop
+</code></pre><p>Run</p>
+<pre tabindex="0"><code>cointop
+</code></pre><p>Snap (Ubuntu) <a href="https://docs.cointop.sh/install/#snap-ubuntu">#</a>
+cointop is available as a <a href="https://snapcraft.io/cointop">snap</a> for Linux users.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo snap install cointop --stable
+</span></span></code></pre></div><p>Snaps:</p>
+<pre tabindex="0"><code>sudo snap run cointop
+</code></pre><p>Note: snaps don’t work in Windows WSL. See this <a href="https://forum.snapcraft.io/t/windows-subsystem-for-linux/216">issue thread.</a></p>
+<p>Copr (Fedora) <a href="https://docs.cointop.sh/install/#copr-fedora">#</a>
+cointop is available as a <a href="https://copr.fedorainfracloud.org/coprs/miguelmota/cointop/">copr</a> package.</p>
+<p>First, enable the repository</p>
+<pre tabindex="0"><code>sudo dnf copr enable miguelmota/cointop -y
+</code></pre><p>Install cointop</p>
+<pre tabindex="0"><code>sudo dnf install cointop
+</code></pre><p>Run</p>
+<pre tabindex="0"><code>cointop
+</code></pre><p>AUR <a href="https://docs.cointop.sh/install/#aur-arch-linux">#</a>
+cointop is available as an <a href="https://aur.archlinux.org/packages/cointop">AUR</a> package.</p>
+<pre tabindex="0"><code>git clone https://aur.archlinux.org/cointop.git
+cd cointop
+makepkg -si
+</code></pre><p>Using <a href="https://github.com/Jguer/yay">yay</a></p>
+<pre tabindex="0"><code>yay -S cointop
+</code></pre><p>XBPS (Void Linux) <a href="https://docs.cointop.sh/install/#xbps-void-linux">#</a>
+cointop is available as a <a href="https://voidlinux.org/packages/">XBPS</a> package.</p>
+<pre tabindex="0"><code>sudo xbps-install -S cointop
+</code></pre><p>Flatpak (Linux) <a href="https://docs.cointop.sh/install/#flatpak-linux">#</a>
+cointop is available as a <a href="https://flatpak.org/">Flatpak</a> package via the <a href="https://flathub.org/apps/details/com.github.miguelmota.Cointop">Flathub</a> registry.</p>
+<p>Add the flathub repository (if not done so already)</p>
+<pre tabindex="0"><code>sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+</code></pre><p>Install cointop flatpak</p>
+<pre tabindex="0"><code>sudo flatpak install flathub com.github.miguelmota.Cointop
+</code></pre><p>Run cointop flatpak</p>
+<p>flatpak run com.github.miguelmota.Cointop
+NixOS (Linux) <a href="https://docs.cointop.sh/install/#nixos-linux">#</a>
+cointop is available as a <a href="https://search.nixos.org/packages?channel=unstable&amp;show=cointop&amp;from=0&amp;size=30&amp;sort=relevance&amp;query=cointop">nixpkg.</a></p>
+<pre tabindex="0"><code>nix-env -iA nixpkgs.cointop
+</code></pre><p>AppImage (Linux) <a href="https://docs.cointop.sh/install/#appimage-linux">#</a>
+You can download the AppImage from the <a href="https://github.com/cointop-sh/cointop/releases">releases</a> page.</p>
+<pre tabindex="0"><code>VERSION=$(curl --silent &#34;https://api.github.com/repos/cointop-sh/cointop/releases/latest&#34; | grep -Po --color=never &#39;&#34;tag_name&#34;: &#34;.\K.*?(?=&#34;)&#39;)
+URL=&#34;https://github.com/cointop-sh/cointop/releases/download/v$VERSION/cointop-v$VERSION.glibc2.32-x86_64.AppImage&#34;
+wget $URL
+</code></pre><p>Must make AppImage executable:</p>
+<pre tabindex="0"><code>chmod +x cointop-*.AppImage
+</code></pre><p>Run AppImage:</p>
+<pre tabindex="0"><code>./cointop-*.AppImage
+</code></pre><p>FreshPorts (FreeBSD / OpenBSD) <a href="https://docs.cointop.sh/install/#freshports-freebsd--openbsd">#</a>
+cointop is available as a <a href="https://www.freshports.org/finance/cointop/">FreshPort</a> package.</p>
+<p>sudo pkg install cointop
+Windows (PowerShell / WSL) <a href="https://docs.cointop.sh/install/#windows-powershell--wsl">#</a>
+Install <a href="https://golang.org/doc/install">Go</a> and <a href="https://git-scm.com/download/win">git</a>, then:</p>
+<pre tabindex="0"><code>go get -u github.com/cointop-sh/cointop
+</code></pre><p>You’ll need additional font support for Windows. Please see the <a href="https://github.com/cointop-sh/cointop/wiki/Windows-Command-Prompt-and-WSL-Font-Support">wiki</a> for instructions.</p>
+<p>Docker <a href="https://docs.cointop.sh/install/#docker">#</a>
+cointop is available on <a href="https://hub.docker.com/r/cointop/cointop">Docker Hub.</a></p>
+<pre tabindex="0"><code>docker run -it cointop/cointop
+</code></pre><p>Note: the config is under /root/.config/cointop in container, so attach a volume to make it persistent in host:</p>
+<pre tabindex="0"><code>docker run -v ~/.cache/cointop:/root/.config/cointop -it cointop/cointop
+</code></pre><p>Binaries <a href="https://docs.cointop.sh/install/#binaries">#</a>
+You can find pre-built binaries on the <a href="https://github.com/cointop-sh/cointop/releases">releases</a> page.</p>
+<p>The first time you run cointop, it’ll create a config file in:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>~/.config/cointop/config.toml
+</span></span></code></pre></div><h2 id="increase-coin-search-results">Increase coin search results</h2>
+<p>There is a limit on the number of coins that cointop fetches by default. You can increase this by passing <code>--max-pages</code> and <code>--per-page</code> arguments on the command line. Like this
+<code> /home/dmne/go/bin/cointop --max-pages 500</code></p>
+<h2 id="list-of-currencies-for-conversion">List of currencies for conversion </h2>
+<p><code>AUD</code>, <code>BRL</code>, <code>CAD</code>, <code>CFH</code>, <code>CLP</code>, <code>CNY</code>, <code>CZK</code>, <code>DKK</code>, <code>EUR</code>, <code>GBP</code>, <code>HKD</code>, <code>HUF</code>, <code>IDR</code>, <code>ILS</code>, <code>INR</code>, <code>JPY</code>, <code>KRW</code>, <code>MXN</code>, <code>MYR</code>, <code>NOK</code>, <code>NZD</code>, <code>PLN</code>, <code>PHP</code>, <code>PKR</code>, <code>RUB</code>, <code>SEK</code>, <code>SGD</code>, <code>THB</code>, <code>TRY</code>, <code>TWD</code>, <code>USD</code>, <code>VND</code>, and <code>ZAR</code>.</p>
+<p>Run this in your terminal <code>cointop price</code> followed buy examples showed below. A small script would be useful if you only want to see exactly what you are looking for.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ cointop price --coin ethereum
+</span></span><span style="display:flex;"><span>$277.76
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>$ cointop price -c ethereum --currency btc
+</span></span><span style="display:flex;"><span>Ƀ0.02814
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>$ cointop -c ethereum -f eur
+</span></span><span style="display:flex;"><span>€245.51
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>$ cointop price -c ethereum -f usd --api coinmarketcap
+</span></span><span style="display:flex;"><span>$276.37
+</span></span></code></pre></div><h2 id="holdings-view">Holdings View</h2>
+<p>Each coin consists of four values: coin name, coin amount, cost-price, cost-currency.</p>
+<p>For example, the following configuration includes 100 ALGO at USD1.95 each; and 0.1 BTC at AUD50100.83 each.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span> <span style="color:#a6e22e">holdings</span> = [[<span style="color:#e6db74">&#34;Algorand&#34;</span>, <span style="color:#e6db74">&#34;100&#34;</span>, <span style="color:#e6db74">&#34;1.95&#34;</span>, <span style="color:#e6db74">&#34;USD&#34;</span>], [<span style="color:#e6db74">&#34;Bitcoin&#34;</span>, <span style="color:#e6db74">&#34;0.1&#34;</span>, <span style="color:#e6db74">&#34;50100.83&#34;</span>, <span style="color:#e6db74">&#34;AUD&#34;</span>]]
+</span></span></code></pre></div><p>With this configuration, four new columns are useful:</p>
+<ul>
+<li><code>cost_price</code> the price and currency that the coins were purchased at</li>
+<li><code>cost</code> the cost (in the current currency) of the coins</li>
+<li><code>pnl</code> the PNL of the coins (current value vs original cost)</li>
+<li><code>pnl_percent</code> the PNL of the coins as a fraction of the original cost</li>
+</ul>
+<hr>
+<p><img loading="lazy" src="https://imgur.com/qUs79cH.png" alt=""  />
+</p>
+<hr>
+<h2 id="short-cut-keys">Short cut keys</h2>
+<ul>
+<li>There is a lot of keys to remember, im sure once you get things all figured out you wont use all of them.
+<ul>
+<li>The ones you do use all the the time are configurable to your liking&rsquo;s.</li>
+</ul>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th>Key</th>
+<th>Description</th>
+<th>Key</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://docs.cointop.sh/favorites/#view-favorites">View Favorites</a></td>
+<td>F (Shift+f)</td>
+<td>last_page</td>
+<td>$</td>
+</tr>
+<tr>
+<td><a href="https://docs.cointop.sh/favorites/#exit-favorites">Exit Favorites</a></td>
+<td>F (Shift+f) or q or Esc</td>
+<td>move_to_first_page_first_row</td>
+<td>0</td>
+</tr>
+<tr>
+<td><a href="https://docs.cointop.sh/favorites/#add-favorite">Add Favorite</a></td>
+<td>f or Space</td>
+<td>sort_column_1h_change</td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="https://docs.cointop.sh/favorites/#remove-favorite">Remove Favorite</a></td>
+<td>f or Space</td>
+<td>sort_column_24h_change</td>
+<td>2</td>
+</tr>
+<tr>
+<td><a href="https://docs.cointop.sh/portfolio/#view-portfolio">View Portfolio </a></td>
+<td>P (Shift+p)</td>
+<td>sort_column_7d_change</td>
+<td>7</td>
+</tr>
+<tr>
+<td><a href="https://docs.cointop.sh/portfolio/#exit-portfolio">Exit Portfolio</a></td>
+<td>P (Shift+p)  or q or Esc</td>
+<td>help</td>
+<td>?</td>
+</tr>
+<tr>
+<td><a href="https://docs.cointop.sh/portfolio/#add-entry">Add Entry</a></td>
+<td>press <code>e</code> on the highlighted coin,enter new value and press <code>Enter</code></td>
+<td>toggle_table_fullscreen</td>
+<td>\</td>
+</tr>
+<tr>
+<td><a href="https://docs.cointop.sh/portfolio/#edit-entry">Edit Entry </a></td>
+<td>press <code>e</code> on the highlighted coin,enter new value and press <code>Enter</code></td>
+<td>first_chart_range</td>
+<td>{</td>
+</tr>
+<tr>
+<td><a href="https://docs.cointop.sh/portfolio/#remove-entry"> Remove Entry</a></td>
+<td>To remove an entry in your portfolio, <code>press e</code> on the highlighted coin and set the value to an empty value and <code>press Enter</code></td>
+<td>last_chart_range</td>
+<td>}</td>
+</tr>
+<tr>
+<td><a href="https://docs.cointop.sh/portfolio/#changing-chart">Changing Chart</a></td>
+<td>To change  the coin for the chart, <code>press Enter</code> on the highlighted coin. Pressing <code>Enter again</code> on the same highlighted row will show the global chart again.</td>
+<td>scroll_left</td>
+<td>&lt;</td>
+</tr>
+<tr>
+<td><a href="https://docs.cointop.sh/searching/#searching">Searching</a></td>
+<td>To search for coins, <code>press /</code> to bring up the search prompt. Enter the search query and then hit <code>Enter</code> to submit. The coin that matches closes to the query will be highlighted.Press <code>Esc</code> to exit the search prompt</td>
+<td>scroll_right</td>
+<td>&gt;</td>
+</tr>
+<tr>
+<td><a href="https://docs.cointop.sh/chart/#chart">Chart View</a></td>
+<td>The default chart shown is the global market cap of all cryptocurrencies.Press <code>Enter</code> to toggle the price chart for the highlighted coin.</td>
+<td>search</td>
+<td>/</td>
+</tr>
+<tr>
+<td><a href="https://docs.cointop.sh/chart/#date-ranges">Date Ranges </a></td>
+<td>Press<code>]</code> to cycle to the next date range.Press <code>[</code> to cycle to the previous date range.Press <code>{</code>to select the first date range.Press <code>}</code> to selected the last date range.</td>
+<td>next_chart_range</td>
+<td>]</td>
+</tr>
+<tr>
+<td><a href="https://docs.cointop.sh/chart/#size">Chart Size</a></td>
+<td>Press <code>Ctrl+j</code> to increase the chart height.Press <code>Ctrl+k</code> to decrease the chart height.</td>
+<td>previous_chart_range</td>
+<td>[</td>
+</tr>
+</tbody>
+</table>
+<p>You can configure each key in <code>~/.config/cointop/config.toml</code></p>
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Description</th>
+<th>Key</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>C</td>
+<td>show_currency_convert_menu</td>
+<td>E</td>
+<td>show_portfolio_edit_menu</td>
+</tr>
+<tr>
+<td>G</td>
+<td>move_to_page_last_row</td>
+<td>H</td>
+<td>move_to_page_visible_first_row</td>
+</tr>
+<tr>
+<td>L</td>
+<td>move_to_page_visible_last_row</td>
+<td>M</td>
+<td>move_to_page_visible_middle_row</td>
+</tr>
+<tr>
+<td>O</td>
+<td>open_link</td>
+<td>P</td>
+<td>toggle_portfolio</td>
+</tr>
+<tr>
+<td>a</td>
+<td>sort_column_available_supply</td>
+<td>alt+down</td>
+<td>sort_column_desc</td>
+</tr>
+<tr>
+<td>alt+left</td>
+<td>sort_left_column</td>
+<td>alt+right</td>
+<td>sort_right_column</td>
+</tr>
+<tr>
+<td>alt+up</td>
+<td>sort_column_asc</td>
+<td>down</td>
+<td>move_down</td>
+</tr>
+<tr>
+<td>left</td>
+<td>previous_page</td>
+<td>right</td>
+<td>next_page</td>
+</tr>
+<tr>
+<td>up</td>
+<td>move_up</td>
+<td>c</td>
+<td>show_currency_convert_menu</td>
+</tr>
+<tr>
+<td>b</td>
+<td>sort_column_balance</td>
+<td>ctrl+c</td>
+<td>quit</td>
+</tr>
+<tr>
+<td>ctrl+d</td>
+<td>page_down</td>
+<td>ctrl+f</td>
+<td>open_search</td>
+</tr>
+<tr>
+<td>ctrl+j</td>
+<td>enlarge_chart</td>
+<td>ctrl+k</td>
+<td>shorten_chart</td>
+</tr>
+<tr>
+<td>ctrl+n</td>
+<td>next_page</td>
+<td>e</td>
+<td>show_portfolio_edit_menu</td>
+</tr>
+<tr>
+<td>ctrl+p</td>
+<td>previous_page</td>
+<td>end</td>
+<td>move_to_page_last_row</td>
+</tr>
+<tr>
+<td>ctrl+r</td>
+<td>refresh</td>
+<td>enter</td>
+<td>toggle_row_chart</td>
+</tr>
+<tr>
+<td>ctrl+s</td>
+<td>save</td>
+<td>esc</td>
+<td>quit</td>
+</tr>
+<tr>
+<td>ctrl+u</td>
+<td>page_up</td>
+<td>f</td>
+<td>toggle_favorite</td>
+</tr>
+<tr>
+<td>pagedown</td>
+<td>page_down</td>
+<td>F</td>
+<td>toggle_show_favorites</td>
+</tr>
+<tr>
+<td>pageup</td>
+<td>page_up</td>
+<td>F1</td>
+<td>help</td>
+</tr>
+<tr>
+<td>g</td>
+<td>move_to_page_first_row</td>
+<td>j</td>
+<td>move_down</td>
+</tr>
+<tr>
+<td>h</td>
+<td>previous_page</td>
+<td>k</td>
+<td>move_up</td>
+</tr>
+<tr>
+<td>home</td>
+<td>move_to_page_first_row</td>
+<td>l</td>
+<td>next_page</td>
+</tr>
+<tr>
+<td>m</td>
+<td>sort_column_market_cap</td>
+<td>q</td>
+<td>quit_view</td>
+</tr>
+<tr>
+<td>n</td>
+<td>sort_column_name</td>
+<td>Q</td>
+<td>quit_view</td>
+</tr>
+<tr>
+<td>o</td>
+<td>open_link</td>
+<td>r</td>
+<td>sort_column_rank</td>
+</tr>
+<tr>
+<td>p</td>
+<td>sort_column_price</td>
+<td>s</td>
+<td>sort_column_symbol</td>
+</tr>
+<tr>
+<td>space</td>
+<td>toggle_favorite</td>
+<td>t</td>
+<td>sort_column_total_supply</td>
+</tr>
+<tr>
+<td>tab</td>
+<td>move_down_or_next_page</td>
+<td>u</td>
+<td>sort_column_last_updated</td>
+</tr>
+<tr>
+<td>v</td>
+<td>sort_column_24h_volume</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><img loading="lazy" src="https://imgur.com/6NCsf23.png" alt=""  />
+</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Tools for Research</title>
+      <link>https://jantech.xyz/post/tools-for-research/</link>
+      <pubDate>Thu, 13 Oct 2022 13:20:15 +0800</pubDate>
+      
+      <guid>https://jantech.xyz/post/tools-for-research/</guid>
+      <description>&lt;h1 id=&#34;wallet-tracking&#34;&gt;Wallet Tracking&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://debank.com&#34;&gt;DeBank&lt;/a&gt; you put your wallet address here to see your investments.This is not small block-chain friendly.If you use this correctly you can enter other wallet  addresses and see what they are investing in.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://portfolio.nansen.ai/&#34;&gt;Nansen Portfolio&lt;/a&gt; this is probably the best wallet tracker, also gives analytics of the tokens that you hold.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://tin.network/en/dashboard&#34;&gt;Tin.Network&lt;/a&gt;, I only use this to track wallets on Harmony ONE.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;defi-dashboard&#34;&gt;Defi Dashboard&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://nanoly.com/&#34;&gt;Nanoly&lt;/a&gt; this is good for searching farms with good APY&amp;rsquo;s or APR&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://defillama.com/&#34;&gt;Defillama&lt;/a&gt;  is a overview of all of #DEFI&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;trading-view&#34;&gt;Trading View&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dexscreener.com/&#34;&gt;DEX Screener&lt;/a&gt; search most popular #EVM chain and their coins  and they have been adding #IBC chains as well of lately.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.coingecko.com/&#34;&gt;Coingecko&lt;/a&gt; token search engine must use.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://geckoterminal.com/&#34;&gt;Gecko Terminal&lt;/a&gt; use this like dex screener, this had a recent overhaul and i think its better than &lt;a href=&#34;https://dexscreener.com/&#34;&gt;dexscreener &lt;/a&gt; now.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://nomics.com&#34;&gt;Nomics&lt;/a&gt; use this like dex screener but for small unknown coins.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.tradingview.com&#34;&gt;Trading View&lt;/a&gt; is a important tool, you can see futures,stocks,bonds,commodities,cyrpto it does a lot. You have to make a account to use it.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;researching&#34;&gt;Researching&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dune.com/browse/dashboards&#34;&gt;Dune&lt;/a&gt; for deep research.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://messari.io&#34;&gt;Messari&lt;/a&gt; is another great tool for research.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;market-cap-potential&#34;&gt;Market Cap Potential&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.marketcapof.com&#34;&gt;Market Cap Calculator&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;github-commits-on-projects&#34;&gt;GitHub Commits on projects&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cryptomiso.com/&#34;&gt;CryptoMiso&lt;/a&gt; shows you how busy devs are on #GitHub developing #Blockchain or #Crypto projects that you are invested in.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+</description>
+      <content:encoded><![CDATA[<h1 id="wallet-tracking">Wallet Tracking</h1>
+<blockquote>
+<ul>
+<li><a href="https://debank.com">DeBank</a> you put your wallet address here to see your investments.This is not small block-chain friendly.If you use this correctly you can enter other wallet  addresses and see what they are investing in.</li>
+</ul>
+<blockquote>
+<ul>
+<li><a href="https://portfolio.nansen.ai/">Nansen Portfolio</a> this is probably the best wallet tracker, also gives analytics of the tokens that you hold.</li>
+</ul>
+<blockquote>
+<ul>
+<li><a href="https://tin.network/en/dashboard">Tin.Network</a>, I only use this to track wallets on Harmony ONE.</li>
+</ul>
+</blockquote>
+</blockquote>
+</blockquote>
+<h2 id="defi-dashboard">Defi Dashboard</h2>
+<blockquote>
+<ul>
+<li><a href="https://nanoly.com/">Nanoly</a> this is good for searching farms with good APY&rsquo;s or APR</li>
+</ul>
+<blockquote>
+<ul>
+<li><a href="https://defillama.com/">Defillama</a>  is a overview of all of #DEFI</li>
+</ul>
+</blockquote>
+</blockquote>
+<h2 id="trading-view">Trading View</h2>
+<blockquote>
+<ul>
+<li><a href="https://dexscreener.com/">DEX Screener</a> search most popular #EVM chain and their coins  and they have been adding #IBC chains as well of lately.</li>
+</ul>
+<blockquote>
+<ul>
+<li><a href="https://www.coingecko.com/">Coingecko</a> token search engine must use.</li>
+</ul>
+<blockquote>
+<ul>
+<li><a href="https://geckoterminal.com/">Gecko Terminal</a> use this like dex screener, this had a recent overhaul and i think its better than <a href="https://dexscreener.com/">dexscreener </a> now.</li>
+</ul>
+<blockquote>
+<ul>
+<li><a href="https://nomics.com">Nomics</a> use this like dex screener but for small unknown coins.</li>
+</ul>
+<blockquote>
+<ul>
+<li><a href="https://www.tradingview.com">Trading View</a> is a important tool, you can see futures,stocks,bonds,commodities,cyrpto it does a lot. You have to make a account to use it.</li>
+</ul>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+<h2 id="researching">Researching</h2>
+<blockquote>
+<ul>
+<li><a href="https://dune.com/browse/dashboards">Dune</a> for deep research.</li>
+</ul>
+<blockquote>
+<ul>
+<li><a href="https://messari.io">Messari</a> is another great tool for research.</li>
+</ul>
+</blockquote>
+</blockquote>
+<h2 id="market-cap-potential">Market Cap Potential</h2>
+<blockquote>
+<ul>
+<li><a href="https://www.marketcapof.com">Market Cap Calculator</a></li>
+</ul>
+</blockquote>
+<h2 id="github-commits-on-projects">GitHub Commits on projects</h2>
+<blockquote>
+<ul>
+<li><a href="https://www.cryptomiso.com/">CryptoMiso</a> shows you how busy devs are on #GitHub developing #Blockchain or #Crypto projects that you are invested in.</li>
+</ul>
+</blockquote>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>

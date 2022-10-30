@@ -10,7 +10,87 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 22 Oct 2022 18:40:02 +0800</lastBuildDate><atom:link href="https://jantech.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 30 Oct 2022 15:40:39 +0800</lastBuildDate><atom:link href="https://jantech.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux</title>
+      <link>https://jantech.xyz/tags/linux/</link>
+      <pubDate>Sun, 30 Oct 2022 15:40:39 +0800</pubDate>
+      
+      <guid>https://jantech.xyz/tags/linux/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Linux Help</title>
+      <link>https://jantech.xyz/tags/linux-help/</link>
+      <pubDate>Sun, 30 Oct 2022 15:40:39 +0800</pubDate>
+      
+      <guid>https://jantech.xyz/tags/linux-help/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Linux Links</title>
+      <link>https://jantech.xyz/tags/linux-links/</link>
+      <pubDate>Sun, 30 Oct 2022 15:40:39 +0800</pubDate>
+      
+      <guid>https://jantech.xyz/tags/linux-links/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Crypto</title>
+      <link>https://jantech.xyz/tags/crypto/</link>
+      <pubDate>Sat, 29 Oct 2022 17:22:27 +0800</pubDate>
+      
+      <guid>https://jantech.xyz/tags/crypto/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Crypto Portfolio Tracker</title>
+      <link>https://jantech.xyz/tags/crypto-portfolio-tracker/</link>
+      <pubDate>Sat, 29 Oct 2022 17:22:27 +0800</pubDate>
+      
+      <guid>https://jantech.xyz/tags/crypto-portfolio-tracker/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Crypto Tools</title>
+      <link>https://jantech.xyz/tags/crypto-tools/</link>
+      <pubDate>Sat, 29 Oct 2022 17:22:27 +0800</pubDate>
+      
+      <guid>https://jantech.xyz/tags/crypto-tools/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Price Charts</title>
+      <link>https://jantech.xyz/tags/price-charts/</link>
+      <pubDate>Sat, 29 Oct 2022 17:22:27 +0800</pubDate>
+      
+      <guid>https://jantech.xyz/tags/price-charts/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Wallet Tracking</title>
+      <link>https://jantech.xyz/tags/wallet-tracking/</link>
+      <pubDate>Sat, 29 Oct 2022 17:22:27 +0800</pubDate>
+      
+      <guid>https://jantech.xyz/tags/wallet-tracking/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
     <item>
       <title>CSS</title>
       <link>https://jantech.xyz/tags/css/</link>
@@ -22,11 +102,11 @@
     </item>
     
     <item>
-      <title>Selectors</title>
-      <link>https://jantech.xyz/tags/selectors/</link>
+      <title>CSS Selectors</title>
+      <link>https://jantech.xyz/tags/css-selectors/</link>
       <pubDate>Sat, 22 Oct 2022 18:40:02 +0800</pubDate>
       
-      <guid>https://jantech.xyz/tags/selectors/</guid>
+      <guid>https://jantech.xyz/tags/css-selectors/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
@@ -77,16 +157,6 @@
       <pubDate>Mon, 17 Oct 2022 21:39:29 +0800</pubDate>
       
       <guid>https://jantech.xyz/tags/arch-text/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>Linux</title>
-      <link>https://jantech.xyz/tags/linux/</link>
-      <pubDate>Fri, 14 Oct 2022 22:35:17 +0800</pubDate>
-      
-      <guid>https://jantech.xyz/tags/linux/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
@@ -147,16 +217,6 @@
       <pubDate>Thu, 13 Oct 2022 13:20:15 +0800</pubDate>
       
       <guid>https://jantech.xyz/tags/trading/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>Wallet Tracking</title>
-      <link>https://jantech.xyz/tags/wallet-tracking/</link>
-      <pubDate>Thu, 13 Oct 2022 13:20:15 +0800</pubDate>
-      
-      <guid>https://jantech.xyz/tags/wallet-tracking/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>

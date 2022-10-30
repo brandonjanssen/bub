@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Linux Links on JanTech</title>
+    <link>https://jantech.xyz/tags/linux-links/</link>
+    <description>Recent content in Linux Links on JanTech</description>
+    <image>
+      <url>https://jantech.xyz/img/lobe.png</url>
+      <link>https://jantech.xyz/img/lobe.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 30 Oct 2022 15:40:39 +0800</lastBuildDate><atom:link href="https://jantech.xyz/tags/linux-links/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>List of educational and helpful links for Linux </title>
+      <link>https://jantech.xyz/post/help-me/</link>
+      <pubDate>Sun, 30 Oct 2022 15:40:39 +0800</pubDate>
+      
+      <guid>https://jantech.xyz/post/help-me/</guid>
+      <description>&lt;h1 id=&#34;i-will-keep-adding-to-this-list&#34;&gt;I will keep adding to this list&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;This will take some time to add everything to this list.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;linux-guru-links&#34;&gt;Linux Guru Links&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://distro.tube/&#34;&gt;Distro Tube:&lt;/a&gt; This guy is the one that is responsible for getting me started with Linux. &lt;a href=&#34;https://gitlab.com/dwt1&#34;&gt;Distro Tube GitLab:&lt;/a&gt; A great place to get some help to figure out your configs. &lt;a href=&#34;https://www.youtube.com/c/DistroTube/videos&#34;&gt;Youtube,&lt;/a&gt; &lt;a href=&#34;https://odysee.com/@DistroTube:2&#34;&gt;Odysee&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ericmurphy.xyz/&#34;&gt;Eric Murphy:&lt;/a&gt; I built my first website because Eric&amp;rsquo;s help. Here is his &lt;a href=&#34;https://github.com/ericmurphyxyz&#34;&gt;GitHub&lt;/a&gt; also he has a great YouTube channel with lots of help, you can find that &lt;a href=&#34;https://www.youtube.com/c/EricMurphyxyz/videos&#34;&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/linuxdabbler&#34;&gt;Linux Dabbler&lt;/a&gt; is a great source for Linux Debian based help. He offers quite a bit of help with tilling window managers on Debian, his &lt;a href=&#34;https://github.com/linuxdabbler&#34;&gt;GitHub&lt;/a&gt; has lot of solutions for Debian. He really likes SpectrWM, you can watch him &lt;a href=&#34;https://www.youtube.com/c/linuxdabbler/videos&#34;&gt;here&lt;/a&gt; on YouTube.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://lukesmith.xyz/&#34;&gt;Luke Smith&lt;/a&gt; provides lots of info on many different topics, his YouTube can be found &lt;a href=&#34;https://youtube.com/c/lukesmithxyz&#34;&gt;here&lt;/a&gt;  and Odysee &lt;a href=&#34;https://odysee.com/@Luke:7&#34;&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;audio-on-linux&#34;&gt;Audio on Linux&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://moc.daper.net/&#34;&gt;MOC&lt;/a&gt; and MOC GitHub &lt;a href=&#34;https://github.com/jonsafari/mocp&#34;&gt;page.&lt;/a&gt; This is my terminal based goto music player on Linux, super simple to use and very intuitive shortcut keys. &lt;code&gt;sudo apt in stall moc&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://deadbeef.sourceforge.io/&#34;&gt;DeadBeef&lt;/a&gt; is my runner up for audio. &lt;code&gt;sudo dpkg -i deadbeef-static_1.9.2-1_amd64.deb&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.clementine-player.org/&#34;&gt;Clementine&lt;/a&gt; &lt;code&gt;sudo apt install clementine&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://sayonara-player.com&#34;&gt;Sayonara&lt;/a&gt; &lt;code&gt;sudo apt install sayonara&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://wiki.gnome.org/Apps/Rhythmbox&#34;&gt;Rhythmbox&lt;/a&gt; &lt;code&gt;sudo apt install rhythmbox&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.audacious-media-player.org/&#34;&gt;Audacious&lt;/a&gt; &lt;code&gt;sudo apt install audacious&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;terminal-audio-players&#34;&gt;Terminal Audio Player&amp;rsquo;s&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://moc.daper.net/&#34;&gt;MOC&lt;/a&gt;  &lt;code&gt;sudo apt install moc&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://cmus.github.io/&#34;&gt;Cmus&lt;/a&gt; &lt;code&gt;sudo apt install cmus&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;audio--video-players&#34;&gt;Audio + Video Player&amp;rsquo;s&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://mpv.io/&#34;&gt;MPV&lt;/a&gt; &lt;code&gt;sudo apt install mpv&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.videolan.org/vlc/&#34;&gt;VLC&lt;/a&gt; &lt;code&gt;sudo apt install vlc&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+</description>
+      <content:encoded><![CDATA[<h1 id="i-will-keep-adding-to-this-list">I will keep adding to this list</h1>
+<ul>
+<li>This will take some time to add everything to this list.</li>
+</ul>
+<h2 id="linux-guru-links">Linux Guru Links</h2>
+<blockquote>
+<ul>
+<li><a href="https://distro.tube/">Distro Tube:</a> This guy is the one that is responsible for getting me started with Linux. <a href="https://gitlab.com/dwt1">Distro Tube GitLab:</a> A great place to get some help to figure out your configs. <a href="https://www.youtube.com/c/DistroTube/videos">Youtube,</a> <a href="https://odysee.com/@DistroTube:2">Odysee</a></li>
+</ul>
+<blockquote>
+<ul>
+<li><a href="https://ericmurphy.xyz/">Eric Murphy:</a> I built my first website because Eric&rsquo;s help. Here is his <a href="https://github.com/ericmurphyxyz">GitHub</a> also he has a great YouTube channel with lots of help, you can find that <a href="https://www.youtube.com/c/EricMurphyxyz/videos">here</a></li>
+</ul>
+<blockquote>
+<ul>
+<li><a href="https://github.com/linuxdabbler">Linux Dabbler</a> is a great source for Linux Debian based help. He offers quite a bit of help with tilling window managers on Debian, his <a href="https://github.com/linuxdabbler">GitHub</a> has lot of solutions for Debian. He really likes SpectrWM, you can watch him <a href="https://www.youtube.com/c/linuxdabbler/videos">here</a> on YouTube.</li>
+</ul>
+</blockquote>
+</blockquote>
+<ul>
+<li><a href="https://lukesmith.xyz/">Luke Smith</a> provides lots of info on many different topics, his YouTube can be found <a href="https://youtube.com/c/lukesmithxyz">here</a>  and Odysee <a href="https://odysee.com/@Luke:7">here</a></li>
+</ul>
+</blockquote>
+<h2 id="audio-on-linux">Audio on Linux</h2>
+<blockquote>
+<ul>
+<li><a href="http://moc.daper.net/">MOC</a> and MOC GitHub <a href="https://github.com/jonsafari/mocp">page.</a> This is my terminal based goto music player on Linux, super simple to use and very intuitive shortcut keys. <code>sudo apt in stall moc</code></li>
+</ul>
+<blockquote>
+<ul>
+<li><a href="https://deadbeef.sourceforge.io/">DeadBeef</a> is my runner up for audio. <code>sudo dpkg -i deadbeef-static_1.9.2-1_amd64.deb</code></li>
+</ul>
+<blockquote>
+<ul>
+<li><a href="http://www.clementine-player.org/">Clementine</a> <code>sudo apt install clementine</code></li>
+</ul>
+<blockquote>
+<ul>
+<li><a href="http://sayonara-player.com">Sayonara</a> <code>sudo apt install sayonara</code></li>
+</ul>
+<blockquote>
+<ul>
+<li><a href="https://wiki.gnome.org/Apps/Rhythmbox">Rhythmbox</a> <code>sudo apt install rhythmbox</code></li>
+</ul>
+<blockquote>
+<ul>
+<li><a href="http://www.audacious-media-player.org/">Audacious</a> <code>sudo apt install audacious</code></li>
+</ul>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+<h3 id="terminal-audio-players">Terminal Audio Player&rsquo;s</h3>
+<blockquote>
+<ul>
+<li><a href="http://moc.daper.net/">MOC</a>  <code>sudo apt install moc</code></li>
+</ul>
+<blockquote>
+<ul>
+<li><a href="https://cmus.github.io/">Cmus</a> <code>sudo apt install cmus</code></li>
+</ul>
+</blockquote>
+</blockquote>
+<h3 id="audio--video-players">Audio + Video Player&rsquo;s</h3>
+<blockquote>
+<ul>
+<li><a href="https://mpv.io/">MPV</a> <code>sudo apt install mpv</code></li>
+</ul>
+<blockquote>
+<ul>
+<li><a href="https://www.videolan.org/vlc/">VLC</a> <code>sudo apt install vlc</code></li>
+</ul>
+</blockquote>
+</blockquote>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>
