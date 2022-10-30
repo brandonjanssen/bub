@@ -41,7 +41,7 @@ cover:
 
 
 ## Audio on Linux 
->- [MOC](http://moc.daper.net/) and MOC GitHub [page.](https://github.com/jonsafari/mocp) This is my terminal based goto music player on Linux, super simple to use and very intuitive shortcut keys. `sudo apt in stall moc`
+>- [MOC](http://moc.daper.net/) and MOC GitHub [page.](https://github.com/jonsafari/mocp) This is my terminal based goto music player on Linux, super simple to use and very intuitive shortcut keys. `sudo apt install moc`
 >>- [DeadBeef](https://deadbeef.sourceforge.io/) is my runner up for audio. `sudo dpkg -i deadbeef-static_1.9.2-1_amd64.deb`
 >>>- [Clementine]( http://www.clementine-player.org/) `sudo apt install clementine`
 >>>>- [Sayonara](http://sayonara-player.com) `sudo apt install sayonara`
