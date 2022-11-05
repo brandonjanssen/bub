@@ -13,11 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/post/Help-Me.md",
+                "file": "content/post/pulseaudio-noise.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
+            }
+          },
+          {
+            "id": "adcaffa7acde4b53",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/post/Help-Me.md",
+                "file": "content/post/pulseaudio-noise.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/post/Help-Me.md",
+                "file": "content/post/pulseaudio-noise.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/post/Help-Me.md"
+                "file": "content/post/pulseaudio-noise.md"
               }
             }
           },
@@ -148,8 +156,8 @@
   },
   "active": "800d107aa9b52087",
   "lastOpenFiles": [
-    "content/post/Crypto-Portfolio-Tracker.md",
     "content/post/Help-Me.md",
+    "content/post/Crypto-Portfolio-Tracker.md",
     "content/post/Tools-For-Research.md",
     "content/post/Text-Arch.md",
     "content/post/text-from-image-with-python.md",
