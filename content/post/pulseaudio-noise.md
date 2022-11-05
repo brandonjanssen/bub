@@ -1,9 +1,9 @@
 ---
 title: "Pulseaudio Noise Suppression"
 date: 2022-11-05T20:57:21+08:00
-tags: ["SNT", "Fusion","DEFI"]
-categories: ["Blockchain","DEFI","NovaNetwork"]
-cover:
+tags: ["Pulseaudio", "Noise Suppression"]
+categories: ["Audio"]
+# cover:
     #image: "https://imgur.com/F81KgJz.png" # image path/url
    # alt: "Tetu" # alt text
     #caption: "Fusion operates on the NovaNetwork and Fantom Network" # display caption under cover
